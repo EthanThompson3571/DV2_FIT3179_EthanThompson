@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Inside Australia's Food Basket</title>
+<link href="https://fonts.googleapis.com/css2?family=Rye&amp;display=swap" rel="stylesheet"/>
+<link href="Style.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@6"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+<!-- TOP NAVIGATION -->
+<nav class="navbar">
+<a class="nav-brand" href="#top">AUSTRALIA'S FOOD BASKET</a>
+<div class="nav-links">
+<a href="#section1">01 Consumption</a>
+<a href="#section2">02 State Comparisons</a>
+<a href="#section3">03 Food Trade</a>
+<a href="#section4">04 Australian Diet</a>
+<a href="#section5">05 Food Composition</a>
+</div>
+</nav>
+<!-- INTRODUCTION -->
+<header class="hero" id="top">
+<div class="hero-content">
+<!-- LEFT: ALL TITLE TEXT -->
+<div class="hero-text">
+<p class="eyebrow">
+                    AN EXPLORATION OF AUSTRALIAN FOOD
+                </p>
+<h1>Inside Australia's<br/>Food Basket</h1>
+<div class="hero-intro">
+<p>Food is more than what appears on our plates. Behind every meal lies a complex network of nutritional patterns, regional differences, dietary choices and international trade relationships.</p>
+<p><em>Inside Australia's Food Basket</em> explores how Australians consume food, how dietary patterns vary across states and age groups, and where our food comes from. Using interactive visualisations from Australian and international datasets, the dashboard moves from the national nutritional landscape to the composition of individual foods.</p>
+</div>
+<a class="explore-link" href="#section1">
+                    Explore the data ↓
+                </a>
+</div>
+<!-- RIGHT: SUPERMARKET ILLUSTRATION -->
+<div class="hero-image">
+<img alt="Hand-drawn supermarket interior" src="Images/supermaket.png"/>
+</div>
+</div>
+</header>
+<main>
+<!-- SECTION 1 -->
+<section class="dashboard-section" id="section1">
+<div class="section-heading">
+<span class="section-number">01</span>
+<div>
+<h2>Australia's Nutritional Landscape</h2>
+<p>
+                        How does nutritional intake vary across
+                        Australia, and what does a typical
+                        Victorian diet look like?
+                    </p>
+</div>
+</div>
+<div class="chart-grid">
+<article class="chart-card">
+<h3>Nutritional Intake Across Australia</h3>
+<div class="chart-area" id="map1"></div>
+<div class="chart-explanation">
+<h4>Regional differences in nutrient intake</h4>
+
+<p>The 2011–12 data show that average nutrient intake was not identical across Australia's states and territories. The geographical pattern also depends on the nutrient selected: a state with comparatively high sugar intake does not necessarily rank the same for protein or fat.</p><p class="chart-source">
+                            Source: ABS Australian Health Survey,
+                            2011–12.
+                        </p>
+</div>
+</article>
+<article class="chart-card">
+<h3>A Closer Look at Victoria</h3>
+<div class="chart-area" id="chart2"></div>
+<div class="chart-explanation">
+<h4>Victoria's dietary composition</h4>
+
+<p>Carbohydrates make up a substantial share of the nutrients shown for Victoria, while fibre contributes a much smaller quantity by weight. These are average daily intake amounts, not percentages of energy, so the chart describes quantity rather than whether the diet meets nutritional recommendations.</p><p class="chart-source">
+                            Source: ABS Australian Health Survey,
+                            2011–12.
+                        </p>
+</div>
+</article>
+</div>
+</section>
+<!-- SECTION 2 -->
+<section class="dashboard-section" id="section2">
+<div class="section-heading">
+<span class="section-number">02</span>
+<div>
+<h2>What Are Australians Eating?</h2>
+<p>
+                        Comparing food-group consumption across
+                        Australian states and territories.
+                    </p>
+</div>
+</div>
+<div class="chart-grid">
+<article class="chart-card">
+<h3>Food Consumption by Region</h3>
+<div class="chart-area" id="chart3"></div>
+<div class="chart-explanation">
+<h4>Similarities and differences between states</h4>
+
+<p>The proportion of people consuming each food group varies across states and territories, but the size of those differences is not the same for every group. Some food groups show relatively similar consumption rates nationwide, while others have more noticeable regional variation.</p><p class="chart-source">
+                            Source: ABS Australian Health Survey,
+                            2011–12, Table 3.1.
+                        </p>
+</div>
+</article>
+<article class="chart-card">
+<h3>How Does Victoria Compare?</h3>
+<div class="chart-area" id="chart5"></div>
+<div class="chart-explanation">
+<h4>Where Victoria differs</h4>
+
+<p>Victoria's consumption rates are not consistently above or below the eight-state-and-territory average. The direction and size of the difference change by food group, suggesting that Victoria's dietary profile is better understood through individual categories than through a single overall ranking.</p><p class="chart-source">
+                            Source: ABS Australian Health Survey,
+                            2011–12, Table 3.1.
+                        </p>
+</div>
+</article>
+</div>
+</section>
+<!-- SECTION 3 -->
+<section class="dashboard-section" id="section3">
+<div class="section-heading">
+<span class="section-number">03</span>
+<div>
+<h2>Where Does Australia's Food Come From?</h2>
+<p>
+                        Investigating international food trade
+                        and Australia's relationship with
+                        New Zealand.
+                    </p>
+</div>
+</div>
+<div class="chart-grid">
+<article class="chart-card">
+<h3>Australia's International Food Imports</h3>
+<div class="chart-area" id="chart6"></div>
+<div class="chart-explanation">
+<h4>Australia's international supply network</h4>
+
+<p>Australia sourced food products from multiple major trading partners in 2023 rather than relying on a single overseas market. The 15 leading partners represent a geographically distributed import network, highlighting the international connections behind food available in Australia.</p><p class="chart-source">
+                            Source: World Bank WITS, Australia
+                            Food Products Imports by Partner,
+                            2023.
+                        </p>
+</div>
+</article>
+<article class="chart-card">
+<h3>New Zealand's Food Exports</h3>
+<div class="chart-area" id="chart7"></div>
+<div class="chart-explanation">
+<h4>The composition of New Zealand's exports</h4>
+
+<p>New Zealand's food exports to Australia are spread across several commodity groups, with some categories accounting for much more trade value than others. This uneven distribution shows why the total value of food trade alone does not describe what is being supplied.</p><p class="chart-source">
+                            Source: UN Comtrade, New Zealand-
+                            reported exports to Australia,
+                            2023. Selected HS chapters.
+                        </p>
+</div>
+</article>
+</div>
+</section>
+<section class="dashboard-section" id="section4">
+<div class="section-heading">
+<span class="section-number">04</span>
+<div>
+<h2>Inside the Australian Diet</h2>
+<p>
+                Exploring the food categories Australians consume,
+                using national dietary intake data from 2023.
+            </p>
+</div>
+</div>
+<div class="food-chart-stack">
+<article class="chart-card food-chart-card">
+<h3>What Foods Do Australians Consume Most?</h3>
+<p>
+            Comparing average daily consumption of meat,
+            vegetable and dairy subcategories among Australians
+            aged 2 years and over.
+            </p>
+<div class="chart-area" id="chart8"></div>
+<div class="chart-explanation">
+<h4>Everyday food choices within major groups</h4>
+
+<p>Average daily consumption differs substantially between subcategories within meat, vegetables and dairy. Treating each of these as one broad food group hides variation in the types of foods Australians actually eat. The figures describe mean grams consumed per person aged two years and over in 2023.</p><p class="chart-source">
+                Source: ABS National Nutrition and Physical
+                Activity Survey, 2023, Table 5.1.
+            </p>
+</div>
+</article>
+<article class="chart-card food-chart-card">
+<h3>How Does Food Consumption Change With Age?</h3>
+<p>
+            Comparing average daily intake of meat, vegetables,
+            dairy and fruit across eight Australian age groups.
+        </p>
+<div class="chart-area" id="chart9"></div>
+<div class="chart-explanation">
+<h4>Dietary patterns change across the lifespan</h4>
+
+<p>Average daily intake of meat, vegetables, dairy and fruit changes across the eight age groups. The combined quantities and the relative contributions of the four groups are not constant from childhood through older adulthood, illustrating how dietary patterns vary with age.</p><p class="chart-source">
+            Source: ABS National Nutrition and Physical
+            Activity Survey, 2023, Table 5.1.
+            </p>
+</div>
+</article>
+</div>
+</section>
+<!-- SECTION 5 -->
+<section class="dashboard-section" id="section5">
+<div class="section-heading">
+<span class="section-number">05</span>
+<div>
+<h2>What's Inside Our Food?</h2>
+<p>Exploring the nutritional composition and energy density of individual Australian foods using AUSNUT 2023.</p>
+</div>
+</div>
+<div class="chart-grid">
+<article class="chart-card food-chart-card">
+<h3>What's Really in Our Food?</h3>
+<p>
+    Explore the nutritional composition of individual foods
+    using AUSNUT 2023 food composition data.
+  </p>
+<div class="chart-area" id="chart10"></div>
+<div class="chart-explanation">
+<h4>Foods within a category are not nutritionally identical</h4>
+
+
+<p>Even foods grouped together under one category can have markedly different nutrient profiles. For example, the hard-cheese comparison shows substantial variation in protein and fat, while fibre remains close to zero. The relative values are normalised within the displayed selection, so they should not be interpreted as absolute dietary contributions.</p><p class="chart-source">
+      Source: Food Standards Australia New Zealand,
+      AUSNUT 2023 Food Nutrient Profiles and Food Details.
+    </p>
+</div>
+</article>
+<article class="chart-card food-chart-card">
+<h3>Which Foods Are the Most Energy-Dense?</h3>
+<p>
+    Exploring the relationship between fat, sugar and
+    energy content in selected Australian foods.
+  </p>
+<div class="chart-area" id="chart11"></div>
+<div class="chart-explanation">
+<h4>Energy density reflects more than one nutrient</h4>
+
+
+<p>The selected foods occupy different combinations of fat and sugar content. Nuts tend to appear towards the higher-fat, lower-sugar area, while many chocolate and cake products contain appreciable amounts of both. The variation in bubble sizes shows that foods with similar sugar content can still differ considerably in energy per 100 g.</p><p class="chart-source">
+      Source: Food Standards Australia New Zealand,
+      AUSNUT 2023 Food Nutrient Profiles and Food Details.
+    </p>
+</div>
+</article>
+</div>
+</section>
+</main>
+<!-- FOOTER -->
+<footer class="dashboard-footer">
+  <div class="footer-content">
+
+    <h2>Data Sources & Acknowledgements</h2>
+
+    <p class="footer-intro">
+      Inside Australia's Food Basket brings together Australian
+      nutrition statistics, food composition data and international
+      trade information to explore what Australians eat, how
+      nutritional profiles differ, and where our food comes from.
+    </p>
+
+    <div class="footer-sources">
+
+      <div class="footer-source">
+        <h3>Food Standards Australia New Zealand (FSANZ)</h3>
+        <p>
+          AUSNUT 2023 food composition data, including energy,
+          protein, fat, carbohydrates, sugars and dietary fibre.
+        </p>
+        <a href="https://www.foodstandards.gov.au/science-data/food-nutrient-databases/ausnut/data-files"
+           target="_blank" rel="noopener noreferrer">
+          AUSNUT 2023 Data Files
+        </a>
+      </div>
+
+      <div class="footer-source">
+        <h3>Australian Bureau of Statistics (ABS)</h3>
+        <p>
+          National Nutrition and Physical Activity Survey data
+          covering Australian food consumption and dietary intake.
+        </p>
+        <a href="https://www.abs.gov.au/statistics/health/food-and-nutrition/national-nutrition-and-physical-activity-survey/latest-release"
+           target="_blank" rel="noopener noreferrer">
+          National Nutrition and Physical Activity Survey
+        </a>
+      </div>
+
+      <div class="footer-source">
+        <h3>World Integrated Trade Solution (WITS)</h3>
+        <p>
+          International food-product trade data used to explore
+          Australia's food import partners and trade relationships.
+        </p>
+        <a href="https://wits.worldbank.org/CountryProfile/en/Country/AUS/Year/LTST/TradeFlow/Import/Partner/by-country/Product/16-24_FoodProd"
+           target="_blank" rel="noopener noreferrer">
+          Australia's Food Product Imports
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>Inside Australia's Food Basket | FIT3179 Data Visualisation</p>
+      <p>Data visualisations developed using Vega-Lite.</p>
+      <p>Author: Ethan Thompson</p>
+    </div>
+
+  </div>
+</footer>
+<!-- EXISTING JAVASCRIPT REFERENCES -->
+<script src="Js/map1"></script>
+<script src="Js/chart2"></script>
+<script src="Js/chart3"></script>
+<script src="Js/chart5"></script>
+<script src="Js/map2"></script>
+<script src="Js/chart7"></script>
+<script src="Js/chart8"></script>
+<script src="Js/chart9"></script>
+<script src="Js/chart10"></script>
+<script src="Js/chart11"></script>
+</body>
+</html>

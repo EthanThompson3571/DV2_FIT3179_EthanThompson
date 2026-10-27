@@ -1,0 +1,171 @@
+const chart5 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+  width: 310,
+  height: 300,
+
+  title: {
+    text: "Victoria vs the State and Territory Average",
+    subtitle: "Difference in food-group consumption, percentage points",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "middle",
+    color: "#754B37",
+    subtitleColor: "#96745F"
+  },
+
+  data: {
+    url: "Datasets V2/food_consumption_2011.csv",
+    format: {
+      type: "csv",
+      parse: {
+        state: "string",
+        food_group: "string",
+        percentage: "number"
+      }
+    }
+  },
+
+  transform: [
+    {
+      joinaggregate: [
+        {
+          op: "mean",
+          field: "percentage",
+          as: "StateAverage"
+        }
+      ],
+      groupby: ["food_group"]
+    },
+    {
+      filter: "datum.state == 'VIC'"
+    },
+    {
+      calculate: "datum.percentage - datum.StateAverage",
+      as: "Difference"
+    },
+    {
+      calculate: "datum.Difference >= 0 ? 'Above average' : 'Below average'",
+      as: "Direction"
+    }
+  ],
+
+  layer: [
+    {
+      mark: {
+        type: "rule",
+        color: "#80695C",
+        strokeWidth: 1.3
+      },
+      encoding: {
+        x: { datum: 0 }
+      }
+    },
+    {
+      mark: {
+        type: "bar",
+        cornerRadiusEnd: 3,
+        size: 23
+      },
+
+      encoding: {
+        x: {
+          field: "Difference",
+          type: "quantitative",
+          title: "Difference (percentage points)",
+          scale: {
+            domain: [-2.5, 2.5]
+          },
+          axis: {
+            grid: true,
+            gridColor: "#E8DDD3",
+            labelFontSize: 10,
+            titleFontSize: 11,
+            labelColor: "#5D5048",
+            titleColor: "#754B37"
+          }
+        },
+
+        y: {
+          field: "food_group",
+          type: "nominal",
+          title: null,
+          sort: {
+            field: "Difference",
+            order: "descending"
+          },
+          axis: {
+            labelLimit: 185,
+            labelFontSize: 10,
+            labelColor: "#5D5048"
+          }
+        },
+
+        color: {
+          field: "Direction",
+          type: "nominal",
+          scale: {
+            domain: [
+              "Above average",
+              "Below average"
+            ],
+            range: [
+              "#B96E49",
+              "#E3AA8E"
+            ]
+          },
+          legend: {
+            title: "Victoria",
+            orient: "bottom",
+            direction: "horizontal",
+            columns: 2,
+            titleFontSize: 11,
+            labelFontSize: 10,
+            symbolSize: 100
+          }
+        },
+
+        tooltip: [
+          {
+            field: "food_group",
+            title: "Food group"
+          },
+          {
+            field: "percentage",
+            title: "Victoria (%)",
+            format: ".1f"
+          },
+          {
+            field: "StateAverage",
+            title: "Eight-state mean (%)",
+            format: ".1f"
+          },
+          {
+            field: "Difference",
+            title: "Difference (pp)",
+            format: "+.2f"
+          }
+        ]
+      }
+    }
+  ],
+
+  config: {
+    font: "Arial",
+    view: {
+      stroke: null
+    },
+    axis: {
+      domain: false
+    },
+    legend: {
+      labelColor: "#5D5048",
+      titleColor: "#754B37"
+    }
+  }
+};
+
+vegaEmbed("#chart5", chart5, {
+  actions: false
+}).catch(console.error);

@@ -1,0 +1,169 @@
+const foodData = "Datasets V2/ausnut_2023_food_groups_clean.csv";
+
+const foodCategories = [
+  { name: "Meat", color: "#B97860" },
+  { name: "Vegetables", color: "#83A18A" },
+  { name: "Dairy", color: "#C79A47" }
+];
+
+const shortNames = {
+  "Wild harvested meat": "Wild meat",
+  "Beef, sheep and pork, unprocessed": "Beef, sheep & pork",
+  "Mammalian game meats": "Game meats",
+  "Poultry and feathered game": "Poultry",
+  "Organ meats and offal products and dishes": "Organ meats",
+  "Sausages, frankfurts and saveloys": "Sausages",
+  "Mixed dishes where beef, sheep, pork or mammalian game is the major component": "Red meat dishes",
+  "Mixed dishes where sausage, bacon, ham or other processed meat is the major component": "Processed meat dishes",
+  "Mixed dishes where poultry or feathered game is the major component": "Poultry dishes",
+  "Wild harvested vegetables": "Wild vegetables",
+  "Potatoes, chips and other potato products and dishes": "Potato products",
+  "Cabbage, cauliflower, broccoli and similar brassica vegetables": "Brassica vegetables",
+  "Carrot and similar root vegetables": "Root vegetables",
+  "Leaf and stalk vegetables": "Leafy vegetables",
+  "Tomato and tomato products": "Tomato products",
+  "Other fruiting vegetables": "Fruiting vegetables",
+  "Other vegetables and vegetable combinations": "Other vegetables",
+  "Dishes where vegetable is the major component": "Vegetable dishes",
+  "Dairy milk (cow, sheep and goat)": "Dairy milk",
+  "Other dishes where milk or a milk product is the major component": "Milk-based dishes",
+  "Flavoured milks and milkshakes": "Flavoured milk"
+};
+
+function makeLollipop(category, color) {
+  return {
+    width: 245,
+    height: 235,
+
+    title: {
+      text: category,
+      anchor: "middle",
+      fontSize: 16,
+      color: "#9B783B"
+    },
+
+    transform: [
+      {
+        filter: `datum.Category === '${category}'`
+      },
+      {
+        calculate: `{
+          ${Object.entries(shortNames)
+            .map(([key, value]) =>
+              `${JSON.stringify(key)}: ${JSON.stringify(value)}`
+            )
+            .join(",")}
+        }[datum.Food_Group] || datum.Food_Group`,
+        as: "ShortName"
+      },
+      {
+        calculate: "toNumber(datum.Mean_Grams_Per_Day)",
+        as: "Grams"
+      }
+    ],
+
+    encoding: {
+      y: {
+        field: "ShortName",
+        type: "nominal",
+        sort: {
+          field: "Grams",
+          order: "descending"
+        },
+        axis: {
+          title: null,
+          labelFontSize: 10,
+          labelLimit: 135,
+          ticks: false,
+          domain: false
+        }
+      },
+
+      x: {
+        field: "Grams",
+        type: "quantitative",
+        scale: {
+          domain: [0, 110]
+        },
+        axis: {
+          title: "Mean grams per day",
+          titleFontSize: 11,
+          labelFontSize: 10,
+          grid: true,
+          tickCount: 5
+        }
+      },
+
+      tooltip: [
+        {
+          field: "Food_Group",
+          title: "Food category"
+        },
+        {
+          field: "Grams",
+          title: "Mean daily intake (g)",
+          format: ".1f"
+        }
+      ]
+    },
+
+    layer: [
+      {
+        mark: {
+          type: "rule",
+          strokeWidth: 2,
+          color: color
+        },
+        encoding: {
+          x: { datum: 0 },
+          x2: { field: "Grams" }
+        }
+      },
+      {
+        mark: {
+          type: "circle",
+          size: 70,
+          color: color
+        }
+      }
+    ]
+  };
+}
+
+const chart8 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+
+  data: {
+    url: foodData
+  },
+
+  hconcat: foodCategories.map(category =>
+    makeLollipop(category.name, category.color)
+  ),
+
+  spacing: 45,
+
+  resolve: {
+    scale: {
+      y: "independent"
+    }
+  },
+
+  config: {
+    font: "Arial",
+    view: {
+      stroke: null
+    },
+    axis: {
+      gridColor: "#E8E1D5",
+      labelColor: "#4F554D",
+      titleColor: "#6B5B44"
+    }
+  }
+};
+
+vegaEmbed("#chart8", chart8, {
+  actions: false
+}).catch(console.error);

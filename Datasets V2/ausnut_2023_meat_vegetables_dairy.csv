@@ -1,0 +1,29 @@
+Category,Food_Group,Mean_Grams_Per_Day,ABS_Flag
+Meat,Wild harvested meat,0.0,**
+Meat,"Beef, sheep and pork, unprocessed",24.4,
+Meat,Mammalian game meats,0.1,*
+Meat,Poultry and feathered game,23.6,
+Meat,Organ meats and offal products and dishes,0.2,*
+Meat,"Sausages, frankfurts and saveloys",9.2,
+Meat,Processed meat,8.8,
+Meat,"Mixed dishes where beef, sheep, pork or mammalian game is the major component",26.0,
+Meat,"Mixed dishes where sausage, bacon, ham or other processed meat is the major component",0.6,*
+Meat,Mixed dishes where poultry or feathered game is the major component,40.2,
+Vegetables,Wild harvested vegetables,0.0,**
+Vegetables,"Potatoes, chips and other potato products and dishes",44.5,
+Vegetables,"Cabbage, cauliflower, broccoli and similar brassica vegetables",11.1,
+Vegetables,Carrot and similar root vegetables,10.4,
+Vegetables,Leaf and stalk vegetables,4.0,
+Vegetables,Peas and beans,3.7,
+Vegetables,Tomato and tomato products,8.7,
+Vegetables,Other fruiting vegetables,19.7,
+Vegetables,Other vegetables and vegetable combinations,12.3,
+Vegetables,Dishes where vegetable is the major component,38.8,
+Dairy,"Dairy milk (cow, sheep and goat)",104.3,
+Dairy,Yoghurt,20.3,
+Dairy,Cream,0.7,
+Dairy,Cheese,7.7,
+Dairy,Frozen milk products,7.1,
+Dairy,Custards,0.6,
+Dairy,Other dishes where milk or a milk product is the major component,1.6,
+Dairy,Flavoured milks and milkshakes,28.0,

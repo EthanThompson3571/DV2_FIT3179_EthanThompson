@@ -1,0 +1,182 @@
+const map2 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+  width: 470,
+  height: 340,
+
+  title: {
+    text: "Where Does Australia's Imported Food Come From?",
+    subtitle: "Top 15 food-product import partners, 2023",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "middle",
+    color: "#365C78",
+    subtitleColor: "#71899B"
+  },
+
+  projection: {
+    type: "equalEarth"
+  },
+
+  layer: [
+    // World map
+    {
+      data: {
+        url: "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        format: {
+          type: "topojson",
+          feature: "countries"
+        }
+      },
+
+      mark: {
+        type: "geoshape",
+        fill: "#DCE6EB",
+        stroke: "#F4F7F8",
+        strokeWidth: 0.6
+      }
+    },
+
+    // Curved food import flows
+    {
+      data: {
+        url: "Datasets V2/curved_food_flows.geojson",
+        format: {
+          type: "json",
+          property: "features"
+        }
+      },
+
+      mark: {
+        type: "geoshape",
+        filled: false,
+        stroke: "#447A9C",
+        strokeOpacity: 0.65
+      },
+
+      encoding: {
+        strokeWidth: {
+          field: "properties.import_usd_million",
+          type: "quantitative",
+          scale: {
+            type: "sqrt",
+            range: [1, 4]
+          },
+          legend: {
+            title: "Import value (US$ m)",
+            orient: "bottom",
+            direction: "horizontal",
+            titleFontSize: 11,
+            labelFontSize: 10
+          }
+        },
+
+        tooltip: [
+          {
+            field: "properties.partner",
+            type: "nominal",
+            title: "Exporting country"
+          },
+          {
+            field: "properties.import_usd_million",
+            type: "quantitative",
+            title: "Import value (US$ m)",
+            format: ",.1f"
+          }
+        ]
+      }
+    },
+
+    // Australia destination marker
+    {
+      data: {
+        values: [
+          {
+            name: "Australia",
+            lon: 133.775,
+            lat: -25.274
+          }
+        ]
+      },
+
+      mark: {
+        type: "circle",
+        size: 130,
+        color: "#B77B56",
+        stroke: "#F4F7F8",
+        strokeWidth: 1.5
+      },
+
+      encoding: {
+        longitude: {
+          field: "lon",
+          type: "quantitative"
+        },
+        latitude: {
+          field: "lat",
+          type: "quantitative"
+        },
+        tooltip: [
+          {
+            field: "name",
+            title: "Destination"
+          }
+        ]
+      }
+    },
+
+    // New Zealand marker
+    {
+      data: {
+        values: [
+          {
+            name: "New Zealand",
+            lon: 172,
+            lat: -41
+          }
+        ]
+      },
+
+      mark: {
+        type: "circle",
+        size: 85,
+        color: "#2D6586",
+        stroke: "#FFFFFF",
+        strokeWidth: 1.5
+      },
+
+      encoding: {
+        longitude: {
+          field: "lon",
+          type: "quantitative"
+        },
+        latitude: {
+          field: "lat",
+          type: "quantitative"
+        },
+        tooltip: [
+          {
+            field: "name",
+            title: "Country"
+          }
+        ]
+      }
+    }
+  ],
+
+  config: {
+    font: "Arial",
+    view: {
+      stroke: null
+    },
+    legend: {
+      labelColor: "#526D80",
+      titleColor: "#365C78"
+    }
+  }
+};
+
+vegaEmbed("#chart6", map2, {
+  actions: false
+}).catch(console.error);

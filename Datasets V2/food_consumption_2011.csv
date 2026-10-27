@@ -1,0 +1,65 @@
+state,food_group,percentage
+ACT,Cereals and cereal products,92.2
+ACT,Cereal based products and dishes,74.7
+ACT,Fats and oils,45.4
+ACT,Fish and seafood products and dishes,18.3
+ACT,Fruit products and dishes,65.9
+ACT,"Meat, poultry and game products and dishes",68.9
+ACT,Milk products and dishes,86.7
+ACT,Vegetable products and dishes,76.6
+NSW,Cereals and cereal products,89.5
+NSW,Cereal based products and dishes,71.9
+NSW,Fats and oils,45.1
+NSW,Fish and seafood products and dishes,18.4
+NSW,Fruit products and dishes,62.8
+NSW,"Meat, poultry and game products and dishes",69.7
+NSW,Milk products and dishes,83.6
+NSW,Vegetable products and dishes,75.8
+NT,Cereals and cereal products,86.8
+NT,Cereal based products and dishes,67.5
+NT,Fats and oils,38.0
+NT,Fish and seafood products and dishes,22.1
+NT,Fruit products and dishes,53.2
+NT,"Meat, poultry and game products and dishes",70.7
+NT,Milk products and dishes,81.9
+NT,Vegetable products and dishes,71.8
+QLD,Cereals and cereal products,88.2
+QLD,Cereal based products and dishes,71.6
+QLD,Fats and oils,49.0
+QLD,Fish and seafood products and dishes,16.4
+QLD,Fruit products and dishes,60.2
+QLD,"Meat, poultry and game products and dishes",71.2
+QLD,Milk products and dishes,87.8
+QLD,Vegetable products and dishes,74.4
+SA,Cereals and cereal products,88.8
+SA,Cereal based products and dishes,70.0
+SA,Fats and oils,50.3
+SA,Fish and seafood products and dishes,15.0
+SA,Fruit products and dishes,56.7
+SA,"Meat, poultry and game products and dishes",69.2
+SA,Milk products and dishes,87.3
+SA,Vegetable products and dishes,76.5
+TAS,Cereals and cereal products,87.7
+TAS,Cereal based products and dishes,74.8
+TAS,Fats and oils,54.7
+TAS,Fish and seafood products and dishes,13.2
+TAS,Fruit products and dishes,57.5
+TAS,"Meat, poultry and game products and dishes",68.5
+TAS,Milk products and dishes,88.0
+TAS,Vegetable products and dishes,73.3
+VIC,Cereals and cereal products,92.0
+VIC,Cereal based products and dishes,74.5
+VIC,Fats and oils,44.8
+VIC,Fish and seafood products and dishes,17.4
+VIC,Fruit products and dishes,59.5
+VIC,"Meat, poultry and game products and dishes",67.8
+VIC,Milk products and dishes,83.6
+VIC,Vegetable products and dishes,74.5
+WA,Cereals and cereal products,86.6
+WA,Cereal based products and dishes,71.9
+WA,Fats and oils,45.3
+WA,Fish and seafood products and dishes,17.0
+WA,Fruit products and dishes,57.6
+WA,"Meat, poultry and game products and dishes",68.7
+WA,Milk products and dishes,86.1
+WA,Vegetable products and dishes,73.3

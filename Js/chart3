@@ -1,0 +1,178 @@
+// Chart 3 — Proportional Symbol Map
+// Apparent food consumption by Australian SA3 region, 2023–24
+
+const chart3 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+
+  width: 550,
+  height: 390,
+
+  title: {
+    text: "Food Consumption Across Australian Regions",
+    subtitle: "Apparent food consumption by SA3, 2023–24",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "start",
+    color: "#754B37",
+    subtitleColor: "#96745F",
+    offset: 12
+  },
+
+  projection: {
+    type: "mercator"
+  },
+
+  params: [
+    {
+      name: "selectedFood",
+      value: "Vegetable products and dishes",
+
+      bind: {
+        input: "select",
+        name: "Food group: ",
+
+        options: [
+          "Cereals and cereal products",
+          "Milk products and dishes",
+          "Vegetable products and dishes",
+          "Fruit products and dishes",
+          "Cereal based products and dishes",
+          "Fats and oils",
+          "Fish and seafood products and dishes",
+          "Meat, poultry and game products and dishes"
+        ],
+
+        labels: [
+          "Cereals",
+          "Milk products",
+          "Vegetables",
+          "Fruit",
+          "Cereal-based dishes",
+          "Fats and oils",
+          "Fish and seafood",
+          "Meat and poultry"
+        ]
+      }
+    }
+  ],
+
+  layer: [
+    // Australia background map
+    {
+      data: {
+        url: "https://cdn.jsdelivr.net/npm/vega-datasets@2/data/world-110m.json",
+
+        format: {
+          type: "topojson",
+          feature: "countries"
+        }
+      },
+
+      transform: [
+        {
+          filter: "datum.id == 36 || datum.id == '036'"
+        }
+      ],
+
+      mark: {
+        type: "geoshape",
+        fill: "#F5EEE8",
+        stroke: "#B79C88",
+        strokeWidth: 0.8
+      }
+    },
+
+    // SA3 proportional symbols
+    {
+      data: {
+        url: "Datasets V2/chart3_sa3_with_coordinates.csv"
+      },
+
+      transform: [
+        {
+          filter: "datum.food_group === selectedFood"
+        },
+        {
+          filter: "isValid(datum.grams_per_10000kj)"
+        }
+      ],
+
+      mark: {
+        type: "circle",
+        color: "#B96D43",
+        stroke: "#754B37",
+        strokeWidth: 0.35,
+        opacity: 0.35
+      },
+
+      encoding: {
+        longitude: {
+          field: "longitude",
+          type: "quantitative"
+        },
+
+        latitude: {
+          field: "latitude",
+          type: "quantitative"
+        },
+
+        size: {
+          field: "grams_per_10000kj",
+          type: "quantitative",
+          title: "g per 10,000 kJ",
+
+          scale: {
+            type: "linear",
+            range: [10, 200],
+            zero: true
+          },
+
+          legend: {
+            orient: "bottom",
+            direction: "horizontal",
+            titleFontSize: 10,
+            labelFontSize: 10,
+            symbolFillColor: "#B96D43",
+            symbolStrokeColor: "#754B37"
+          }
+        },
+
+        tooltip: [
+          {
+            field: "sa3_name",
+            title: "SA3 region"
+          },
+          {
+            field: "food_group",
+            title: "Food group"
+          },
+          {
+            field: "grams_per_10000kj",
+            type: "quantitative",
+            title: "g per 10,000 kJ",
+            format: ".1f"
+          }
+        ]
+      }
+    }
+  ],
+
+  config: {
+    font: "Arial",
+
+    view: {
+      stroke: null
+    },
+
+    legend: {
+      labelColor: "#5D5048",
+      titleColor: "#754B37"
+    }
+  }
+};
+
+vegaEmbed("#chart3", chart3, {
+  actions: false
+}).catch(console.error);

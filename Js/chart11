@@ -1,0 +1,212 @@
+const chart11 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+
+  width: 365,
+  height: 290,
+
+  title: {
+    text: "Which Foods Are the Most Energy-Dense?",
+    subtitle: "Bubble size represents energy (kJ per 100 g) — AUSNUT 2023",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "start",
+    color: "#775B89",
+    subtitleColor: "#817587"
+  },
+
+  data: {
+    url: "Datasets V2/ausnut_2023_chart11_energy.csv"
+  },
+
+  params: [
+    {
+      name: "categorySelect",
+      value: "All",
+      bind: {
+        input: "select",
+        name: "Food category: ",
+        options: [
+          "All",
+          "Cheese",
+          "Nuts",
+          "Chocolate",
+          "Cakes",
+          "Fruit",
+          "Vegetables"
+        ]
+      }
+    },
+    {
+      name: "foodHighlight",
+      select: {
+        type: "point",
+        fields: ["Food_Name"],
+        on: "pointerover",
+        clear: "pointerout",
+        empty: false
+      }
+    }
+  ],
+
+  transform: [
+    {
+      filter: "categorySelect === 'All' || datum.Category === categorySelect"
+    },
+    {
+      calculate: "toNumber(datum.Total_Fat_g)",
+      as: "Fat"
+    },
+    {
+      calculate: "toNumber(datum.Total_Sugars_g)",
+      as: "Sugar"
+    },
+    {
+      calculate: "toNumber(datum.Energy_kJ_per_100g)",
+      as: "Energy"
+    }
+  ],
+
+  mark: {
+    type: "circle",
+    stroke: "white",
+    strokeWidth: 0.8
+  },
+
+  encoding: {
+    x: {
+      field: "Fat",
+      type: "quantitative",
+      title: "Total fat (g per 100 g)",
+      scale: {
+        zero: true
+      },
+      axis: {
+        titleFontSize: 11,
+        labelFontSize: 10
+      }
+    },
+
+    y: {
+      field: "Sugar",
+      type: "quantitative",
+      title: "Total sugars (g per 100 g)",
+      scale: {
+        zero: true
+      },
+      axis: {
+        titleFontSize: 11,
+        labelFontSize: 10
+      }
+    },
+
+    size: {
+      field: "Energy",
+      type: "quantitative",
+      scale: {
+        range: [30, 650]
+      },
+      legend: {
+        title: "Energy (kJ/100 g)",
+        titleFontSize: 10,
+        labelFontSize: 10
+      }
+    },
+
+    color: {
+      field: "Category",
+      type: "nominal",
+
+      scale: {
+        domain: [
+          "Cheese",
+          "Nuts",
+          "Chocolate",
+          "Cakes",
+          "Fruit",
+          "Vegetables"
+        ],
+
+        range: [
+          "#D4A044",
+          "#7966B2",
+          "#8B5146",
+          "#D77F88",
+          "#E78B36",
+          "#4C9A78"
+        ]
+      },
+
+      legend: {
+        title: "Food category",
+        orient: "bottom",
+        columns: 3,
+        titleFontSize: 11,
+        labelFontSize: 11
+      }
+    },
+
+    opacity: {
+      condition: {
+        param: "foodHighlight",
+        value: 1
+      },
+      value: 0.65
+    },
+
+    tooltip: [
+      {
+        field: "Food_Name",
+        title: "Food"
+      },
+      {
+        field: "Category",
+        title: "Category"
+      },
+      {
+        field: "Energy",
+        title: "Energy (kJ/100 g)",
+        format: ".0f"
+      },
+      {
+        field: "Fat",
+        title: "Fat (g/100 g)",
+        format: ".1f"
+      },
+      {
+        field: "Sugar",
+        title: "Sugar (g/100 g)",
+        format: ".1f"
+      },
+      {
+        field: "Protein_g",
+        title: "Protein (g/100 g)",
+        format: ".1f"
+      }
+    ]
+  },
+
+  config: {
+    font: "Arial",
+
+    view: {
+      stroke: null
+    },
+
+    axis: {
+      gridColor: "#E8E0ED",
+      labelColor: "#514957",
+      titleColor: "#6E5688"
+    },
+
+    legend: {
+      labelColor: "#514957",
+      titleColor: "#6E5688"
+    }
+  }
+};
+
+vegaEmbed("#chart11", chart11, {
+  actions: false
+}).catch(console.error);

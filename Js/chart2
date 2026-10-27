@@ -1,0 +1,122 @@
+const chart2 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+  width: 430,
+  height: 400,
+
+  title: {
+    text: "Victoria's Daily Nutritional Intake",
+    subtitle: "Average intake per person, 2011–12",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "middle",
+    color: "#254D3C",
+    subtitleColor: "#687B70"
+  },
+
+  data: {
+    url: "Datasets V2/abs_map_nutrients_2011.csv"
+  },
+
+  transform: [
+    {
+      filter: "datum.state == 'VIC'"
+    },
+    {
+      fold: [
+        "Carbohydrate",
+        "Total sugars",
+        "Protein",
+        "Total Fat",
+        "Saturated fat",
+        "Dietary Fibre"
+      ],
+      as: ["Nutrient", "Intake"]
+    },
+    {
+      calculate: "toNumber(datum.Intake)",
+      as: "Amount"
+    }
+  ],
+
+  mark: {
+    type: "arc",
+    innerRadius: 65,
+    stroke: "#F3F6F1",
+    strokeWidth: 2
+  },
+
+  encoding: {
+    theta: {
+      field: "Amount",
+      type: "quantitative",
+      stack: true
+    },
+
+    radius: {
+      field: "Amount",
+      type: "quantitative",
+      scale: {
+        type: "sqrt",
+        rangeMin: 75,
+        rangeMax: 175
+      }
+    },
+
+    color: {
+      field: "Nutrient",
+      type: "nominal",
+      scale: {
+        domain: [
+          "Carbohydrate",
+          "Total sugars",
+          "Protein",
+          "Total Fat",
+          "Saturated fat",
+          "Dietary Fibre"
+        ],
+        range: [
+          "#245E4B",
+          "#5A997A",
+          "#89B7A0",
+          "#B4D2B8",
+          "#7D9C8B",
+          "#D5E5D6"
+        ]
+      },
+      legend: {
+        title: "Nutrient",
+        orient: "right",
+        titleFontSize: 11,
+        labelFontSize: 10,
+        symbolSize: 100,
+        offset: 5
+      }
+    },
+
+    tooltip: [
+      { field: "Nutrient", title: "Nutrient" },
+      {
+        field: "Amount",
+        title: "Daily intake (g)",
+        format: ".1f"
+      }
+    ]
+  },
+
+  config: {
+    font: "Arial",
+    view: {
+      stroke: null
+    },
+    legend: {
+      labelColor: "#52695A",
+      titleColor: "#254D3C"
+    }
+  }
+};
+
+vegaEmbed("#chart2", chart2, {
+  actions: false
+}).catch(console.error);

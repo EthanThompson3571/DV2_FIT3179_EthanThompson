@@ -1,0 +1,521 @@
+/* INSIDE AUSTRALIA'S FOOD BASKET — EDITORIAL DASHBOARD */
+:root {
+    --ink: #24372e;
+    --muted: #607168;
+    --paper: #f7f8f5;
+    --line: #dce4dc;
+    --nav: #173c2c;
+    --s1: #447e68;
+    --s2: #c17c55;
+    --s3: #6589a7;
+    --s4: #bc9444;
+    --s5: #957da8;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Rye', Georgia, serif; line-height: 1.6; }
+
+/* NAVIGATION */
+.navbar { position: sticky; top: 0; z-index: 1000; display: flex; align-items: center; justify-content: space-between; gap: 22px; padding: 18px 5%; background: var(--nav); box-shadow: 0 3px 12px rgba(0,0,0,.12); }
+.nav-brand { color: #fff; text-decoration: none; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; white-space: nowrap; }
+.nav-links { display: flex; align-items: center; gap: clamp(10px, 1.6vw, 26px); flex-wrap: wrap; }
+.nav-links a { color: #dce9df; text-decoration: none; font-size: 12px; font-weight: bold; transition: color .2s; }
+.nav-links a:hover { color: #f0d6a1; }
+
+/* HERO */
+.hero { background: #fff; padding: 85px 7% 92px; }
+.hero-content { max-width: 1400px; margin: auto; display: grid; grid-template-columns: minmax(0,1.12fr) minmax(0,1fr); align-items: center; gap: clamp(30px, 5vw, 85px); }
+.hero-text { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
+.eyebrow { margin: 0; color: #728879; letter-spacing: 2px; font-size: 11px; text-transform: uppercase; }
+h1 { margin: 22px 0 24px; color: #202923; font-size: clamp(42px,5vw,68px); font-weight: 400; line-height: 1.25; }
+.hero-intro { max-width: 670px; margin-bottom: 28px; }
+.hero-intro p { margin: 0 0 17px; font-size: clamp(13px,1.1vw,16px); line-height: 1.9; color: #59665e; }
+.hero-intro p:first-child { color: #364d40; }
+.explore-link { display: inline-block; align-self: flex-start; color: #204e3b; font-size: 14px; text-decoration: none; border-bottom: 1px solid #8eab94; padding-bottom: 6px; }
+.explore-link:hover { color: #4c8664; }
+.hero-image { display: flex; align-items: center; justify-content: center; width: 100%; }
+.hero-image img { display: block; width: 100%; max-width: 650px; height: auto; object-fit: contain; }
+
+/* MAIN EDITORIAL LAYOUT */
+main { max-width: 1450px; margin: auto; padding: 25px 4% 55px; }
+.dashboard-section { --accent: var(--s1); --wash: rgba(68,126,104,.07); position: relative; margin: 40px 0 65px; padding: 34px 26px 45px; border-top: 5px solid var(--accent); background: linear-gradient(180deg,var(--wash) 0%,rgba(255,255,255,0) 360px); }
+#section1 { --accent: var(--s1); --wash: rgba(68,126,104,.075); }
+#section2 { --accent: var(--s2); --wash: rgba(193,124,85,.075); }
+#section3 { --accent: var(--s3); --wash: rgba(101,137,167,.075); }
+#section4 { --accent: var(--s4); --wash: rgba(188,148,68,.085); }
+#section5 { --accent: var(--s5); --wash: rgba(149,125,168,.075); }
+.section-heading { display: flex; align-items: flex-start; gap: 23px; margin-bottom: 34px; padding-bottom: 25px; border-bottom: 1px solid color-mix(in srgb, var(--accent) 25%, #dce4dc); }
+.section-number { color: var(--accent); font-size: 46px; font-weight: bold; line-height: 1; }
+.section-heading h2 { margin: 0 0 8px; color: var(--ink); font-size: clamp(24px,2.5vw,31px); }
+.section-heading p { margin: 0; color: var(--muted); font-size: 15px; }
+
+/* CHARTS ARE PART OF THE PAGE, NOT FLOATING CARDS */
+.chart-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 42px; align-items: start; }
+.chart-card { display: flex; flex-direction: column; min-width: 0; padding: 8px 8px 18px; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.chart-card h3 { margin: 0 0 17px; color: var(--ink); font-size: 19px; line-height: 1.5; }
+.chart-card > p { margin: 0 0 18px; font-size: 14px; line-height: 1.75; color: var(--muted); }
+.chart-area { width: 100%; min-width: 0; min-height: 420px; display: flex; justify-content: center; align-items: flex-start; overflow-x: auto; overflow-y: hidden; margin: 0 0 20px; }
+.chart-area .vega-embed { flex-shrink: 0; }
+.chart-explanation { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
+.chart-explanation h4 { margin: 0 0 10px; font-size: 15px; color: var(--accent); }
+.chart-explanation p { margin: 0 0 12px; color: #526258; font-size: 14px; line-height: 1.8; }
+.chart-explanation .chart-source { margin-top: 18px; font-size: 11px; color: #7f8d83; }
+
+/* SECTION 4: TWO FULL-WIDTH CHARTS, STACKED */
+.food-chart-stack { display: flex; flex-direction: column; gap: 50px; }
+.food-chart-stack > .chart-card { width: 100%; }
+#section4 .chart-area { justify-content: center; }
+#section4 .chart-card + .chart-card { border-top: 1px solid var(--line); padding-top: 34px; }
+
+/* SECTION 5: RETURN TO TWO COLUMNS */
+#section5 .chart-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+#section5 .chart-area { min-height: 0; height: auto; padding: 0 0 10px; }
+#section5 .chart-explanation { margin-top: 20px; }
+#section5 .chart-card { width: 100%; }
+
+/* FOOTER */
+footer { padding: 40px 20px; background: var(--nav); color: white; text-align: center; }
+footer h3 { margin: 0 0 12px; }
+footer p { color: #c6d7ca; font-size: 13px; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .navbar { flex-direction: column; gap: 10px; }
+    .nav-links { justify-content: center; }
+    html { scroll-padding-top: 145px; }
+    .chart-grid, #section5 .chart-grid { grid-template-columns: 1fr; }
+    .chart-area { min-height: 350px; }
+    #section4 .chart-area { justify-content: flex-start; }
+}
+@media (max-width: 850px) {
+    .hero-content { grid-template-columns: 1fr; gap: 35px; }
+    .hero-image img { max-width: 500px; }
+    .hero { padding: 60px 7%; }
+}
+@media (max-width: 650px) {
+    .navbar { padding: 15px 4%; }
+    .nav-links { gap: 12px; }
+    .nav-links a { font-size: 10px; }
+    main { padding: 20px 3%; }
+    .dashboard-section { margin: 35px 0 65px; padding: 25px 10px 32px; }
+    .section-heading { gap: 12px; }
+    .section-number { font-size: 35px; }
+    .chart-card { padding: 6px 0 16px; }
+    .chart-grid { gap: 35px; }
+    .hero-intro p { font-size: 13px; }
+}
+
+
+/* SECTION 1 — INTEGRATED CHARTS */
+
+#section1 .chart-area {
+    background: transparent;
+    min-height: 0;
+    height: auto;
+    width: 100%;
+    overflow: visible;
+    padding: 10px 0 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section1 .vega-embed {
+    background: transparent !important;
+    max-width: 100%;
+}
+
+#section1 .vega-embed canvas,
+#section1 .vega-embed svg {
+    background: transparent !important;
+}
+
+#section1 .chart-explanation {
+    margin-top: 20px;
+}
+
+
+/* SECTION 1 — REDUCE EXCESS SPACING */
+
+#section1 .chart-area {
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    height: auto;
+    align-items: center;
+}
+
+/* Stop explanations being pushed to the bottom */
+#section1 .chart-explanation {
+    margin-top: 12px;
+    padding-top: 14px;
+}
+
+/* Reduce space above the charts */
+#section1 .chart-card h3 {
+    margin-bottom: 8px;
+}
+
+/* Allow each chart to use its natural height */
+#section1 .chart-card {
+    justify-content: flex-start;
+}
+
+/* ALIGN CHART EXPLANATIONS ACROSS ALL SECTIONS */
+
+.chart-grid {
+    align-items: stretch;
+}
+
+.chart-grid > .chart-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-grid .chart-area {
+    flex: 1 0 auto;
+}
+
+.chart-grid .chart-explanation {
+    margin-top: auto;
+}
+
+#section1 .chart-grid .chart-explanation {
+    margin-top: auto;
+}
+
+/* SECTION 2 — INTEGRATED CHARTS */
+
+#section2 .chart-area {
+    background: transparent;
+    min-height: 0;
+    height: auto;
+    width: 100%;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2 .vega-embed {
+    background: transparent !important;
+    max-width: 100%;
+}
+
+#section2 .vega-embed svg,
+#section2 .vega-embed canvas {
+    background: transparent !important;
+}
+
+#section2 .chart-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#section2 .chart-card h3 {
+    margin-bottom: 8px;
+}
+
+#section2 .chart-grid .chart-area {
+    flex: 1 0 auto;
+}
+
+#section2 .chart-grid .chart-explanation {
+    margin-top: auto;
+    padding-top: 14px;
+}
+
+
+
+/* SECTION 3 — INTEGRATED CHARTS */
+
+#section3 .chart-area {
+    background: transparent;
+    min-height: 0;
+    height: auto;
+    width: 100%;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 .vega-embed {
+    background: transparent !important;
+    max-width: 100%;
+}
+
+#section3 .vega-embed svg,
+#section3 .vega-embed canvas {
+    background: transparent !important;
+}
+
+#section3 .chart-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#section3 .chart-card h3 {
+    margin-bottom: 8px;
+}
+
+#section3 .chart-grid .chart-area {
+    flex: 1 0 auto;
+}
+
+#section3 .chart-grid .chart-explanation {
+    margin-top: auto;
+    padding-top: 14px;
+}
+
+
+/* SECTION 4 — COMPACT FULL-WIDTH CHARTS */
+
+#section4 .chart-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+#section4 .chart-card {
+    width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 10px 0;
+}
+
+#section4 .chart-area {
+    width: 100%;
+    min-height: 0;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: visible;
+    padding: 10px 0;
+    margin: 0;
+}
+
+#section4 .vega-embed {
+    background: transparent !important;
+    max-width: 100%;
+}
+
+#section4 .vega-embed svg,
+#section4 .vega-embed canvas {
+    background: transparent !important;
+}
+
+#section4 .chart-card h3 {
+    margin-bottom: 8px;
+}
+
+#section4 .chart-explanation {
+    margin-top: 18px;
+    padding-top: 15px;
+}
+
+#section4 .chart-explanation p {
+    max-width: 100%;
+}
+
+/* SECTION 5 — FINAL VISUALISATION LAYOUT */
+
+#section5 .chart-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px;
+    align-items: stretch;
+}
+
+#section5 .chart-card {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 8px 0;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+#section5 .chart-area {
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    padding: 10px 0;
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    overflow: visible;
+}
+
+#section5 .vega-embed {
+    background: transparent !important;
+    max-width: 100%;
+}
+
+#section5 .vega-embed svg,
+#section5 .vega-embed canvas {
+    background: transparent !important;
+}
+
+#section5 .chart-explanation {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #E5DCEB;
+}
+
+#section5 .chart-explanation h4 {
+    color: #9879AC;
+}
+
+/* Stack charts on smaller screens */
+
+@media (max-width: 1100px) {
+    #section5 .chart-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* DATA SOURCES FOOTER */
+
+.dashboard-footer {
+    background: #173c2c;
+    color: #ffffff;
+    padding: 65px 8% 25px;
+    text-align: left;
+}
+
+.footer-content {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.dashboard-footer h2 {
+    font-size: 25px;
+    margin: 0 0 18px;
+    color: #ffffff;
+}
+
+.footer-intro {
+    max-width: 850px;
+    font-size: 14px;
+    line-height: 1.9;
+    color: #d0dfd4;
+    margin-bottom: 38px;
+}
+
+.footer-sources {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 35px;
+    padding-bottom: 40px;
+}
+
+.footer-source {
+    border-top: 2px solid #82a68b;
+    padding-top: 18px;
+}
+
+.footer-source h3 {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0 0 12px;
+}
+
+.footer-source p {
+    color: #c6d7ca;
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.footer-source a {
+    color: #b9dcae;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer-source a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    border-top: 1px solid #426451;
+    padding-top: 22px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #aebfb3;
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+@media (max-width: 850px) {
+    .footer-sources {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .dashboard-footer {
+        padding: 45px 6% 25px;
+    }
+}
+
+
+/* Chart 3 layout */
+
+#chart3 {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+}
+
+#chart3 .vega-bindings {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    z-index: 10;
+    margin: 0;
+}
+
+#chart3 .vega-bind {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#chart3 .vega-bind-name {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #754B37;
+}
+
+#chart3 select {
+    width: 155px;
+    max-width: 155px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #754B37;
+    background: #F8F3EE;
+    border: 1px solid #D6BDAA;
+    border-radius: 5px;
+    padding: 5px 7px;
+}

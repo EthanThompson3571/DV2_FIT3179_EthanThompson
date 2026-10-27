@@ -1,0 +1,146 @@
+const map1 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  width: 480,
+  height: 370,
+  background: "transparent",
+
+  title: {
+    text: "Average Daily Nutrient Intake by State",
+    subtitle: "ABS Australian Health Survey, 2011–12",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "middle",
+    color: "#254D3C",
+    subtitleColor: "#687B70"
+  },
+
+  params: [
+    {
+      name: "nutrientSelect",
+      value: "Total sugars",
+      bind: {
+        input: "select",
+        name: "Nutrient: ",
+        options: [
+          "Total sugars",
+          "Protein",
+          "Total Fat",
+          "Saturated fat",
+          "Carbohydrate",
+          "Dietary Fibre",
+          "Energy"
+        ]
+      }
+    }
+  ],
+
+  data: {
+    url: "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
+    format: {
+      type: "json",
+      property: "features"
+    }
+  },
+
+  transform: [
+    {
+      calculate: "datum.properties.STATE_NAME || datum.properties.name || datum.properties.STATE || ''",
+      as: "StateName"
+    },
+    {
+      calculate: "datum.StateName == 'New South Wales' || datum.StateName == 'NSW' ? 'NSW' : datum.StateName == 'Victoria' || datum.StateName == 'VIC' ? 'VIC' : datum.StateName == 'Queensland' || datum.StateName == 'QLD' ? 'QLD' : datum.StateName == 'South Australia' || datum.StateName == 'SA' ? 'SA' : datum.StateName == 'Western Australia' || datum.StateName == 'WA' ? 'WA' : datum.StateName == 'Tasmania' || datum.StateName == 'TAS' ? 'TAS' : datum.StateName == 'Northern Territory' || datum.StateName == 'NT' ? 'NT' : datum.StateName == 'Australian Capital Territory' || datum.StateName == 'ACT' ? 'ACT' : ''",
+      as: "StateCode"
+    },
+    {
+      lookup: "StateCode",
+      from: {
+        data: {
+          url: "Datasets V2/abs_map_nutrients_2011.csv"
+        },
+        key: "state",
+        fields: [
+          "Protein",
+          "Total sugars",
+          "Total Fat",
+          "Saturated fat",
+          "Carbohydrate",
+          "Dietary Fibre",
+          "Energy"
+        ]
+      }
+    },
+    {
+      calculate: "toNumber(datum[nutrientSelect])",
+      as: "Intake"
+    },
+    {
+      calculate: "nutrientSelect == 'Energy' ? 'kJ/day' : 'g/day'",
+      as: "Unit"
+    }
+  ],
+
+  projection: {
+    type: "mercator"
+  },
+
+  mark: {
+    type: "geoshape",
+    stroke: "#F3F6F1",
+    strokeWidth: 1.2
+  },
+
+  encoding: {
+    color: {
+      condition: {
+        test: "isValid(datum.Intake)",
+        field: "Intake",
+        type: "quantitative",
+        scale: {
+          range: [
+            "#DDEBD8",
+            "#B5D4B4",
+            "#86B99A",
+            "#579678",
+            "#2D7058",
+            "#164D3C"
+          ]
+        },
+        legend: {
+          title: "Daily intake",
+          orient: "right",
+          gradientLength: 140,
+          gradientThickness: 12,
+          titleFontSize: 11,
+          labelFontSize: 10
+        }
+      },
+      value: "#D9DED8"
+    },
+
+    tooltip: [
+      { field: "StateName", title: "State" },
+      {
+        field: "Intake",
+        title: "Daily intake",
+        format: ".1f"
+      },
+      { field: "Unit", title: "Unit" }
+    ]
+  },
+
+  config: {
+    view: {
+      stroke: null
+    },
+    font: "Arial",
+    legend: {
+      labelColor: "#52695A",
+      titleColor: "#254D3C"
+    }
+  }
+};
+
+vegaEmbed("#map1", map1, {
+  actions: false
+}).catch(console.error);

@@ -1,0 +1,2996 @@
+state,sex,age_group,nutrient,unit,value
+ACT,Males,2-18,Energy,kJ,9164.8
+ACT,Males,19+,Energy,kJ,9593.0
+ACT,Males,All ages,Energy,kJ,9501.2
+ACT,Males,2-18,Moisture,g,2125.4
+ACT,Males,19+,Moisture,g,2939.5
+ACT,Males,All ages,Moisture,g,2764.9
+ACT,Males,2-18,Protein,g,92.2
+ACT,Males,19+,Protein,g,101.0
+ACT,Males,All ages,Protein,g,99.1
+ACT,Males,2-18,Total Fat,g,81.7
+ACT,Males,19+,Total Fat,g,79.5
+ACT,Males,All ages,Total Fat,g,80.0
+ACT,Males,2-18,Saturated fat,g,33.8
+ACT,Males,19+,Saturated fat,g,29.9
+ACT,Males,All ages,Saturated fat,g,30.7
+ACT,Males,2-18,Monounsaturated fat,g,30.8
+ACT,Males,19+,Monounsaturated fat,g,30.6
+ACT,Males,All ages,Monounsaturated fat,g,30.6
+ACT,Males,2-18,Polyunsaturated fat,g,10.7
+ACT,Males,19+,Polyunsaturated fat,g,12.2
+ACT,Males,All ages,Polyunsaturated fat,g,11.9
+ACT,Males,2-18,Linoleic acid,g,8.8
+ACT,Males,19+,Linoleic acid,g,10.0
+ACT,Males,All ages,Linoleic acid,g,9.8
+ACT,Males,2-18,Alpha-Linolenic acid,g,1.3
+ACT,Males,19+,Alpha-Linolenic acid,g,1.5
+ACT,Males,All ages,Alpha-Linolenic acid,g,1.5
+ACT,Males,2-18,Total long chain omega 3 fatty acids,mg,242.8
+ACT,Males,19+,Total long chain omega 3 fatty acids,mg,325.7
+ACT,Males,All ages,Total long chain omega 3 fatty acids,mg,307.9
+ACT,Males,2-18,Trans fatty acids,mg,1596.9
+ACT,Males,19+,Trans fatty acids,mg,1518.8
+ACT,Males,All ages,Trans fatty acids,mg,1535.6
+ACT,Males,2-18,Carbohydrate,g,262.5
+ACT,Males,19+,Carbohydrate,g,251.7
+ACT,Males,All ages,Carbohydrate,g,254.0
+ACT,Males,2-18,Total sugars,g,122.8
+ACT,Males,19+,Total sugars,g,107.8
+ACT,Males,All ages,Total sugars,g,111.0
+ACT,Males,2-18,Starch,g,137.0
+ACT,Males,19+,Starch,g,138.8
+ACT,Males,All ages,Starch,g,138.4
+ACT,Males,2-18,Dietary Fibre,g,21.9
+ACT,Males,19+,Dietary Fibre,g,25.0
+ACT,Males,All ages,Dietary Fibre,g,24.3
+ACT,Males,19+,Alcohol,g,17.5
+ACT,Males,All ages,Alcohol,g,13.8
+ACT,Males,2-18,Preformed Vitamin A,µg,379.5
+ACT,Males,19+,Preformed Vitamin A,µg,316.3
+ACT,Males,All ages,Preformed Vitamin A,µg,329.9
+ACT,Males,2-18,Pro Vitamin A,µg,2121.8
+ACT,Males,19+,Pro Vitamin A,µg,2939.8
+ACT,Males,All ages,Pro Vitamin A,µg,2764.4
+ACT,Males,2-18,Vitamin A retinol equivalent,µg,730.4
+ACT,Males,19+,Vitamin A retinol equivalent,µg,805.3
+ACT,Males,All ages,Vitamin A retinol equivalent,µg,789.2
+ACT,Males,2-18,Thiamin (B1),mg,1.9
+ACT,Males,19+,Thiamin (B1),mg,1.6
+ACT,Males,All ages,Thiamin (B1),mg,1.7
+ACT,Males,2-18,Riboflavin (B2),mg,2.5
+ACT,Males,19+,Riboflavin (B2),mg,2.0
+ACT,Males,All ages,Riboflavin (B2),mg,2.1
+ACT,Males,2-18,Niacin (B3),mg,22.0
+ACT,Males,19+,Niacin (B3),mg,26.5
+ACT,Males,All ages,Niacin (B3),mg,25.6
+ACT,Males,2-18,Niacin equivalent,mg,39.8
+ACT,Males,19+,Niacin equivalent,mg,45.8
+ACT,Males,All ages,Niacin equivalent,mg,44.5
+ACT,Males,2-18,"Folate, natural",µg,294.4
+ACT,Males,19+,"Folate, natural",µg,312.4
+ACT,Males,All ages,"Folate, natural",µg,308.6
+ACT,Males,2-18,Folic acid,µg,286.9
+ACT,Males,19+,Folic acid,µg,201.3
+ACT,Males,All ages,Folic acid,µg,219.7
+ACT,Males,2-18,Total Folates,µg,581.6
+ACT,Males,19+,Total Folates,µg,514.2
+ACT,Males,All ages,Total Folates,µg,528.6
+ACT,Males,2-18,Folate equivalent,µg,773.9
+ACT,Males,19+,Folate equivalent,µg,649.1
+ACT,Males,All ages,Folate equivalent,µg,675.8
+ACT,Males,2-18,Vitamin B6,mg,1.4
+ACT,Males,19+,Vitamin B6,mg,1.6
+ACT,Males,All ages,Vitamin B6,mg,1.6
+ACT,Males,2-18,Vitamin B12,µg,5.2
+ACT,Males,19+,Vitamin B12,µg,5.2
+ACT,Males,All ages,Vitamin B12,µg,5.2
+ACT,Males,2-18,Vitamin C,mg,86.7
+ACT,Males,19+,Vitamin C,mg,108.5
+ACT,Males,All ages,Vitamin C,mg,103.8
+ACT,Males,2-18,Vitamin E,mg,10.0
+ACT,Males,19+,Vitamin E,mg,11.1
+ACT,Males,All ages,Vitamin E,mg,10.9
+ACT,Males,2-18,Calcium,mg,1094.2
+ACT,Males,19+,Calcium,mg,872.5
+ACT,Males,All ages,Calcium,mg,920.1
+ACT,Males,2-18,Iodine,µg,232.0
+ACT,Males,19+,Iodine,µg,197.8
+ACT,Males,All ages,Iodine,µg,205.1
+ACT,Males,2-18,Iron,mg,11.3
+ACT,Males,19+,Iron,mg,12.1
+ACT,Males,All ages,Iron,mg,11.9
+ACT,Males,2-18,Magnesium,mg,310.3
+ACT,Males,19+,Magnesium,mg,375.4
+ACT,Males,All ages,Magnesium,mg,361.4
+ACT,Males,2-18,Phosphorus,mg,1577.1
+ACT,Males,19+,Phosphorus,mg,1610.6
+ACT,Males,All ages,Phosphorus,mg,1603.4
+ACT,Males,2-18,Potassium,mg,2781.4
+ACT,Males,19+,Potassium,mg,3155.1
+ACT,Males,All ages,Potassium,mg,3075.0
+ACT,Males,2-18,Selenium,µg,78.0
+ACT,Males,19+,Selenium,µg,99.9
+ACT,Males,All ages,Selenium,µg,95.2
+ACT,Males,2-18,Sodium,mg,2733.4
+ACT,Males,19+,Sodium,mg,2713.2
+ACT,Males,All ages,Sodium,mg,2717.5
+ACT,Males,2-18,Zinc,mg,11.3
+ACT,Males,19+,Zinc,mg,12.7
+ACT,Males,All ages,Zinc,mg,12.4
+ACT,Males,2-18,Caffeine,mg,14.4
+ACT,Males,19+,Caffeine,mg,186.0
+ACT,Males,All ages,Caffeine,mg,149.2
+ACT,Males,2-18,Cholesterol,mg,286.7
+ACT,Males,19+,Cholesterol,mg,328.4
+ACT,Males,All ages,Cholesterol,mg,319.4
+ACT,Females,2-18,Energy,kJ,7031.2
+ACT,Females,19+,Energy,kJ,7626.4
+ACT,Females,All ages,Energy,kJ,7507.1
+ACT,Females,2-18,Moisture,g,1644.5
+ACT,Females,19+,Moisture,g,2704.5
+ACT,Females,All ages,Moisture,g,2492.0
+ACT,Females,2-18,Protein,g,64.2
+ACT,Females,19+,Protein,g,78.3
+ACT,Females,All ages,Protein,g,75.5
+ACT,Females,2-18,Total Fat,g,62.9
+ACT,Females,19+,Total Fat,g,64.6
+ACT,Females,All ages,Total Fat,g,64.2
+ACT,Females,2-18,Saturated fat,g,26.4
+ACT,Females,19+,Saturated fat,g,24.2
+ACT,Females,All ages,Saturated fat,g,24.6
+ACT,Females,2-18,Monounsaturated fat,g,23.2
+ACT,Females,19+,Monounsaturated fat,g,24.5
+ACT,Females,All ages,Monounsaturated fat,g,24.3
+ACT,Females,2-18,Polyunsaturated fat,g,8.2
+ACT,Females,19+,Polyunsaturated fat,g,10.1
+ACT,Females,All ages,Polyunsaturated fat,g,9.7
+ACT,Females,2-18,Linoleic acid,g,7.0
+ACT,Females,19+,Linoleic acid,g,8.4
+ACT,Females,All ages,Linoleic acid,g,8.1
+ACT,Females,2-18,Alpha-Linolenic acid,g,0.9
+ACT,Females,19+,Alpha-Linolenic acid,g,1.2
+ACT,Females,All ages,Alpha-Linolenic acid,g,1.2
+ACT,Females,2-18,Total long chain omega 3 fatty acids,mg,94.4
+ACT,Females,19+,Total long chain omega 3 fatty acids,mg,282.0
+ACT,Females,All ages,Total long chain omega 3 fatty acids,mg,244.4
+ACT,Females,2-18,Trans fatty acids,mg,1148.4
+ACT,Females,19+,Trans fatty acids,mg,1164.4
+ACT,Females,All ages,Trans fatty acids,mg,1161.2
+ACT,Females,2-18,Carbohydrate,g,206.5
+ACT,Females,19+,Carbohydrate,g,202.3
+ACT,Females,All ages,Carbohydrate,g,203.1
+ACT,Females,2-18,Total sugars,g,100.2
+ACT,Females,19+,Total sugars,g,97.1
+ACT,Females,All ages,Total sugars,g,97.7
+ACT,Females,2-18,Starch,g,104.2
+ACT,Females,19+,Starch,g,103.1
+ACT,Females,All ages,Starch,g,103.3
+ACT,Females,2-18,Dietary Fibre,g,19.1
+ACT,Females,19+,Dietary Fibre,g,22.6
+ACT,Females,All ages,Dietary Fibre,g,21.9
+ACT,Females,19+,Alcohol,g,11.2
+ACT,Females,All ages,Alcohol,g,9.0
+ACT,Females,2-18,Preformed Vitamin A,µg,296.8
+ACT,Females,19+,Preformed Vitamin A,µg,253.0
+ACT,Females,All ages,Preformed Vitamin A,µg,261.8
+ACT,Females,2-18,Pro Vitamin A,µg,2396.2
+ACT,Females,19+,Pro Vitamin A,µg,3316.6
+ACT,Females,All ages,Pro Vitamin A,µg,3132.1
+ACT,Females,2-18,Vitamin A retinol equivalent,µg,695.0
+ACT,Females,19+,Vitamin A retinol equivalent,µg,805.3
+ACT,Females,All ages,Vitamin A retinol equivalent,µg,783.2
+ACT,Females,2-18,Thiamin (B1),mg,1.4
+ACT,Females,19+,Thiamin (B1),mg,1.4
+ACT,Females,All ages,Thiamin (B1),mg,1.4
+ACT,Females,2-18,Riboflavin (B2),mg,1.6
+ACT,Females,19+,Riboflavin (B2),mg,1.7
+ACT,Females,All ages,Riboflavin (B2),mg,1.7
+ACT,Females,2-18,Niacin (B3),mg,16.0
+ACT,Females,19+,Niacin (B3),mg,20.1
+ACT,Females,All ages,Niacin (B3),mg,19.2
+ACT,Females,2-18,Niacin equivalent,mg,28.1
+ACT,Females,19+,Niacin equivalent,mg,35.1
+ACT,Females,All ages,Niacin equivalent,mg,33.7
+ACT,Females,2-18,"Folate, natural",µg,229.4
+ACT,Females,19+,"Folate, natural",µg,289.9
+ACT,Females,All ages,"Folate, natural",µg,277.8
+ACT,Females,2-18,Folic acid,µg,184.8
+ACT,Females,19+,Folic acid,µg,156.3
+ACT,Females,All ages,Folic acid,µg,162.0
+ACT,Females,2-18,Total Folates,µg,414.5
+ACT,Females,19+,Total Folates,µg,446.6
+ACT,Females,All ages,Total Folates,µg,440.1
+ACT,Females,2-18,Folate equivalent,µg,538.4
+ACT,Females,19+,Folate equivalent,µg,551.3
+ACT,Females,All ages,Folate equivalent,µg,548.7
+ACT,Females,2-18,Vitamin B6,mg,1.0
+ACT,Females,19+,Vitamin B6,mg,1.3
+ACT,Females,All ages,Vitamin B6,mg,1.2
+ACT,Females,2-18,Vitamin B12,µg,3.4
+ACT,Females,19+,Vitamin B12,µg,3.8
+ACT,Females,All ages,Vitamin B12,µg,3.7
+ACT,Females,2-18,Vitamin C,mg,96.7
+ACT,Females,19+,Vitamin C,mg,110.5
+ACT,Females,All ages,Vitamin C,mg,107.7
+ACT,Females,2-18,Vitamin E,mg,7.9
+ACT,Females,19+,Vitamin E,mg,10.5
+ACT,Females,All ages,Vitamin E,mg,10.0
+ACT,Females,2-18,Calcium,mg,721.8
+ACT,Females,19+,Calcium,mg,781.2
+ACT,Females,All ages,Calcium,mg,769.3
+ACT,Females,2-18,Iodine,µg,149.1
+ACT,Females,19+,Iodine,µg,155.3
+ACT,Females,All ages,Iodine,µg,154.0
+ACT,Females,2-18,Iron,mg,8.9
+ACT,Females,19+,Iron,mg,9.8
+ACT,Females,All ages,Iron,mg,9.6
+ACT,Females,2-18,Magnesium,mg,224.2
+ACT,Females,19+,Magnesium,mg,317.3
+ACT,Females,All ages,Magnesium,mg,298.6
+ACT,Females,2-18,Phosphorus,mg,1096.7
+ACT,Females,19+,Phosphorus,mg,1311.7
+ACT,Females,All ages,Phosphorus,mg,1268.6
+ACT,Females,2-18,Potassium,mg,2197.2
+ACT,Females,19+,Potassium,mg,2733.1
+ACT,Females,All ages,Potassium,mg,2625.7
+ACT,Females,2-18,Selenium,µg,58.0
+ACT,Females,19+,Selenium,µg,77.7
+ACT,Females,All ages,Selenium,µg,73.7
+ACT,Females,2-18,Sodium,mg,1939.1
+ACT,Females,19+,Sodium,mg,2229.4
+ACT,Females,All ages,Sodium,mg,2171.2
+ACT,Females,2-18,Zinc,mg,8.1
+ACT,Females,19+,Zinc,mg,9.2
+ACT,Females,All ages,Zinc,mg,9.0
+ACT,Females,2-18,Caffeine,mg,17.9
+ACT,Females,19+,Caffeine,mg,173.5
+ACT,Females,All ages,Caffeine,mg,142.3
+ACT,Females,2-18,Cholesterol,mg,219.4
+ACT,Females,19+,Cholesterol,mg,247.2
+ACT,Females,All ages,Cholesterol,mg,241.6
+ACT,Persons,2-18,Energy,kJ,8126.9
+ACT,Persons,19+,Energy,kJ,8594.6
+ACT,Persons,All ages,Energy,kJ,8497.6
+ACT,Persons,2-18,Moisture,g,1891.5
+ACT,Persons,19+,Moisture,g,2820.2
+ACT,Persons,All ages,Moisture,g,2627.6
+ACT,Persons,2-18,Protein,g,78.6
+ACT,Persons,19+,Protein,g,89.5
+ACT,Persons,All ages,Protein,g,87.2
+ACT,Persons,2-18,Total Fat,g,72.5
+ACT,Persons,19+,Total Fat,g,71.9
+ACT,Persons,All ages,Total Fat,g,72.0
+ACT,Persons,2-18,Saturated fat,g,30.2
+ACT,Persons,19+,Saturated fat,g,27.0
+ACT,Persons,All ages,Saturated fat,g,27.7
+ACT,Persons,2-18,Monounsaturated fat,g,27.1
+ACT,Persons,19+,Monounsaturated fat,g,27.5
+ACT,Persons,All ages,Monounsaturated fat,g,27.4
+ACT,Persons,2-18,Polyunsaturated fat,g,9.5
+ACT,Persons,19+,Polyunsaturated fat,g,11.1
+ACT,Persons,All ages,Polyunsaturated fat,g,10.8
+ACT,Persons,2-18,Linoleic acid,g,7.9
+ACT,Persons,19+,Linoleic acid,g,9.2
+ACT,Persons,All ages,Linoleic acid,g,8.9
+ACT,Persons,2-18,Alpha-Linolenic acid,g,1.1
+ACT,Persons,19+,Alpha-Linolenic acid,g,1.4
+ACT,Persons,All ages,Alpha-Linolenic acid,g,1.3
+ACT,Persons,2-18,Total long chain omega 3 fatty acids,mg,170.7
+ACT,Persons,19+,Total long chain omega 3 fatty acids,mg,303.5
+ACT,Persons,All ages,Total long chain omega 3 fatty acids,mg,275.9
+ACT,Persons,2-18,Trans fatty acids,mg,1378.7
+ACT,Persons,19+,Trans fatty acids,mg,1338.9
+ACT,Persons,All ages,Trans fatty acids,mg,1347.1
+ACT,Persons,2-18,Carbohydrate,g,235.3
+ACT,Persons,19+,Carbohydrate,g,226.6
+ACT,Persons,All ages,Carbohydrate,g,228.4
+ACT,Persons,2-18,Total sugars,g,111.8
+ACT,Persons,19+,Total sugars,g,102.3
+ACT,Persons,All ages,Total sugars,g,104.3
+ACT,Persons,2-18,Starch,g,121.0
+ACT,Persons,19+,Starch,g,120.7
+ACT,Persons,All ages,Starch,g,120.7
+ACT,Persons,2-18,Dietary Fibre,g,20.5
+ACT,Persons,19+,Dietary Fibre,g,23.8
+ACT,Persons,All ages,Dietary Fibre,g,23.1
+ACT,Persons,19+,Alcohol,g,14.3
+ACT,Persons,All ages,Alcohol,g,11.4
+ACT,Persons,2-18,Preformed Vitamin A,µg,339.3
+ACT,Persons,19+,Preformed Vitamin A,µg,284.2
+ACT,Persons,All ages,Preformed Vitamin A,µg,295.6
+ACT,Persons,2-18,Pro Vitamin A,µg,2255.3
+ACT,Persons,19+,Pro Vitamin A,µg,3131.1
+ACT,Persons,All ages,Pro Vitamin A,µg,2949.5
+ACT,Persons,2-18,Vitamin A retinol equivalent,µg,713.2
+ACT,Persons,19+,Vitamin A retinol equivalent,µg,805.3
+ACT,Persons,All ages,Vitamin A retinol equivalent,µg,786.2
+ACT,Persons,2-18,Thiamin (B1),mg,1.6
+ACT,Persons,19+,Thiamin (B1),mg,1.5
+ACT,Persons,All ages,Thiamin (B1),mg,1.5
+ACT,Persons,2-18,Riboflavin (B2),mg,2.1
+ACT,Persons,19+,Riboflavin (B2),mg,1.9
+ACT,Persons,All ages,Riboflavin (B2),mg,1.9
+ACT,Persons,2-18,Niacin (B3),mg,19.1
+ACT,Persons,19+,Niacin (B3),mg,23.2
+ACT,Persons,All ages,Niacin (B3),mg,22.4
+ACT,Persons,2-18,Niacin equivalent,mg,34.1
+ACT,Persons,19+,Niacin equivalent,mg,40.4
+ACT,Persons,All ages,Niacin equivalent,mg,39.1
+ACT,Persons,2-18,"Folate, natural",µg,262.7
+ACT,Persons,19+,"Folate, natural",µg,301.0
+ACT,Persons,All ages,"Folate, natural",µg,293.1
+ACT,Persons,2-18,Folic acid,µg,237.2
+ACT,Persons,19+,Folic acid,µg,178.5
+ACT,Persons,All ages,Folic acid,µg,190.7
+ACT,Persons,2-18,Total Folates,µg,500.3
+ACT,Persons,19+,Total Folates,µg,479.8
+ACT,Persons,All ages,Total Folates,µg,484.1
+ACT,Persons,2-18,Folate equivalent,µg,659.3
+ACT,Persons,19+,Folate equivalent,µg,599.4
+ACT,Persons,All ages,Folate equivalent,µg,611.9
+ACT,Persons,2-18,Vitamin B6,mg,1.2
+ACT,Persons,19+,Vitamin B6,mg,1.5
+ACT,Persons,All ages,Vitamin B6,mg,1.4
+ACT,Persons,2-18,Vitamin B12,µg,4.3
+ACT,Persons,19+,Vitamin B12,µg,4.5
+ACT,Persons,All ages,Vitamin B12,µg,4.5
+ACT,Persons,2-18,Vitamin C,mg,91.6
+ACT,Persons,19+,Vitamin C,mg,109.5
+ACT,Persons,All ages,Vitamin C,mg,105.8
+ACT,Persons,2-18,Vitamin E,mg,9.0
+ACT,Persons,19+,Vitamin E,mg,10.8
+ACT,Persons,All ages,Vitamin E,mg,10.4
+ACT,Persons,2-18,Calcium,mg,913.0
+ACT,Persons,19+,Calcium,mg,826.2
+ACT,Persons,All ages,Calcium,mg,844.2
+ACT,Persons,2-18,Iodine,µg,191.7
+ACT,Persons,19+,Iodine,µg,176.2
+ACT,Persons,All ages,Iodine,µg,179.4
+ACT,Persons,2-18,Iron,mg,10.1
+ACT,Persons,19+,Iron,mg,10.9
+ACT,Persons,All ages,Iron,mg,10.7
+ACT,Persons,2-18,Magnesium,mg,268.4
+ACT,Persons,19+,Magnesium,mg,345.9
+ACT,Persons,All ages,Magnesium,mg,329.8
+ACT,Persons,2-18,Phosphorus,mg,1343.4
+ACT,Persons,19+,Phosphorus,mg,1458.8
+ACT,Persons,All ages,Phosphorus,mg,1434.9
+ACT,Persons,2-18,Potassium,mg,2497.2
+ACT,Persons,19+,Potassium,mg,2940.9
+ACT,Persons,All ages,Potassium,mg,2848.9
+ACT,Persons,2-18,Selenium,µg,68.3
+ACT,Persons,19+,Selenium,µg,88.6
+ACT,Persons,All ages,Selenium,µg,84.4
+ACT,Persons,2-18,Sodium,mg,2347.0
+ACT,Persons,19+,Sodium,mg,2467.6
+ACT,Persons,All ages,Sodium,mg,2442.6
+ACT,Persons,2-18,Zinc,mg,9.7
+ACT,Persons,19+,Zinc,mg,10.9
+ACT,Persons,All ages,Zinc,mg,10.7
+ACT,Persons,2-18,Caffeine,mg,16.1
+ACT,Persons,19+,Caffeine,mg,179.7
+ACT,Persons,All ages,Caffeine,mg,145.7
+ACT,Persons,2-18,Cholesterol,mg,254.0
+ACT,Persons,19+,Cholesterol,mg,287.2
+ACT,Persons,All ages,Cholesterol,mg,280.3
+NSW,Males,2-18,Energy,kJ,8421.7
+NSW,Males,19+,Energy,kJ,9981.9
+NSW,Males,All ages,Energy,kJ,9635.3
+NSW,Males,2-18,Moisture,g,1936.6
+NSW,Males,19+,Moisture,g,3073.6
+NSW,Males,All ages,Moisture,g,2821.0
+NSW,Males,2-18,Protein,g,81.2
+NSW,Males,19+,Protein,g,106.0
+NSW,Males,All ages,Protein,g,100.5
+NSW,Males,2-18,Total Fat,g,72.7
+NSW,Males,19+,Total Fat,g,83.5
+NSW,Males,All ages,Total Fat,g,81.1
+NSW,Males,2-18,Saturated fat,g,30.8
+NSW,Males,19+,Saturated fat,g,31.0
+NSW,Males,All ages,Saturated fat,g,31.0
+NSW,Males,2-18,Monounsaturated fat,g,26.7
+NSW,Males,19+,Monounsaturated fat,g,32.4
+NSW,Males,All ages,Monounsaturated fat,g,31.2
+NSW,Males,2-18,Polyunsaturated fat,g,9.3
+NSW,Males,19+,Polyunsaturated fat,g,12.9
+NSW,Males,All ages,Polyunsaturated fat,g,12.1
+NSW,Males,2-18,Linoleic acid,g,7.8
+NSW,Males,19+,Linoleic acid,g,10.7
+NSW,Males,All ages,Linoleic acid,g,10.0
+NSW,Males,2-18,Alpha-Linolenic acid,g,1.1
+NSW,Males,19+,Alpha-Linolenic acid,g,1.6
+NSW,Males,All ages,Alpha-Linolenic acid,g,1.5
+NSW,Males,2-18,Total long chain omega 3 fatty acids,mg,159.4
+NSW,Males,19+,Total long chain omega 3 fatty acids,mg,337.3
+NSW,Males,All ages,Total long chain omega 3 fatty acids,mg,297.8
+NSW,Males,2-18,Trans fatty acids,mg,1515.1
+NSW,Males,19+,Trans fatty acids,mg,1545.0
+NSW,Males,All ages,Trans fatty acids,mg,1538.4
+NSW,Males,2-18,Carbohydrate,g,250.2
+NSW,Males,19+,Carbohydrate,g,259.6
+NSW,Males,All ages,Carbohydrate,g,257.5
+NSW,Males,2-18,Total sugars,g,117.0
+NSW,Males,19+,Total sugars,g,113.4
+NSW,Males,All ages,Total sugars,g,114.2
+NSW,Males,2-18,Starch,g,131.0
+NSW,Males,19+,Starch,g,138.6
+NSW,Males,All ages,Starch,g,136.9
+NSW,Males,2-18,Dietary Fibre,g,20.6
+NSW,Males,19+,Dietary Fibre,g,25.2
+NSW,Males,All ages,Dietary Fibre,g,24.2
+NSW,Males,19+,Alcohol,g,18.4
+NSW,Males,All ages,Alcohol,g,14.3
+NSW,Males,2-18,Preformed Vitamin A,µg,312.6
+NSW,Males,19+,Preformed Vitamin A,µg,401.6
+NSW,Males,All ages,Preformed Vitamin A,µg,381.9
+NSW,Males,2-18,Pro Vitamin A,µg,2592.7
+NSW,Males,19+,Pro Vitamin A,µg,3276.5
+NSW,Males,All ages,Pro Vitamin A,µg,3124.6
+NSW,Males,2-18,Vitamin A retinol equivalent,µg,742.8
+NSW,Males,19+,Vitamin A retinol equivalent,µg,946.5
+NSW,Males,All ages,Vitamin A retinol equivalent,µg,901.2
+NSW,Males,2-18,Thiamin (B1),mg,1.7
+NSW,Males,19+,Thiamin (B1),mg,1.8
+NSW,Males,All ages,Thiamin (B1),mg,1.8
+NSW,Males,2-18,Riboflavin (B2),mg,1.9
+NSW,Males,19+,Riboflavin (B2),mg,2.1
+NSW,Males,All ages,Riboflavin (B2),mg,2.1
+NSW,Males,2-18,Niacin (B3),mg,20.2
+NSW,Males,19+,Niacin (B3),mg,27.9
+NSW,Males,All ages,Niacin (B3),mg,26.2
+NSW,Males,2-18,Niacin equivalent,mg,36.0
+NSW,Males,19+,Niacin equivalent,mg,48.2
+NSW,Males,All ages,Niacin equivalent,mg,45.5
+NSW,Males,2-18,"Folate, natural",µg,261.5
+NSW,Males,19+,"Folate, natural",µg,309.9
+NSW,Males,All ages,"Folate, natural",µg,299.2
+NSW,Males,2-18,Folic acid,µg,225.9
+NSW,Males,19+,Folic acid,µg,216.2
+NSW,Males,All ages,Folic acid,µg,218.3
+NSW,Males,2-18,Total Folates,µg,487.8
+NSW,Males,19+,Total Folates,µg,526.5
+NSW,Males,All ages,Total Folates,µg,517.9
+NSW,Males,2-18,Folate equivalent,µg,639.1
+NSW,Males,19+,Folate equivalent,µg,671.3
+NSW,Males,All ages,Folate equivalent,µg,664.1
+NSW,Males,2-18,Vitamin B6,mg,1.2
+NSW,Males,19+,Vitamin B6,mg,1.7
+NSW,Males,All ages,Vitamin B6,mg,1.6
+NSW,Males,2-18,Vitamin B12,µg,4.2
+NSW,Males,19+,Vitamin B12,µg,5.4
+NSW,Males,All ages,Vitamin B12,µg,5.2
+NSW,Males,2-18,Vitamin C,mg,97.8
+NSW,Males,19+,Vitamin C,mg,111.1
+NSW,Males,All ages,Vitamin C,mg,108.2
+NSW,Males,2-18,Vitamin E,mg,8.9
+NSW,Males,19+,Vitamin E,mg,11.6
+NSW,Males,All ages,Vitamin E,mg,11.0
+NSW,Males,2-18,Calcium,mg,816.2
+NSW,Males,19+,Calcium,mg,852.1
+NSW,Males,All ages,Calcium,mg,844.1
+NSW,Males,2-18,Iodine,µg,169.9
+NSW,Males,19+,Iodine,µg,194.1
+NSW,Males,All ages,Iodine,µg,188.7
+NSW,Males,2-18,Iron,mg,10.3
+NSW,Males,19+,Iron,mg,12.9
+NSW,Males,All ages,Iron,mg,12.3
+NSW,Males,2-18,Magnesium,mg,263.3
+NSW,Males,19+,Magnesium,mg,381.8
+NSW,Males,All ages,Magnesium,mg,355.5
+NSW,Males,2-18,Phosphorus,mg,1319.6
+NSW,Males,19+,Phosphorus,mg,1658.6
+NSW,Males,All ages,Phosphorus,mg,1583.3
+NSW,Males,2-18,Potassium,mg,2528.8
+NSW,Males,19+,Potassium,mg,3235.1
+NSW,Males,All ages,Potassium,mg,3078.2
+NSW,Males,2-18,Selenium,µg,73.8
+NSW,Males,19+,Selenium,µg,104.8
+NSW,Males,All ages,Selenium,µg,97.9
+NSW,Males,2-18,Sodium,mg,2337.4
+NSW,Males,19+,Sodium,mg,2740.4
+NSW,Males,All ages,Sodium,mg,2650.9
+NSW,Males,2-18,Zinc,mg,10.2
+NSW,Males,19+,Zinc,mg,12.8
+NSW,Males,All ages,Zinc,mg,12.2
+NSW,Males,2-18,Caffeine,mg,20.1
+NSW,Males,19+,Caffeine,mg,156.7
+NSW,Males,All ages,Caffeine,mg,126.3
+NSW,Males,2-18,Cholesterol,mg,248.9
+NSW,Males,19+,Cholesterol,mg,358.4
+NSW,Males,All ages,Cholesterol,mg,334.1
+NSW,Females,2-18,Energy,kJ,7293.1
+NSW,Females,19+,Energy,kJ,7474.6
+NSW,Females,All ages,Energy,kJ,7435.8
+NSW,Females,2-18,Moisture,g,1848.3
+NSW,Females,19+,Moisture,g,2586.3
+NSW,Females,All ages,Moisture,g,2428.7
+NSW,Females,2-18,Protein,g,68.1
+NSW,Females,19+,Protein,g,78.7
+NSW,Females,All ages,Protein,g,76.4
+NSW,Females,2-18,Total Fat,g,63.5
+NSW,Females,19+,Total Fat,g,64.7
+NSW,Females,All ages,Total Fat,g,64.4
+NSW,Females,2-18,Saturated fat,g,26.3
+NSW,Females,19+,Saturated fat,g,23.8
+NSW,Females,All ages,Saturated fat,g,24.3
+NSW,Females,2-18,Monounsaturated fat,g,23.8
+NSW,Females,19+,Monounsaturated fat,g,24.7
+NSW,Females,All ages,Monounsaturated fat,g,24.5
+NSW,Females,2-18,Polyunsaturated fat,g,8.4
+NSW,Females,19+,Polyunsaturated fat,g,10.5
+NSW,Females,All ages,Polyunsaturated fat,g,10.1
+NSW,Females,2-18,Linoleic acid,g,7.0
+NSW,Females,19+,Linoleic acid,g,8.7
+NSW,Females,All ages,Linoleic acid,g,8.3
+NSW,Females,2-18,Alpha-Linolenic acid,g,1.1
+NSW,Females,19+,Alpha-Linolenic acid,g,1.3
+NSW,Females,All ages,Alpha-Linolenic acid,g,1.3
+NSW,Females,2-18,Total long chain omega 3 fatty acids,mg,108.1
+NSW,Females,19+,Total long chain omega 3 fatty acids,mg,289.3
+NSW,Females,All ages,Total long chain omega 3 fatty acids,mg,250.6
+NSW,Females,2-18,Trans fatty acids,mg,1146.0
+NSW,Females,19+,Trans fatty acids,mg,1161.9
+NSW,Females,All ages,Trans fatty acids,mg,1158.5
+NSW,Females,2-18,Carbohydrate,g,217.3
+NSW,Females,19+,Carbohydrate,g,195.2
+NSW,Females,All ages,Carbohydrate,g,200.0
+NSW,Females,2-18,Total sugars,g,104.5
+NSW,Females,19+,Total sugars,g,89.8
+NSW,Females,All ages,Total sugars,g,92.9
+NSW,Females,2-18,Starch,g,110.9
+NSW,Females,19+,Starch,g,103.0
+NSW,Females,All ages,Starch,g,104.7
+NSW,Females,2-18,Dietary Fibre,g,18.1
+NSW,Females,19+,Dietary Fibre,g,21.2
+NSW,Females,All ages,Dietary Fibre,g,20.6
+NSW,Females,19+,Alcohol,g,10.1
+NSW,Females,All ages,Alcohol,g,8.0
+NSW,Females,2-18,Preformed Vitamin A,µg,267.0
+NSW,Females,All ages,Preformed Vitamin A,µg,314.0
+NSW,Females,2-18,Pro Vitamin A,µg,2221.3
+NSW,Females,19+,Pro Vitamin A,µg,3469.8
+NSW,Females,All ages,Pro Vitamin A,µg,3203.2
+NSW,Females,2-18,Vitamin A retinol equivalent,µg,636.0
+NSW,Females,19+,Vitamin A retinol equivalent,µg,904.4
+NSW,Females,All ages,Vitamin A retinol equivalent,µg,847.1
+NSW,Females,2-18,Thiamin (B1),mg,1.5
+NSW,Females,19+,Thiamin (B1),mg,1.3
+NSW,Females,All ages,Thiamin (B1),mg,1.3
+NSW,Females,2-18,Riboflavin (B2),mg,1.7
+NSW,Females,19+,Riboflavin (B2),mg,1.7
+NSW,Females,All ages,Riboflavin (B2),mg,1.7
+NSW,Females,2-18,Niacin (B3),mg,16.9
+NSW,Females,19+,Niacin (B3),mg,20.1
+NSW,Females,All ages,Niacin (B3),mg,19.4
+NSW,Females,2-18,Niacin equivalent,mg,30.1
+NSW,Females,19+,Niacin equivalent,mg,35.3
+NSW,Females,All ages,Niacin equivalent,mg,34.2
+NSW,Females,2-18,"Folate, natural",µg,226.3
+NSW,Females,19+,"Folate, natural",µg,273.6
+NSW,Females,All ages,"Folate, natural",µg,263.5
+NSW,Females,2-18,Folic acid,µg,202.2
+NSW,Females,19+,Folic acid,µg,157.0
+NSW,Females,All ages,Folic acid,µg,166.6
+NSW,Females,2-18,Total Folates,µg,428.8
+NSW,Females,19+,Total Folates,µg,430.9
+NSW,Females,All ages,Total Folates,µg,430.5
+NSW,Females,2-18,Folate equivalent,µg,564.2
+NSW,Females,19+,Folate equivalent,µg,536.1
+NSW,Females,All ages,Folate equivalent,µg,542.1
+NSW,Females,2-18,Vitamin B6,mg,1.0
+NSW,Females,19+,Vitamin B6,mg,1.3
+NSW,Females,All ages,Vitamin B6,mg,1.2
+NSW,Females,2-18,Vitamin B12,µg,3.4
+NSW,Females,19+,Vitamin B12,µg,4.0
+NSW,Females,All ages,Vitamin B12,µg,3.9
+NSW,Females,2-18,Vitamin C,mg,90.7
+NSW,Females,19+,Vitamin C,mg,95.9
+NSW,Females,All ages,Vitamin C,mg,94.8
+NSW,Females,2-18,Vitamin E,mg,8.0
+NSW,Females,19+,Vitamin E,mg,10.1
+NSW,Females,All ages,Vitamin E,mg,9.6
+NSW,Females,2-18,Calcium,mg,747.6
+NSW,Females,19+,Calcium,mg,751.8
+NSW,Females,All ages,Calcium,mg,750.9
+NSW,Females,2-18,Iodine,µg,155.2
+NSW,Females,19+,Iodine,µg,152.2
+NSW,Females,All ages,Iodine,µg,152.8
+NSW,Females,2-18,Iron,mg,8.4
+NSW,Females,19+,Iron,mg,9.8
+NSW,Females,All ages,Iron,mg,9.5
+NSW,Females,2-18,Magnesium,mg,236.4
+NSW,Females,19+,Magnesium,mg,311.0
+NSW,Females,All ages,Magnesium,mg,295.1
+NSW,Females,2-18,Phosphorus,mg,1145.2
+NSW,Females,19+,Phosphorus,mg,1300.0
+NSW,Females,All ages,Phosphorus,mg,1266.9
+NSW,Females,2-18,Potassium,mg,2255.7
+NSW,Females,19+,Potassium,mg,2643.8
+NSW,Females,All ages,Potassium,mg,2560.9
+NSW,Females,2-18,Selenium,µg,59.9
+NSW,Females,19+,Selenium,µg,79.9
+NSW,Females,All ages,Selenium,µg,75.6
+NSW,Females,2-18,Sodium,mg,1995.8
+NSW,Females,19+,Sodium,mg,2103.3
+NSW,Females,All ages,Sodium,mg,2080.3
+NSW,Females,2-18,Zinc,mg,8.1
+NSW,Females,19+,Zinc,mg,9.6
+NSW,Females,All ages,Zinc,mg,9.3
+NSW,Females,2-18,Caffeine,mg,18.0
+NSW,Females,19+,Caffeine,mg,155.2
+NSW,Females,All ages,Caffeine,mg,125.9
+NSW,Females,2-18,Cholesterol,mg,220.4
+NSW,Females,19+,Cholesterol,mg,250.2
+NSW,Females,All ages,Cholesterol,mg,243.9
+NSW,Persons,2-18,Energy,kJ,7863.3
+NSW,Persons,19+,Energy,kJ,8709.6
+NSW,Persons,All ages,Energy,kJ,8525.3
+NSW,Persons,2-18,Moisture,g,1892.9
+NSW,Persons,19+,Moisture,g,2826.3
+NSW,Persons,All ages,Moisture,g,2623.0
+NSW,Persons,2-18,Protein,g,74.7
+NSW,Persons,19+,Protein,g,92.1
+NSW,Persons,All ages,Protein,g,88.3
+NSW,Persons,2-18,Total Fat,g,68.2
+NSW,Persons,19+,Total Fat,g,74.0
+NSW,Persons,All ages,Total Fat,g,72.7
+NSW,Persons,2-18,Saturated fat,g,28.6
+NSW,Persons,19+,Saturated fat,g,27.3
+NSW,Persons,All ages,Saturated fat,g,27.6
+NSW,Persons,2-18,Monounsaturated fat,g,25.2
+NSW,Persons,19+,Monounsaturated fat,g,28.5
+NSW,Persons,All ages,Monounsaturated fat,g,27.8
+NSW,Persons,2-18,Polyunsaturated fat,g,8.8
+NSW,Persons,19+,Polyunsaturated fat,g,11.7
+NSW,Persons,All ages,Polyunsaturated fat,g,11.1
+NSW,Persons,2-18,Linoleic acid,g,7.4
+NSW,Persons,19+,Linoleic acid,g,9.7
+NSW,Persons,All ages,Linoleic acid,g,9.2
+NSW,Persons,2-18,Alpha-Linolenic acid,g,1.1
+NSW,Persons,19+,Alpha-Linolenic acid,g,1.5
+NSW,Persons,All ages,Alpha-Linolenic acid,g,1.4
+NSW,Persons,2-18,Total long chain omega 3 fatty acids,mg,134.0
+NSW,Persons,19+,Total long chain omega 3 fatty acids,mg,312.9
+NSW,Persons,All ages,Total long chain omega 3 fatty acids,mg,274.0
+NSW,Persons,2-18,Trans fatty acids,mg,1332.5
+NSW,Persons,19+,Trans fatty acids,mg,1350.6
+NSW,Persons,All ages,Trans fatty acids,mg,1346.7
+NSW,Persons,2-18,Carbohydrate,g,233.9
+NSW,Persons,19+,Carbohydrate,g,226.9
+NSW,Persons,All ages,Carbohydrate,g,228.5
+NSW,Persons,2-18,Total sugars,g,110.8
+NSW,Persons,19+,Total sugars,g,101.4
+NSW,Persons,All ages,Total sugars,g,103.4
+NSW,Persons,2-18,Starch,g,121.1
+NSW,Persons,19+,Starch,g,120.5
+NSW,Persons,All ages,Starch,g,120.6
+NSW,Persons,2-18,Dietary Fibre,g,19.4
+NSW,Persons,19+,Dietary Fibre,g,23.2
+NSW,Persons,All ages,Dietary Fibre,g,22.4
+NSW,Persons,19+,Alcohol,g,14.2
+NSW,Persons,All ages,Alcohol,g,11.1
+NSW,Persons,2-18,Preformed Vitamin A,µg,290.0
+NSW,Persons,19+,Preformed Vitamin A,µg,363.6
+NSW,Persons,All ages,Preformed Vitamin A,µg,347.6
+NSW,Persons,2-18,Pro Vitamin A,µg,2408.9
+NSW,Persons,19+,Pro Vitamin A,µg,3374.6
+NSW,Persons,All ages,Pro Vitamin A,µg,3164.3
+NSW,Persons,2-18,Vitamin A retinol equivalent,µg,690.0
+NSW,Persons,19+,Vitamin A retinol equivalent,µg,925.2
+NSW,Persons,All ages,Vitamin A retinol equivalent,µg,873.9
+NSW,Persons,2-18,Thiamin (B1),mg,1.6
+NSW,Persons,19+,Thiamin (B1),mg,1.5
+NSW,Persons,All ages,Thiamin (B1),mg,1.5
+NSW,Persons,2-18,Riboflavin (B2),mg,1.8
+NSW,Persons,19+,Riboflavin (B2),mg,1.9
+NSW,Persons,All ages,Riboflavin (B2),mg,1.9
+NSW,Persons,2-18,Niacin (B3),mg,18.6
+NSW,Persons,19+,Niacin (B3),mg,24.0
+NSW,Persons,All ages,Niacin (B3),mg,22.8
+NSW,Persons,2-18,Niacin equivalent,mg,33.1
+NSW,Persons,19+,Niacin equivalent,mg,41.6
+NSW,Persons,All ages,Niacin equivalent,mg,39.8
+NSW,Persons,2-18,"Folate, natural",µg,244.1
+NSW,Persons,19+,"Folate, natural",µg,291.5
+NSW,Persons,All ages,"Folate, natural",µg,281.2
+NSW,Persons,2-18,Folic acid,µg,214.2
+NSW,Persons,19+,Folic acid,µg,186.1
+NSW,Persons,All ages,Folic acid,µg,192.2
+NSW,Persons,2-18,Total Folates,µg,458.6
+NSW,Persons,19+,Total Folates,µg,478.0
+NSW,Persons,All ages,Total Folates,µg,473.8
+NSW,Persons,2-18,Folate equivalent,µg,602.0
+NSW,Persons,19+,Folate equivalent,µg,602.7
+NSW,Persons,All ages,Folate equivalent,µg,602.5
+NSW,Persons,2-18,Vitamin B6,mg,1.1
+NSW,Persons,19+,Vitamin B6,mg,1.5
+NSW,Persons,All ages,Vitamin B6,mg,1.4
+NSW,Persons,2-18,Vitamin B12,µg,3.8
+NSW,Persons,19+,Vitamin B12,µg,4.7
+NSW,Persons,All ages,Vitamin B12,µg,4.5
+NSW,Persons,2-18,Vitamin C,mg,94.3
+NSW,Persons,19+,Vitamin C,mg,103.4
+NSW,Persons,All ages,Vitamin C,mg,101.4
+NSW,Persons,2-18,Vitamin E,mg,8.5
+NSW,Persons,19+,Vitamin E,mg,10.8
+NSW,Persons,All ages,Vitamin E,mg,10.3
+NSW,Persons,2-18,Calcium,mg,782.3
+NSW,Persons,19+,Calcium,mg,801.2
+NSW,Persons,All ages,Calcium,mg,797.1
+NSW,Persons,2-18,Iodine,µg,162.6
+NSW,Persons,19+,Iodine,µg,172.8
+NSW,Persons,All ages,Iodine,µg,170.6
+NSW,Persons,2-18,Iron,mg,9.4
+NSW,Persons,19+,Iron,mg,11.3
+NSW,Persons,All ages,Iron,mg,10.9
+NSW,Persons,2-18,Magnesium,mg,250.0
+NSW,Persons,19+,Magnesium,mg,345.9
+NSW,Persons,All ages,Magnesium,mg,325.0
+NSW,Persons,2-18,Phosphorus,mg,1233.3
+NSW,Persons,19+,Phosphorus,mg,1476.6
+NSW,Persons,All ages,Phosphorus,mg,1423.6
+NSW,Persons,2-18,Potassium,mg,2393.7
+NSW,Persons,19+,Potassium,mg,2935.0
+NSW,Persons,All ages,Potassium,mg,2817.1
+NSW,Persons,2-18,Selenium,µg,66.9
+NSW,Persons,19+,Selenium,µg,92.2
+NSW,Persons,All ages,Selenium,µg,86.7
+NSW,Persons,2-18,Sodium,mg,2168.4
+NSW,Persons,19+,Sodium,mg,2417.1
+NSW,Persons,All ages,Sodium,mg,2362.9
+NSW,Persons,2-18,Zinc,mg,9.1
+NSW,Persons,19+,Zinc,mg,11.2
+NSW,Persons,All ages,Zinc,mg,10.7
+NSW,Persons,2-18,Caffeine,mg,19.1
+NSW,Persons,19+,Caffeine,mg,155.9
+NSW,Persons,All ages,Caffeine,mg,126.1
+NSW,Persons,2-18,Cholesterol,mg,234.8
+NSW,Persons,19+,Cholesterol,mg,303.5
+NSW,Persons,All ages,Cholesterol,mg,288.5
+NT,Males,2-18,Energy,kJ,8137.2
+NT,Males,19+,Energy,kJ,10078.3
+NT,Males,All ages,Energy,kJ,9593.8
+NT,Males,2-18,Moisture,g,2592.3
+NT,Males,19+,Moisture,g,3996.1
+NT,Males,All ages,Moisture,g,3645.7
+NT,Males,2-18,Protein,g,81.6
+NT,Males,19+,Protein,g,105.5
+NT,Males,All ages,Protein,g,99.5
+NT,Males,2-18,Total Fat,g,70.2
+NT,Males,19+,Total Fat,g,79.6
+NT,Males,All ages,Total Fat,g,77.3
+NT,Males,2-18,Saturated fat,g,29.7
+NT,Males,19+,Saturated fat,g,29.5
+NT,Males,All ages,Saturated fat,g,29.5
+NT,Males,2-18,Monounsaturated fat,g,25.6
+NT,Males,19+,Monounsaturated fat,g,31.1
+NT,Males,All ages,Monounsaturated fat,g,29.8
+NT,Males,2-18,Polyunsaturated fat,g,8.9
+NT,Males,19+,Polyunsaturated fat,g,12.3
+NT,Males,All ages,Polyunsaturated fat,g,11.4
+NT,Males,2-18,Linoleic acid,g,7.5
+NT,Males,19+,Linoleic acid,g,10.0
+NT,Males,All ages,Linoleic acid,g,9.4
+NT,Males,2-18,Alpha-Linolenic acid,g,1.1
+NT,Males,19+,Alpha-Linolenic acid,g,1.4
+NT,Males,All ages,Alpha-Linolenic acid,g,1.3
+NT,Males,2-18,Total long chain omega 3 fatty acids,mg,174.6
+NT,Males,19+,Total long chain omega 3 fatty acids,mg,536.8
+NT,Males,All ages,Total long chain omega 3 fatty acids,mg,446.4
+NT,Males,2-18,Trans fatty acids,mg,1624.2
+NT,Males,19+,Trans fatty acids,mg,1481.2
+NT,Males,All ages,Trans fatty acids,mg,1516.9
+NT,Males,2-18,Carbohydrate,g,237.8
+NT,Males,19+,Carbohydrate,g,260.8
+NT,Males,All ages,Carbohydrate,g,255.1
+NT,Males,2-18,Total sugars,g,112.5
+NT,Males,19+,Total sugars,g,124.1
+NT,Males,All ages,Total sugars,g,121.2
+NT,Males,2-18,Starch,g,123.9
+NT,Males,19+,Starch,g,125.9
+NT,Males,All ages,Starch,g,125.4
+NT,Males,2-18,Dietary Fibre,g,19.8
+NT,Males,19+,Dietary Fibre,g,23.4
+NT,Males,All ages,Dietary Fibre,g,22.5
+NT,Males,19+,Alcohol,g,27.0
+NT,Males,All ages,Alcohol,g,20.4
+NT,Males,2-18,Preformed Vitamin A,µg,279.4
+NT,Males,19+,Preformed Vitamin A,µg,266.6
+NT,Males,All ages,Preformed Vitamin A,µg,269.8
+NT,Males,2-18,Pro Vitamin A,µg,2352.6
+NT,Males,19+,Pro Vitamin A,µg,3129.7
+NT,Males,All ages,Pro Vitamin A,µg,2935.7
+NT,Males,2-18,Vitamin A retinol equivalent,µg,669.9
+NT,Males,19+,Vitamin A retinol equivalent,µg,787.0
+NT,Males,All ages,Vitamin A retinol equivalent,µg,757.8
+NT,Males,2-18,Thiamin (B1),mg,1.8
+NT,Males,19+,Thiamin (B1),mg,1.7
+NT,Males,All ages,Thiamin (B1),mg,1.7
+NT,Males,2-18,Riboflavin (B2),mg,2.0
+NT,Males,19+,Riboflavin (B2),mg,1.9
+NT,Males,All ages,Riboflavin (B2),mg,1.9
+NT,Males,2-18,Niacin (B3),mg,21.4
+NT,Males,19+,Niacin (B3),mg,29.0
+NT,Males,All ages,Niacin (B3),mg,27.1
+NT,Males,2-18,Niacin equivalent,mg,37.2
+NT,Males,19+,Niacin equivalent,mg,49.1
+NT,Males,All ages,Niacin equivalent,mg,46.2
+NT,Males,2-18,"Folate, natural",µg,235.0
+NT,Males,19+,"Folate, natural",µg,287.6
+NT,Males,All ages,"Folate, natural",µg,274.5
+NT,Males,2-18,Folic acid,µg,270.2
+NT,Males,19+,Folic acid,µg,214.8
+NT,Males,All ages,Folic acid,µg,228.6
+NT,Males,2-18,Total Folates,µg,505.6
+NT,Males,19+,Total Folates,µg,502.7
+NT,Males,All ages,Total Folates,µg,503.4
+NT,Males,2-18,Folate equivalent,µg,686.5
+NT,Males,19+,Folate equivalent,µg,646.6
+NT,Males,All ages,Folate equivalent,µg,656.6
+NT,Males,2-18,Vitamin B6,mg,1.1
+NT,Males,19+,Vitamin B6,mg,1.8
+NT,Males,All ages,Vitamin B6,mg,1.7
+NT,Males,2-18,Vitamin B12,µg,4.5
+NT,Males,19+,Vitamin B12,µg,5.5
+NT,Males,All ages,Vitamin B12,µg,5.3
+NT,Males,2-18,Vitamin C,mg,84.6
+NT,Males,19+,Vitamin C,mg,124.1
+NT,Males,All ages,Vitamin C,mg,114.2
+NT,Males,2-18,Vitamin E,mg,7.7
+NT,Males,19+,Vitamin E,mg,10.5
+NT,Males,All ages,Vitamin E,mg,9.8
+NT,Males,2-18,Calcium,mg,732.4
+NT,Males,19+,Calcium,mg,804.9
+NT,Males,All ages,Calcium,mg,786.8
+NT,Males,2-18,Iodine,µg,177.9
+NT,Males,19+,Iodine,µg,193.4
+NT,Males,All ages,Iodine,µg,189.5
+NT,Males,2-18,Iron,mg,10.8
+NT,Males,19+,Iron,mg,12.1
+NT,Males,All ages,Iron,mg,11.8
+NT,Males,2-18,Magnesium,mg,257.6
+NT,Males,19+,Magnesium,mg,375.0
+NT,Males,All ages,Magnesium,mg,345.7
+NT,Males,2-18,Phosphorus,mg,1257.3
+NT,Males,19+,Phosphorus,mg,1624.4
+NT,Males,All ages,Phosphorus,mg,1532.8
+NT,Males,2-18,Potassium,mg,2355.3
+NT,Males,19+,Potassium,mg,3194.5
+NT,Males,All ages,Potassium,mg,2985.0
+NT,Males,2-18,Selenium,µg,76.1
+NT,Males,19+,Selenium,µg,109.7
+NT,Males,All ages,Selenium,µg,101.3
+NT,Males,2-18,Sodium,mg,2568.5
+NT,Males,19+,Sodium,mg,2751.0
+NT,Males,All ages,Sodium,mg,2705.5
+NT,Males,2-18,Zinc,mg,11.2
+NT,Males,19+,Zinc,mg,12.2
+NT,Males,All ages,Zinc,mg,11.9
+NT,Males,19+,Caffeine,mg,150.4
+NT,Males,All ages,Caffeine,mg,120.1
+NT,Males,2-18,Cholesterol,mg,268.7
+NT,Males,19+,Cholesterol,mg,334.9
+NT,Males,All ages,Cholesterol,mg,318.4
+NT,Females,2-18,Energy,kJ,6815.1
+NT,Females,19+,Energy,kJ,7359.2
+NT,Females,All ages,Energy,kJ,7225.7
+NT,Females,2-18,Moisture,g,2150.0
+NT,Females,19+,Moisture,g,2962.0
+NT,Females,All ages,Moisture,g,2762.7
+NT,Females,2-18,Protein,g,68.1
+NT,Females,19+,Protein,g,80.9
+NT,Females,All ages,Protein,g,77.8
+NT,Females,2-18,Total Fat,g,56.8
+NT,Females,19+,Total Fat,g,61.8
+NT,Females,All ages,Total Fat,g,60.6
+NT,Females,2-18,Saturated fat,g,23.2
+NT,Females,19+,Saturated fat,g,23.6
+NT,Females,All ages,Saturated fat,g,23.5
+NT,Females,2-18,Monounsaturated fat,g,21.5
+NT,Females,19+,Monounsaturated fat,g,23.3
+NT,Females,All ages,Monounsaturated fat,g,22.8
+NT,Females,2-18,Polyunsaturated fat,g,7.3
+NT,Females,19+,Polyunsaturated fat,g,9.5
+NT,Females,All ages,Polyunsaturated fat,g,9.0
+NT,Females,2-18,Linoleic acid,g,6.1
+NT,Females,19+,Linoleic acid,g,7.9
+NT,Females,All ages,Linoleic acid,g,7.4
+NT,Females,2-18,Alpha-Linolenic acid,g,0.9
+NT,Females,19+,Alpha-Linolenic acid,g,1.2
+NT,Females,All ages,Alpha-Linolenic acid,g,1.1
+NT,Females,2-18,Total long chain omega 3 fatty acids,mg,139.3
+NT,Females,19+,Total long chain omega 3 fatty acids,mg,259.9
+NT,Females,All ages,Total long chain omega 3 fatty acids,mg,230.3
+NT,Females,2-18,Trans fatty acids,mg,1163.6
+NT,Females,19+,Trans fatty acids,mg,1161.9
+NT,Females,All ages,Trans fatty acids,mg,1162.3
+NT,Females,2-18,Carbohydrate,g,200.1
+NT,Females,19+,Carbohydrate,g,190.8
+NT,Females,All ages,Carbohydrate,g,193.1
+NT,Females,2-18,Total sugars,g,95.7
+NT,Females,19+,Total sugars,g,89.9
+NT,Females,All ages,Total sugars,g,91.3
+NT,Females,2-18,Starch,g,102.8
+NT,Females,19+,Starch,g,98.1
+NT,Females,All ages,Starch,g,99.3
+NT,Females,2-18,Dietary Fibre,g,17.4
+NT,Females,19+,Dietary Fibre,g,19.6
+NT,Females,All ages,Dietary Fibre,g,19.1
+NT,Females,19+,Alcohol,g,11.6
+NT,Females,All ages,Alcohol,g,9.3
+NT,Females,2-18,Preformed Vitamin A,µg,242.9
+NT,Females,19+,Preformed Vitamin A,µg,233.3
+NT,Females,All ages,Preformed Vitamin A,µg,235.7
+NT,Females,2-18,Pro Vitamin A,µg,3091.6
+NT,Females,19+,Pro Vitamin A,µg,3448.2
+NT,Females,All ages,Pro Vitamin A,µg,3360.7
+NT,Females,2-18,Vitamin A retinol equivalent,µg,757.1
+NT,Females,19+,Vitamin A retinol equivalent,µg,807.5
+NT,Females,All ages,Vitamin A retinol equivalent,µg,795.1
+NT,Females,2-18,Thiamin (B1),mg,1.4
+NT,Females,19+,Thiamin (B1),mg,1.2
+NT,Females,All ages,Thiamin (B1),mg,1.3
+NT,Females,2-18,Riboflavin (B2),mg,1.6
+NT,Females,19+,Riboflavin (B2),mg,1.6
+NT,Females,All ages,Riboflavin (B2),mg,1.6
+NT,Females,2-18,Niacin (B3),mg,16.9
+NT,Females,19+,Niacin (B3),mg,21.5
+NT,Females,All ages,Niacin (B3),mg,20.3
+NT,Females,2-18,Niacin equivalent,mg,29.9
+NT,Females,19+,Niacin equivalent,mg,36.9
+NT,Females,All ages,Niacin equivalent,mg,35.2
+NT,Females,2-18,"Folate, natural",µg,227.3
+NT,Females,19+,"Folate, natural",µg,251.4
+NT,Females,All ages,"Folate, natural",µg,245.5
+NT,Females,2-18,Folic acid,µg,200.2
+NT,Females,19+,Folic acid,µg,164.8
+NT,Females,All ages,Folic acid,µg,173.5
+NT,Females,2-18,Total Folates,µg,428.0
+NT,Females,19+,Total Folates,µg,416.4
+NT,Females,All ages,Total Folates,µg,419.3
+NT,Females,2-18,Folate equivalent,µg,562.1
+NT,Females,19+,Folate equivalent,µg,526.8
+NT,Females,All ages,Folate equivalent,µg,535.5
+NT,Females,2-18,Vitamin B6,mg,1.0
+NT,Females,19+,Vitamin B6,mg,1.4
+NT,Females,All ages,Vitamin B6,mg,1.3
+NT,Females,2-18,Vitamin B12,µg,3.6
+NT,Females,19+,Vitamin B12,µg,3.8
+NT,Females,All ages,Vitamin B12,µg,3.7
+NT,Females,2-18,Vitamin C,mg,85.7
+NT,Females,19+,Vitamin C,mg,98.3
+NT,Females,All ages,Vitamin C,mg,95.2
+NT,Females,2-18,Vitamin E,mg,6.9
+NT,Females,19+,Vitamin E,mg,9.3
+NT,Females,All ages,Vitamin E,mg,8.7
+NT,Females,2-18,Calcium,mg,667.8
+NT,Females,19+,Calcium,mg,694.8
+NT,Females,All ages,Calcium,mg,688.2
+NT,Females,2-18,Iodine,µg,144.7
+NT,Females,19+,Iodine,µg,147.4
+NT,Females,All ages,Iodine,µg,146.7
+NT,Females,2-18,Iron,mg,9.0
+NT,Females,19+,Iron,mg,9.6
+NT,Females,All ages,Iron,mg,9.4
+NT,Females,2-18,Magnesium,mg,235.6
+NT,Females,19+,Magnesium,mg,295.8
+NT,Females,All ages,Magnesium,mg,281.0
+NT,Females,2-18,Phosphorus,mg,1103.3
+NT,Females,19+,Phosphorus,mg,1253.4
+NT,Females,All ages,Phosphorus,mg,1216.6
+NT,Females,2-18,Potassium,mg,2193.1
+NT,Females,19+,Potassium,mg,2529.1
+NT,Females,All ages,Potassium,mg,2446.6
+NT,Females,2-18,Selenium,µg,62.6
+NT,Females,19+,Selenium,µg,81.3
+NT,Females,All ages,Selenium,µg,76.7
+NT,Females,2-18,Sodium,mg,1979.1
+NT,Females,19+,Sodium,mg,2079.8
+NT,Females,All ages,Sodium,mg,2055.1
+NT,Females,2-18,Zinc,mg,8.7
+NT,Females,19+,Zinc,mg,9.7
+NT,Females,All ages,Zinc,mg,9.4
+NT,Females,19+,Caffeine,mg,133.1
+NT,Females,All ages,Caffeine,mg,106.4
+NT,Females,2-18,Cholesterol,mg,204.8
+NT,Females,19+,Cholesterol,mg,272.4
+NT,Females,All ages,Cholesterol,mg,255.8
+NT,Persons,2-18,Energy,kJ,7499.1
+NT,Persons,19+,Energy,kJ,8750.7
+NT,Persons,All ages,Energy,kJ,8440.9
+NT,Persons,2-18,Moisture,g,2378.8
+NT,Persons,19+,Moisture,g,3491.2
+NT,Persons,All ages,Moisture,g,3215.8
+NT,Persons,2-18,Protein,g,75.1
+NT,Persons,19+,Protein,g,93.5
+NT,Persons,All ages,Protein,g,89.0
+NT,Persons,2-18,Total Fat,g,63.7
+NT,Persons,19+,Total Fat,g,70.9
+NT,Persons,All ages,Total Fat,g,69.2
+NT,Persons,2-18,Saturated fat,g,26.5
+NT,Persons,19+,Saturated fat,g,26.6
+NT,Persons,All ages,Saturated fat,g,26.6
+NT,Persons,2-18,Monounsaturated fat,g,23.6
+NT,Persons,19+,Monounsaturated fat,g,27.3
+NT,Persons,All ages,Monounsaturated fat,g,26.4
+NT,Persons,2-18,Polyunsaturated fat,g,8.2
+NT,Persons,19+,Polyunsaturated fat,g,10.9
+NT,Persons,All ages,Polyunsaturated fat,g,10.2
+NT,Persons,2-18,Linoleic acid,g,6.8
+NT,Persons,19+,Linoleic acid,g,9.0
+NT,Persons,All ages,Linoleic acid,g,8.4
+NT,Persons,2-18,Alpha-Linolenic acid,g,1.0
+NT,Persons,19+,Alpha-Linolenic acid,g,1.3
+NT,Persons,All ages,Alpha-Linolenic acid,g,1.2
+NT,Persons,2-18,Total long chain omega 3 fatty acids,mg,157.6
+NT,Persons,19+,Total long chain omega 3 fatty acids,mg,401.6
+NT,Persons,All ages,Total long chain omega 3 fatty acids,mg,341.2
+NT,Persons,2-18,Trans fatty acids,mg,1401.9
+NT,Persons,19+,Trans fatty acids,mg,1325.3
+NT,Persons,All ages,Trans fatty acids,mg,1344.3
+NT,Persons,2-18,Carbohydrate,g,219.6
+NT,Persons,19+,Carbohydrate,g,226.6
+NT,Persons,All ages,Carbohydrate,g,224.9
+NT,Persons,2-18,Total sugars,g,104.4
+NT,Persons,19+,Total sugars,g,107.4
+NT,Persons,All ages,Total sugars,g,106.6
+NT,Persons,2-18,Starch,g,113.7
+NT,Persons,19+,Starch,g,112.3
+NT,Persons,All ages,Starch,g,112.7
+NT,Persons,2-18,Dietary Fibre,g,18.7
+NT,Persons,19+,Dietary Fibre,g,21.5
+NT,Persons,All ages,Dietary Fibre,g,20.8
+NT,Persons,19+,Alcohol,g,19.5
+NT,Persons,All ages,Alcohol,g,15.0
+NT,Persons,2-18,Preformed Vitamin A,µg,261.8
+NT,Persons,19+,Preformed Vitamin A,µg,250.3
+NT,Persons,All ages,Preformed Vitamin A,µg,253.2
+NT,Persons,2-18,Pro Vitamin A,µg,2709.2
+NT,Persons,19+,Pro Vitamin A,µg,3285.2
+NT,Persons,All ages,Pro Vitamin A,µg,3142.6
+NT,Persons,2-18,Vitamin A retinol equivalent,µg,712.0
+NT,Persons,19+,Vitamin A retinol equivalent,µg,797.0
+NT,Persons,All ages,Vitamin A retinol equivalent,µg,776.0
+NT,Persons,2-18,Thiamin (B1),mg,1.6
+NT,Persons,19+,Thiamin (B1),mg,1.5
+NT,Persons,All ages,Thiamin (B1),mg,1.5
+NT,Persons,2-18,Riboflavin (B2),mg,1.8
+NT,Persons,19+,Riboflavin (B2),mg,1.7
+NT,Persons,All ages,Riboflavin (B2),mg,1.8
+NT,Persons,2-18,Niacin (B3),mg,19.2
+NT,Persons,19+,Niacin (B3),mg,25.3
+NT,Persons,All ages,Niacin (B3),mg,23.8
+NT,Persons,2-18,Niacin equivalent,mg,33.6
+NT,Persons,19+,Niacin equivalent,mg,43.2
+NT,Persons,All ages,Niacin equivalent,mg,40.8
+NT,Persons,2-18,"Folate, natural",µg,231.3
+NT,Persons,19+,"Folate, natural",µg,270.0
+NT,Persons,All ages,"Folate, natural",µg,260.4
+NT,Persons,2-18,Folic acid,µg,236.4
+NT,Persons,19+,Folic acid,µg,190.4
+NT,Persons,All ages,Folic acid,µg,201.8
+NT,Persons,2-18,Total Folates,µg,468.1
+NT,Persons,19+,Total Folates,µg,460.6
+NT,Persons,All ages,Total Folates,µg,462.4
+NT,Persons,2-18,Folate equivalent,µg,626.4
+NT,Persons,19+,Folate equivalent,µg,588.1
+NT,Persons,All ages,Folate equivalent,µg,597.6
+NT,Persons,2-18,Vitamin B6,mg,1.0
+NT,Persons,19+,Vitamin B6,mg,1.6
+NT,Persons,All ages,Vitamin B6,mg,1.5
+NT,Persons,2-18,Vitamin B12,µg,4.0
+NT,Persons,19+,Vitamin B12,µg,4.7
+NT,Persons,All ages,Vitamin B12,µg,4.5
+NT,Persons,2-18,Vitamin C,mg,85.1
+NT,Persons,19+,Vitamin C,mg,111.5
+NT,Persons,All ages,Vitamin C,mg,105.0
+NT,Persons,2-18,Vitamin E,mg,7.3
+NT,Persons,19+,Vitamin E,mg,9.9
+NT,Persons,All ages,Vitamin E,mg,9.3
+NT,Persons,2-18,Calcium,mg,701.2
+NT,Persons,19+,Calcium,mg,751.1
+NT,Persons,All ages,Calcium,mg,738.8
+NT,Persons,2-18,Iodine,µg,161.9
+NT,Persons,19+,Iodine,µg,171.0
+NT,Persons,All ages,Iodine,µg,168.7
+NT,Persons,2-18,Iron,mg,9.9
+NT,Persons,19+,Iron,mg,10.8
+NT,Persons,All ages,Iron,mg,10.6
+NT,Persons,2-18,Magnesium,mg,247.0
+NT,Persons,19+,Magnesium,mg,336.3
+NT,Persons,All ages,Magnesium,mg,314.2
+NT,Persons,2-18,Phosphorus,mg,1183.0
+NT,Persons,19+,Phosphorus,mg,1443.2
+NT,Persons,All ages,Phosphorus,mg,1378.8
+NT,Persons,2-18,Potassium,mg,2277.0
+NT,Persons,19+,Potassium,mg,2869.6
+NT,Persons,All ages,Potassium,mg,2722.9
+NT,Persons,2-18,Selenium,µg,69.6
+NT,Persons,19+,Selenium,µg,95.9
+NT,Persons,All ages,Selenium,µg,89.4
+NT,Persons,2-18,Sodium,mg,2284.1
+NT,Persons,19+,Sodium,mg,2423.3
+NT,Persons,All ages,Sodium,mg,2388.8
+NT,Persons,2-18,Zinc,mg,10.0
+NT,Persons,19+,Zinc,mg,11.0
+NT,Persons,All ages,Zinc,mg,10.7
+NT,Persons,2-18,Caffeine,mg,26.7
+NT,Persons,19+,Caffeine,mg,141.9
+NT,Persons,All ages,Caffeine,mg,113.4
+NT,Persons,2-18,Cholesterol,mg,237.9
+NT,Persons,19+,Cholesterol,mg,304.4
+NT,Persons,All ages,Cholesterol,mg,287.9
+QLD,Males,2-18,Energy,kJ,8398.2
+QLD,Males,19+,Energy,kJ,9977.0
+QLD,Males,All ages,Energy,kJ,9604.7
+QLD,Males,2-18,Moisture,g,2220.4
+QLD,Males,19+,Moisture,g,3422.3
+QLD,Males,All ages,Moisture,g,3138.8
+QLD,Males,2-18,Protein,g,78.6
+QLD,Males,19+,Protein,g,104.6
+QLD,Males,All ages,Protein,g,98.5
+QLD,Males,2-18,Total Fat,g,72.4
+QLD,Males,19+,Total Fat,g,84.2
+QLD,Males,All ages,Total Fat,g,81.5
+QLD,Males,2-18,Saturated fat,g,30.6
+QLD,Males,19+,Saturated fat,g,32.2
+QLD,Males,All ages,Saturated fat,g,31.9
+QLD,Males,2-18,Monounsaturated fat,g,26.7
+QLD,Males,19+,Monounsaturated fat,g,32.2
+QLD,Males,All ages,Monounsaturated fat,g,30.9
+QLD,Males,2-18,Polyunsaturated fat,g,9.2
+QLD,Males,19+,Polyunsaturated fat,g,12.6
+QLD,Males,All ages,Polyunsaturated fat,g,11.8
+QLD,Males,2-18,Linoleic acid,g,7.7
+QLD,Males,19+,Linoleic acid,g,10.4
+QLD,Males,All ages,Linoleic acid,g,9.8
+QLD,Males,2-18,Alpha-Linolenic acid,g,1.2
+QLD,Males,19+,Alpha-Linolenic acid,g,1.6
+QLD,Males,All ages,Alpha-Linolenic acid,g,1.5
+QLD,Males,2-18,Total long chain omega 3 fatty acids,mg,131.3
+QLD,Males,19+,Total long chain omega 3 fatty acids,mg,302.8
+QLD,Males,All ages,Total long chain omega 3 fatty acids,mg,262.4
+QLD,Males,2-18,Trans fatty acids,mg,1481.0
+QLD,Males,19+,Trans fatty acids,mg,1652.8
+QLD,Males,All ages,Trans fatty acids,mg,1612.3
+QLD,Males,2-18,Carbohydrate,g,251.8
+QLD,Males,19+,Carbohydrate,g,259.7
+QLD,Males,All ages,Carbohydrate,g,257.9
+QLD,Males,2-18,Total sugars,g,119.8
+QLD,Males,19+,Total sugars,g,125.8
+QLD,Males,All ages,Total sugars,g,124.3
+QLD,Males,2-18,Starch,g,130.4
+QLD,Males,19+,Starch,g,127.4
+QLD,Males,All ages,Starch,g,128.1
+QLD,Males,2-18,Dietary Fibre,g,19.7
+QLD,Males,19+,Dietary Fibre,g,24.5
+QLD,Males,All ages,Dietary Fibre,g,23.4
+QLD,Males,19+,Alcohol,g,18.6
+QLD,Males,All ages,Alcohol,g,14.4
+QLD,Males,2-18,Preformed Vitamin A,µg,316.2
+QLD,Males,19+,Preformed Vitamin A,µg,329.7
+QLD,Males,All ages,Preformed Vitamin A,µg,326.5
+QLD,Males,2-18,Pro Vitamin A,µg,2897.1
+QLD,Males,19+,Pro Vitamin A,µg,3275.4
+QLD,Males,All ages,Pro Vitamin A,µg,3186.2
+QLD,Males,2-18,Vitamin A retinol equivalent,µg,797.5
+QLD,Males,19+,Vitamin A retinol equivalent,µg,874.5
+QLD,Males,All ages,Vitamin A retinol equivalent,µg,856.3
+QLD,Males,2-18,Thiamin (B1),mg,1.9
+QLD,Males,19+,Thiamin (B1),mg,1.7
+QLD,Males,All ages,Thiamin (B1),mg,1.8
+QLD,Males,2-18,Riboflavin (B2),mg,2.0
+QLD,Males,19+,Riboflavin (B2),mg,2.1
+QLD,Males,All ages,Riboflavin (B2),mg,2.1
+QLD,Males,2-18,Niacin (B3),mg,20.7
+QLD,Males,19+,Niacin (B3),mg,27.8
+QLD,Males,All ages,Niacin (B3),mg,26.1
+QLD,Males,2-18,Niacin equivalent,mg,35.9
+QLD,Males,19+,Niacin equivalent,mg,47.7
+QLD,Males,All ages,Niacin equivalent,mg,44.9
+QLD,Males,2-18,"Folate, natural",µg,238.4
+QLD,Males,19+,"Folate, natural",µg,312.8
+QLD,Males,All ages,"Folate, natural",µg,295.2
+QLD,Males,2-18,Folic acid,µg,265.6
+QLD,Males,19+,Folic acid,µg,214.3
+QLD,Males,All ages,Folic acid,µg,226.4
+QLD,Males,2-18,Total Folates,µg,504.4
+QLD,Males,19+,Total Folates,µg,527.5
+QLD,Males,All ages,Total Folates,µg,522.0
+QLD,Males,2-18,Folate equivalent,µg,682.2
+QLD,Males,19+,Folate equivalent,µg,671.0
+QLD,Males,All ages,Folate equivalent,µg,673.7
+QLD,Males,2-18,Vitamin B6,mg,1.2
+QLD,Males,19+,Vitamin B6,mg,1.8
+QLD,Males,All ages,Vitamin B6,mg,1.6
+QLD,Males,2-18,Vitamin B12,µg,4.1
+QLD,Males,19+,Vitamin B12,µg,5.3
+QLD,Males,All ages,Vitamin B12,µg,5.0
+QLD,Males,2-18,Vitamin C,mg,74.2
+QLD,Males,19+,Vitamin C,mg,110.1
+QLD,Males,All ages,Vitamin C,mg,101.6
+QLD,Males,2-18,Vitamin E,mg,8.3
+QLD,Males,19+,Vitamin E,mg,11.0
+QLD,Males,All ages,Vitamin E,mg,10.4
+QLD,Males,2-18,Calcium,mg,848.2
+QLD,Males,19+,Calcium,mg,866.1
+QLD,Males,All ages,Calcium,mg,861.9
+QLD,Males,2-18,Iodine,µg,178.3
+QLD,Males,19+,Iodine,µg,199.0
+QLD,Males,All ages,Iodine,µg,194.1
+QLD,Males,2-18,Iron,mg,10.6
+QLD,Males,19+,Iron,mg,12.5
+QLD,Males,All ages,Iron,mg,12.1
+QLD,Males,2-18,Magnesium,mg,261.4
+QLD,Males,19+,Magnesium,mg,374.4
+QLD,Males,All ages,Magnesium,mg,347.8
+QLD,Males,2-18,Phosphorus,mg,1329.3
+QLD,Males,19+,Phosphorus,mg,1677.1
+QLD,Males,All ages,Phosphorus,mg,1595.1
+QLD,Males,2-18,Potassium,mg,2399.5
+QLD,Males,19+,Potassium,mg,3287.6
+QLD,Males,All ages,Potassium,mg,3078.1
+QLD,Males,2-18,Selenium,µg,69.8
+QLD,Males,19+,Selenium,µg,102.4
+QLD,Males,All ages,Selenium,µg,94.7
+QLD,Males,2-18,Sodium,mg,2425.9
+QLD,Males,19+,Sodium,mg,2703.1
+QLD,Males,All ages,Sodium,mg,2637.8
+QLD,Males,2-18,Zinc,mg,9.9
+QLD,Males,19+,Zinc,mg,12.6
+QLD,Males,All ages,Zinc,mg,12.0
+QLD,Males,2-18,Caffeine,mg,18.7
+QLD,Males,19+,Caffeine,mg,165.0
+QLD,Males,All ages,Caffeine,mg,130.5
+QLD,Males,2-18,Cholesterol,mg,238.1
+QLD,Males,19+,Cholesterol,mg,351.9
+QLD,Males,All ages,Cholesterol,mg,325.0
+QLD,Females,2-18,Energy,kJ,7664.8
+QLD,Females,19+,Energy,kJ,7351.4
+QLD,Females,All ages,Energy,kJ,7423.0
+QLD,Females,2-18,Moisture,g,1951.3
+QLD,Females,19+,Moisture,g,2798.6
+QLD,Females,All ages,Moisture,g,2605.1
+QLD,Females,2-18,Protein,g,68.7
+QLD,Females,19+,Protein,g,78.3
+QLD,Females,All ages,Protein,g,76.1
+QLD,Females,2-18,Total Fat,g,67.1
+QLD,Females,19+,Total Fat,g,65.3
+QLD,Females,All ages,Total Fat,g,65.7
+QLD,Females,2-18,Saturated fat,g,29.3
+QLD,Females,19+,Saturated fat,g,25.0
+QLD,Females,All ages,Saturated fat,g,26.0
+QLD,Females,2-18,Monounsaturated fat,g,24.1
+QLD,Females,19+,Monounsaturated fat,g,24.6
+QLD,Females,All ages,Monounsaturated fat,g,24.5
+QLD,Females,2-18,Polyunsaturated fat,g,8.4
+QLD,Females,19+,Polyunsaturated fat,g,9.9
+QLD,Females,All ages,Polyunsaturated fat,g,9.6
+QLD,Females,2-18,Linoleic acid,g,7.0
+QLD,Females,19+,Linoleic acid,g,8.1
+QLD,Females,All ages,Linoleic acid,g,7.9
+QLD,Females,2-18,Alpha-Linolenic acid,g,1.1
+QLD,Females,19+,Alpha-Linolenic acid,g,1.3
+QLD,Females,All ages,Alpha-Linolenic acid,g,1.2
+QLD,Females,2-18,Total long chain omega 3 fatty acids,mg,127.0
+QLD,Females,19+,Total long chain omega 3 fatty acids,mg,293.6
+QLD,Females,All ages,Total long chain omega 3 fatty acids,mg,255.5
+QLD,Females,2-18,Trans fatty acids,mg,1411.5
+QLD,Females,19+,Trans fatty acids,mg,1246.6
+QLD,Females,All ages,Trans fatty acids,mg,1284.2
+QLD,Females,2-18,Carbohydrate,g,230.9
+QLD,Females,19+,Carbohydrate,g,189.2
+QLD,Females,All ages,Carbohydrate,g,198.7
+QLD,Females,2-18,Total sugars,g,112.5
+QLD,Females,19+,Total sugars,g,92.7
+QLD,Females,All ages,Total sugars,g,97.2
+QLD,Females,2-18,Starch,g,116.6
+QLD,Females,19+,Starch,g,94.3
+QLD,Females,All ages,Starch,g,99.4
+QLD,Females,2-18,Dietary Fibre,g,18.5
+QLD,Females,19+,Dietary Fibre,g,20.4
+QLD,Females,All ages,Dietary Fibre,g,20.0
+QLD,Females,19+,Alcohol,g,9.2
+QLD,Females,All ages,Alcohol,g,7.1
+QLD,Females,2-18,Preformed Vitamin A,µg,307.2
+QLD,Females,19+,Preformed Vitamin A,µg,294.5
+QLD,Females,All ages,Preformed Vitamin A,µg,297.4
+QLD,Females,2-18,Pro Vitamin A,µg,1823.6
+QLD,Females,19+,Pro Vitamin A,µg,3165.8
+QLD,Females,All ages,Pro Vitamin A,µg,2859.3
+QLD,Females,2-18,Vitamin A retinol equivalent,µg,609.3
+QLD,Females,19+,Vitamin A retinol equivalent,µg,821.5
+QLD,Females,All ages,Vitamin A retinol equivalent,µg,773.0
+QLD,Females,2-18,Thiamin (B1),mg,1.6
+QLD,Females,19+,Thiamin (B1),mg,1.3
+QLD,Females,All ages,Thiamin (B1),mg,1.4
+QLD,Females,2-18,Riboflavin (B2),mg,1.9
+QLD,Females,19+,Riboflavin (B2),mg,1.6
+QLD,Females,All ages,Riboflavin (B2),mg,1.7
+QLD,Females,2-18,Niacin (B3),mg,17.8
+QLD,Females,19+,Niacin (B3),mg,19.9
+QLD,Females,All ages,Niacin (B3),mg,19.4
+QLD,Females,2-18,Niacin equivalent,mg,31.1
+QLD,Females,19+,Niacin equivalent,mg,35.0
+QLD,Females,All ages,Niacin equivalent,mg,34.1
+QLD,Females,2-18,"Folate, natural",µg,242.4
+QLD,Females,19+,"Folate, natural",µg,262.4
+QLD,Females,All ages,"Folate, natural",µg,257.8
+QLD,Females,2-18,Folic acid,µg,203.7
+QLD,Females,19+,Folic acid,µg,149.9
+QLD,Females,All ages,Folic acid,µg,162.2
+QLD,Females,2-18,Total Folates,µg,446.4
+QLD,Females,19+,Total Folates,µg,412.6
+QLD,Females,All ages,Total Folates,µg,420.3
+QLD,Females,2-18,Folate equivalent,µg,582.8
+QLD,Females,19+,Folate equivalent,µg,513.0
+QLD,Females,All ages,Folate equivalent,µg,528.9
+QLD,Females,2-18,Vitamin B6,mg,1.1
+QLD,Females,19+,Vitamin B6,mg,1.2
+QLD,Females,All ages,Vitamin B6,mg,1.2
+QLD,Females,2-18,Vitamin B12,µg,3.6
+QLD,Females,19+,Vitamin B12,µg,4.0
+QLD,Females,All ages,Vitamin B12,µg,3.9
+QLD,Females,2-18,Vitamin C,mg,94.9
+QLD,Females,19+,Vitamin C,mg,87.6
+QLD,Females,All ages,Vitamin C,mg,89.3
+QLD,Females,2-18,Vitamin E,mg,7.4
+QLD,Females,19+,Vitamin E,mg,9.3
+QLD,Females,All ages,Vitamin E,mg,8.8
+QLD,Females,2-18,Calcium,mg,789.0
+QLD,Females,19+,Calcium,mg,719.6
+QLD,Females,All ages,Calcium,mg,735.4
+QLD,Females,2-18,Iodine,µg,169.0
+QLD,Females,19+,Iodine,µg,150.9
+QLD,Females,All ages,Iodine,µg,155.0
+QLD,Females,2-18,Iron,mg,8.8
+QLD,Females,19+,Iron,mg,9.4
+QLD,Females,All ages,Iron,mg,9.2
+QLD,Females,2-18,Magnesium,mg,243.2
+QLD,Females,19+,Magnesium,mg,290.5
+QLD,Females,All ages,Magnesium,mg,279.7
+QLD,Females,2-18,Phosphorus,mg,1219.0
+QLD,Females,19+,Phosphorus,mg,1301.4
+QLD,Females,All ages,Phosphorus,mg,1282.6
+QLD,Females,2-18,Potassium,mg,2380.7
+QLD,Females,19+,Potassium,mg,2581.7
+QLD,Females,All ages,Potassium,mg,2535.8
+QLD,Females,2-18,Selenium,µg,63.2
+QLD,Females,19+,Selenium,µg,79.9
+QLD,Females,All ages,Selenium,µg,76.1
+QLD,Females,2-18,Sodium,mg,2173.5
+QLD,Females,19+,Sodium,mg,2062.9
+QLD,Females,All ages,Sodium,mg,2088.2
+QLD,Females,2-18,Zinc,mg,8.3
+QLD,Females,19+,Zinc,mg,9.6
+QLD,Females,All ages,Zinc,mg,9.3
+QLD,Females,2-18,Caffeine,mg,14.9
+QLD,Females,19+,Caffeine,mg,152.0
+QLD,Females,All ages,Caffeine,mg,120.7
+QLD,Females,2-18,Cholesterol,mg,219.2
+QLD,Females,19+,Cholesterol,mg,270.7
+QLD,Females,All ages,Cholesterol,mg,258.9
+QLD,Persons,2-18,Energy,kJ,8036.5
+QLD,Persons,19+,Energy,kJ,8654.4
+QLD,Persons,All ages,Energy,kJ,8511.0
+QLD,Persons,2-18,Moisture,g,2087.7
+QLD,Persons,19+,Moisture,g,3108.1
+QLD,Persons,All ages,Moisture,g,2871.3
+QLD,Persons,2-18,Protein,g,73.7
+QLD,Persons,19+,Protein,g,91.3
+QLD,Persons,All ages,Protein,g,87.2
+QLD,Persons,2-18,Total Fat,g,69.8
+QLD,Persons,19+,Total Fat,g,74.7
+QLD,Persons,All ages,Total Fat,g,73.6
+QLD,Persons,2-18,Saturated fat,g,30.0
+QLD,Persons,19+,Saturated fat,g,28.6
+QLD,Persons,All ages,Saturated fat,g,28.9
+QLD,Persons,2-18,Monounsaturated fat,g,25.4
+QLD,Persons,19+,Monounsaturated fat,g,28.4
+QLD,Persons,All ages,Monounsaturated fat,g,27.7
+QLD,Persons,2-18,Polyunsaturated fat,g,8.8
+QLD,Persons,19+,Polyunsaturated fat,g,11.3
+QLD,Persons,All ages,Polyunsaturated fat,g,10.7
+QLD,Persons,2-18,Linoleic acid,g,7.4
+QLD,Persons,19+,Linoleic acid,g,9.3
+QLD,Persons,All ages,Linoleic acid,g,8.8
+QLD,Persons,2-18,Alpha-Linolenic acid,g,1.1
+QLD,Persons,19+,Alpha-Linolenic acid,g,1.4
+QLD,Persons,All ages,Alpha-Linolenic acid,g,1.3
+QLD,Persons,2-18,Total long chain omega 3 fatty acids,mg,129.2
+QLD,Persons,19+,Total long chain omega 3 fatty acids,mg,298.2
+QLD,Persons,All ages,Total long chain omega 3 fatty acids,mg,259.0
+QLD,Persons,2-18,Trans fatty acids,mg,1446.7
+QLD,Persons,19+,Trans fatty acids,mg,1448.2
+QLD,Persons,All ages,Trans fatty acids,mg,1447.8
+QLD,Persons,2-18,Carbohydrate,g,241.5
+QLD,Persons,19+,Carbohydrate,g,224.2
+QLD,Persons,All ages,Carbohydrate,g,228.2
+QLD,Persons,2-18,Total sugars,g,116.2
+QLD,Persons,19+,Total sugars,g,109.1
+QLD,Persons,All ages,Total sugars,g,110.7
+QLD,Persons,2-18,Starch,g,123.6
+QLD,Persons,19+,Starch,g,110.7
+QLD,Persons,All ages,Starch,g,113.7
+QLD,Persons,2-18,Dietary Fibre,g,19.1
+QLD,Persons,19+,Dietary Fibre,g,22.4
+QLD,Persons,All ages,Dietary Fibre,g,21.7
+QLD,Persons,19+,Alcohol,g,13.9
+QLD,Persons,All ages,Alcohol,g,10.7
+QLD,Persons,2-18,Preformed Vitamin A,µg,311.8
+QLD,Persons,19+,Preformed Vitamin A,µg,311.9
+QLD,Persons,All ages,Preformed Vitamin A,µg,311.9
+QLD,Persons,2-18,Pro Vitamin A,µg,2367.6
+QLD,Persons,19+,Pro Vitamin A,µg,3220.2
+QLD,Persons,All ages,Pro Vitamin A,µg,3022.3
+QLD,Persons,2-18,Vitamin A retinol equivalent,µg,704.6
+QLD,Persons,19+,Vitamin A retinol equivalent,µg,847.8
+QLD,Persons,All ages,Vitamin A retinol equivalent,µg,814.6
+QLD,Persons,2-18,Thiamin (B1),mg,1.7
+QLD,Persons,19+,Thiamin (B1),mg,1.5
+QLD,Persons,All ages,Thiamin (B1),mg,1.6
+QLD,Persons,2-18,Riboflavin (B2),mg,2.0
+QLD,Persons,19+,Riboflavin (B2),mg,1.9
+QLD,Persons,All ages,Riboflavin (B2),mg,1.9
+QLD,Persons,2-18,Niacin (B3),mg,19.3
+QLD,Persons,19+,Niacin (B3),mg,23.8
+QLD,Persons,All ages,Niacin (B3),mg,22.8
+QLD,Persons,2-18,Niacin equivalent,mg,33.5
+QLD,Persons,19+,Niacin equivalent,mg,41.3
+QLD,Persons,All ages,Niacin equivalent,mg,39.5
+QLD,Persons,2-18,"Folate, natural",µg,240.4
+QLD,Persons,19+,"Folate, natural",µg,287.4
+QLD,Persons,All ages,"Folate, natural",µg,276.5
+QLD,Persons,2-18,Folic acid,µg,235.1
+QLD,Persons,19+,Folic acid,µg,181.9
+QLD,Persons,All ages,Folic acid,µg,194.2
+QLD,Persons,2-18,Total Folates,µg,475.8
+QLD,Persons,19+,Total Folates,µg,469.6
+QLD,Persons,All ages,Total Folates,µg,471.0
+QLD,Persons,2-18,Folate equivalent,µg,633.2
+QLD,Persons,19+,Folate equivalent,µg,591.4
+QLD,Persons,All ages,Folate equivalent,µg,601.1
+QLD,Persons,2-18,Vitamin B6,mg,1.1
+QLD,Persons,19+,Vitamin B6,mg,1.5
+QLD,Persons,All ages,Vitamin B6,mg,1.4
+QLD,Persons,2-18,Vitamin B12,µg,3.9
+QLD,Persons,19+,Vitamin B12,µg,4.6
+QLD,Persons,All ages,Vitamin B12,µg,4.5
+QLD,Persons,2-18,Vitamin C,mg,84.4
+QLD,Persons,19+,Vitamin C,mg,98.8
+QLD,Persons,All ages,Vitamin C,mg,95.4
+QLD,Persons,2-18,Vitamin E,mg,7.9
+QLD,Persons,19+,Vitamin E,mg,10.1
+QLD,Persons,All ages,Vitamin E,mg,9.6
+QLD,Persons,2-18,Calcium,mg,819.0
+QLD,Persons,19+,Calcium,mg,792.3
+QLD,Persons,All ages,Calcium,mg,798.5
+QLD,Persons,2-18,Iodine,µg,173.7
+QLD,Persons,19+,Iodine,µg,174.8
+QLD,Persons,All ages,Iodine,µg,174.5
+QLD,Persons,2-18,Iron,mg,9.7
+QLD,Persons,19+,Iron,mg,11.0
+QLD,Persons,All ages,Iron,mg,10.7
+QLD,Persons,2-18,Magnesium,mg,252.4
+QLD,Persons,19+,Magnesium,mg,332.2
+QLD,Persons,All ages,Magnesium,mg,313.7
+QLD,Persons,2-18,Phosphorus,mg,1274.9
+QLD,Persons,19+,Phosphorus,mg,1487.8
+QLD,Persons,All ages,Phosphorus,mg,1438.4
+QLD,Persons,2-18,Potassium,mg,2390.2
+QLD,Persons,19+,Potassium,mg,2932.0
+QLD,Persons,All ages,Potassium,mg,2806.3
+QLD,Persons,2-18,Selenium,µg,66.5
+QLD,Persons,19+,Selenium,µg,91.1
+QLD,Persons,All ages,Selenium,µg,85.4
+QLD,Persons,2-18,Sodium,mg,2301.4
+QLD,Persons,19+,Sodium,mg,2380.6
+QLD,Persons,All ages,Sodium,mg,2362.3
+QLD,Persons,2-18,Zinc,mg,9.1
+QLD,Persons,19+,Zinc,mg,11.1
+QLD,Persons,All ages,Zinc,mg,10.7
+QLD,Persons,2-18,Caffeine,mg,16.8
+QLD,Persons,19+,Caffeine,mg,158.5
+QLD,Persons,All ages,Caffeine,mg,125.6
+QLD,Persons,2-18,Cholesterol,mg,228.8
+QLD,Persons,19+,Cholesterol,mg,311.0
+QLD,Persons,All ages,Cholesterol,mg,291.9
+SA,Males,2-18,Energy,kJ,8347.2
+SA,Males,19+,Energy,kJ,9577.8
+SA,Males,All ages,Energy,kJ,9302.9
+SA,Males,2-18,Moisture,g,2168.6
+SA,Males,19+,Moisture,g,3075.9
+SA,Males,All ages,Moisture,g,2873.3
+SA,Males,2-18,Protein,g,79.5
+SA,Males,19+,Protein,g,102.2
+SA,Males,All ages,Protein,g,97.1
+SA,Males,2-18,Total Fat,g,72.0
+SA,Males,19+,Total Fat,g,80.6
+SA,Males,All ages,Total Fat,g,78.7
+SA,Males,2-18,Saturated fat,g,29.6
+SA,Males,19+,Saturated fat,g,30.6
+SA,Males,All ages,Saturated fat,g,30.4
+SA,Males,2-18,Monounsaturated fat,g,26.5
+SA,Males,19+,Monounsaturated fat,g,31.0
+SA,Males,All ages,Monounsaturated fat,g,30.0
+SA,Males,2-18,Polyunsaturated fat,g,10.2
+SA,Males,19+,Polyunsaturated fat,g,12.1
+SA,Males,All ages,Polyunsaturated fat,g,11.7
+SA,Males,2-18,Linoleic acid,g,8.5
+SA,Males,19+,Linoleic acid,g,10.1
+SA,Males,All ages,Linoleic acid,g,9.8
+SA,Males,2-18,Alpha-Linolenic acid,g,1.3
+SA,Males,19+,Alpha-Linolenic acid,g,1.4
+SA,Males,All ages,Alpha-Linolenic acid,g,1.4
+SA,Males,2-18,Total long chain omega 3 fatty acids,mg,134.2
+SA,Males,19+,Total long chain omega 3 fatty acids,mg,273.1
+SA,Males,All ages,Total long chain omega 3 fatty acids,mg,242.1
+SA,Males,2-18,Trans fatty acids,mg,1447.6
+SA,Males,19+,Trans fatty acids,mg,1545.7
+SA,Males,All ages,Trans fatty acids,mg,1523.8
+SA,Males,2-18,Carbohydrate,g,247.5
+SA,Males,19+,Carbohydrate,g,242.6
+SA,Males,All ages,Carbohydrate,g,243.7
+SA,Males,2-18,Total sugars,g,117.8
+SA,Males,19+,Total sugars,g,112.1
+SA,Males,All ages,Total sugars,g,113.3
+SA,Males,2-18,Starch,g,127.3
+SA,Males,19+,Starch,g,123.5
+SA,Males,All ages,Starch,g,124.3
+SA,Males,2-18,Dietary Fibre,g,20.2
+SA,Males,19+,Dietary Fibre,g,23.2
+SA,Males,All ages,Dietary Fibre,g,22.5
+SA,Males,19+,Alcohol,g,21.0
+SA,Males,All ages,Alcohol,g,16.5
+SA,Males,2-18,Preformed Vitamin A,µg,318.4
+SA,Males,19+,Preformed Vitamin A,µg,295.0
+SA,Males,All ages,Preformed Vitamin A,µg,300.3
+SA,Males,2-18,Pro Vitamin A,µg,2072.8
+SA,Males,19+,Pro Vitamin A,µg,2907.9
+SA,Males,All ages,Pro Vitamin A,µg,2721.4
+SA,Males,2-18,Vitamin A retinol equivalent,µg,662.4
+SA,Males,19+,Vitamin A retinol equivalent,µg,778.5
+SA,Males,All ages,Vitamin A retinol equivalent,µg,752.6
+SA,Males,2-18,Thiamin (B1),mg,1.8
+SA,Males,19+,Thiamin (B1),mg,1.8
+SA,Males,All ages,Thiamin (B1),mg,1.8
+SA,Males,2-18,Riboflavin (B2),mg,2.1
+SA,Males,19+,Riboflavin (B2),mg,2.2
+SA,Males,All ages,Riboflavin (B2),mg,2.1
+SA,Males,2-18,Niacin (B3),mg,20.9
+SA,Males,19+,Niacin (B3),mg,28.4
+SA,Males,All ages,Niacin (B3),mg,26.7
+SA,Males,2-18,Niacin equivalent,mg,36.4
+SA,Males,19+,Niacin equivalent,mg,47.9
+SA,Males,All ages,Niacin equivalent,mg,45.3
+SA,Males,2-18,"Folate, natural",µg,260.2
+SA,Males,19+,"Folate, natural",µg,290.5
+SA,Males,All ages,"Folate, natural",µg,283.7
+SA,Males,2-18,Folic acid,µg,287.0
+SA,Males,19+,Folic acid,µg,225.2
+SA,Males,All ages,Folic acid,µg,239.0
+SA,Males,2-18,Total Folates,µg,547.8
+SA,Males,19+,Total Folates,µg,516.2
+SA,Males,All ages,Total Folates,µg,523.3
+SA,Males,2-18,Folate equivalent,µg,740.0
+SA,Males,19+,Folate equivalent,µg,667.1
+SA,Males,All ages,Folate equivalent,µg,683.4
+SA,Males,2-18,Vitamin B6,mg,1.1
+SA,Males,19+,Vitamin B6,mg,1.6
+SA,Males,All ages,Vitamin B6,mg,1.5
+SA,Males,2-18,Vitamin B12,µg,4.1
+SA,Males,19+,Vitamin B12,µg,4.9
+SA,Males,All ages,Vitamin B12,µg,4.8
+SA,Males,2-18,Vitamin C,mg,96.9
+SA,Males,19+,Vitamin C,mg,105.9
+SA,Males,All ages,Vitamin C,mg,103.9
+SA,Males,2-18,Vitamin E,mg,8.8
+SA,Males,19+,Vitamin E,mg,10.7
+SA,Males,All ages,Vitamin E,mg,10.3
+SA,Males,2-18,Calcium,mg,905.8
+SA,Males,19+,Calcium,mg,830.7
+SA,Males,All ages,Calcium,mg,847.5
+SA,Males,2-18,Iodine,µg,187.9
+SA,Males,19+,Iodine,µg,186.0
+SA,Males,All ages,Iodine,µg,186.4
+SA,Males,2-18,Iron,mg,11.0
+SA,Males,19+,Iron,mg,12.2
+SA,Males,All ages,Iron,mg,11.9
+SA,Males,2-18,Magnesium,mg,272.8
+SA,Males,19+,Magnesium,mg,360.8
+SA,Males,All ages,Magnesium,mg,341.1
+SA,Males,2-18,Phosphorus,mg,1336.9
+SA,Males,19+,Phosphorus,mg,1618.2
+SA,Males,All ages,Phosphorus,mg,1555.3
+SA,Males,2-18,Potassium,mg,2495.6
+SA,Males,19+,Potassium,mg,3124.7
+SA,Males,All ages,Potassium,mg,2984.2
+SA,Males,2-18,Selenium,µg,70.9
+SA,Males,19+,Selenium,µg,102.5
+SA,Males,All ages,Selenium,µg,95.4
+SA,Males,2-18,Sodium,mg,2483.2
+SA,Males,19+,Sodium,mg,2712.7
+SA,Males,All ages,Sodium,mg,2661.5
+SA,Males,2-18,Zinc,mg,9.8
+SA,Males,19+,Zinc,mg,12.2
+SA,Males,All ages,Zinc,mg,11.7
+SA,Males,2-18,Caffeine,mg,24.6
+SA,Males,19+,Caffeine,mg,184.6
+SA,Males,All ages,Caffeine,mg,148.8
+SA,Males,2-18,Cholesterol,mg,232.2
+SA,Males,19+,Cholesterol,mg,358.1
+SA,Males,All ages,Cholesterol,mg,329.9
+SA,Females,2-18,Energy,kJ,7156.1
+SA,Females,19+,Energy,kJ,7371.9
+SA,Females,All ages,Energy,kJ,7328.9
+SA,Females,2-18,Moisture,g,1753.2
+SA,Females,19+,Moisture,g,2618.3
+SA,Females,All ages,Moisture,g,2445.8
+SA,Females,2-18,Protein,g,71.1
+SA,Females,19+,Protein,g,77.4
+SA,Females,All ages,Protein,g,76.2
+SA,Females,2-18,Total Fat,g,62.6
+SA,Females,19+,Total Fat,g,63.1
+SA,Females,All ages,Total Fat,g,63.0
+SA,Females,2-18,Saturated fat,g,25.8
+SA,Females,19+,Saturated fat,g,24.0
+SA,Females,All ages,Saturated fat,g,24.4
+SA,Females,2-18,Monounsaturated fat,g,22.7
+SA,Females,19+,Monounsaturated fat,g,23.9
+SA,Females,All ages,Monounsaturated fat,g,23.7
+SA,Females,2-18,Polyunsaturated fat,g,9.1
+SA,Females,19+,Polyunsaturated fat,g,9.8
+SA,Females,All ages,Polyunsaturated fat,g,9.6
+SA,Females,2-18,Linoleic acid,g,7.8
+SA,Females,19+,Linoleic acid,g,8.1
+SA,Females,All ages,Linoleic acid,g,8.0
+SA,Females,2-18,Alpha-Linolenic acid,g,1.1
+SA,Females,19+,Alpha-Linolenic acid,g,1.2
+SA,Females,All ages,Alpha-Linolenic acid,g,1.2
+SA,Females,2-18,Total long chain omega 3 fatty acids,mg,95.2
+SA,Females,19+,Total long chain omega 3 fatty acids,mg,229.9
+SA,Females,All ages,Total long chain omega 3 fatty acids,mg,203.0
+SA,Females,2-18,Trans fatty acids,mg,1200.4
+SA,Females,19+,Trans fatty acids,mg,1159.5
+SA,Females,All ages,Trans fatty acids,mg,1167.7
+SA,Females,2-18,Carbohydrate,g,208.7
+SA,Females,19+,Carbohydrate,g,193.3
+SA,Females,All ages,Carbohydrate,g,196.4
+SA,Females,2-18,Total sugars,g,99.7
+SA,Females,19+,Total sugars,g,93.1
+SA,Females,All ages,Total sugars,g,94.4
+SA,Females,2-18,Starch,g,107.5
+SA,Females,19+,Starch,g,97.7
+SA,Females,All ages,Starch,g,99.7
+SA,Females,2-18,Dietary Fibre,g,17.2
+SA,Females,19+,Dietary Fibre,g,20.4
+SA,Females,All ages,Dietary Fibre,g,19.8
+SA,Females,19+,Alcohol,g,10.7
+SA,Females,All ages,Alcohol,g,8.6
+SA,Females,2-18,Preformed Vitamin A,µg,262.5
+SA,Females,19+,Preformed Vitamin A,µg,264.1
+SA,Females,All ages,Preformed Vitamin A,µg,263.8
+SA,Females,2-18,Pro Vitamin A,µg,1950.3
+SA,Females,19+,Pro Vitamin A,µg,2969.2
+SA,Females,All ages,Pro Vitamin A,µg,2766.0
+SA,Females,2-18,Vitamin A retinol equivalent,µg,586.0
+SA,Females,19+,Vitamin A retinol equivalent,µg,758.3
+SA,Females,All ages,Vitamin A retinol equivalent,µg,723.9
+SA,Females,2-18,Thiamin (B1),mg,1.5
+SA,Females,19+,Thiamin (B1),mg,1.3
+SA,Females,All ages,Thiamin (B1),mg,1.4
+SA,Females,2-18,Riboflavin (B2),mg,1.8
+SA,Females,19+,Riboflavin (B2),mg,1.7
+SA,Females,All ages,Riboflavin (B2),mg,1.7
+SA,Females,2-18,Niacin (B3),mg,17.7
+SA,Females,19+,Niacin (B3),mg,20.5
+SA,Females,All ages,Niacin (B3),mg,20.0
+SA,Females,2-18,Niacin equivalent,mg,31.4
+SA,Females,19+,Niacin equivalent,mg,35.3
+SA,Females,All ages,Niacin equivalent,mg,34.6
+SA,Females,2-18,"Folate, natural",µg,211.8
+SA,Females,19+,"Folate, natural",µg,255.8
+SA,Females,All ages,"Folate, natural",µg,247.0
+SA,Females,2-18,Folic acid,µg,231.7
+SA,Females,19+,Folic acid,µg,179.7
+SA,Females,All ages,Folic acid,µg,190.0
+SA,Females,2-18,Total Folates,µg,443.9
+SA,Females,19+,Total Folates,µg,435.8
+SA,Females,All ages,Total Folates,µg,437.4
+SA,Females,2-18,Folate equivalent,µg,599.2
+SA,Females,19+,Folate equivalent,µg,556.2
+SA,Females,All ages,Folate equivalent,µg,564.8
+SA,Females,2-18,Vitamin B6,mg,1.0
+SA,Females,19+,Vitamin B6,mg,1.2
+SA,Females,All ages,Vitamin B6,mg,1.2
+SA,Females,2-18,Vitamin B12,µg,3.7
+SA,Females,19+,Vitamin B12,µg,3.7
+SA,Females,All ages,Vitamin B12,µg,3.7
+SA,Females,2-18,Vitamin C,mg,78.8
+SA,Females,19+,Vitamin C,mg,91.7
+SA,Females,All ages,Vitamin C,mg,89.1
+SA,Females,2-18,Vitamin E,mg,8.6
+SA,Females,19+,Vitamin E,mg,9.8
+SA,Females,All ages,Vitamin E,mg,9.5
+SA,Females,2-18,Calcium,mg,801.0
+SA,Females,19+,Calcium,mg,761.2
+SA,Females,All ages,Calcium,mg,769.1
+SA,Females,2-18,Iodine,µg,160.6
+SA,Females,19+,Iodine,µg,152.1
+SA,Females,All ages,Iodine,µg,153.8
+SA,Females,2-18,Iron,mg,9.1
+SA,Females,19+,Iron,mg,9.5
+SA,Females,All ages,Iron,mg,9.4
+SA,Females,2-18,Magnesium,mg,234.2
+SA,Females,19+,Magnesium,mg,296.0
+SA,Females,All ages,Magnesium,mg,283.7
+SA,Females,2-18,Phosphorus,mg,1209.9
+SA,Females,19+,Phosphorus,mg,1272.0
+SA,Females,All ages,Phosphorus,mg,1259.6
+SA,Females,2-18,Potassium,mg,2235.5
+SA,Females,19+,Potassium,mg,2583.3
+SA,Females,All ages,Potassium,mg,2513.9
+SA,Females,2-18,Selenium,µg,63.7
+SA,Females,19+,Selenium,µg,80.1
+SA,Females,All ages,Selenium,µg,76.8
+SA,Females,2-18,Sodium,mg,2174.5
+SA,Females,19+,Sodium,mg,2095.4
+SA,Females,All ages,Sodium,mg,2111.1
+SA,Females,2-18,Zinc,mg,8.4
+SA,Females,19+,Zinc,mg,9.1
+SA,Females,All ages,Zinc,mg,8.9
+SA,Females,2-18,Caffeine,mg,20.9
+SA,Females,19+,Caffeine,mg,170.6
+SA,Females,All ages,Caffeine,mg,140.8
+SA,Females,2-18,Cholesterol,mg,214.8
+SA,Females,19+,Cholesterol,mg,252.2
+SA,Females,All ages,Cholesterol,mg,244.7
+SA,Persons,2-18,Energy,kJ,7780.3
+SA,Persons,19+,Energy,kJ,8448.7
+SA,Persons,All ages,Energy,kJ,8307.5
+SA,Persons,2-18,Moisture,g,1970.9
+SA,Persons,19+,Moisture,g,2841.7
+SA,Persons,All ages,Moisture,g,2657.7
+SA,Persons,2-18,Protein,g,75.5
+SA,Persons,19+,Protein,g,89.5
+SA,Persons,All ages,Protein,g,86.6
+SA,Persons,2-18,Total Fat,g,67.6
+SA,Persons,19+,Total Fat,g,71.6
+SA,Persons,All ages,Total Fat,g,70.8
+SA,Persons,2-18,Saturated fat,g,27.8
+SA,Persons,19+,Saturated fat,g,27.2
+SA,Persons,All ages,Saturated fat,g,27.3
+SA,Persons,2-18,Monounsaturated fat,g,24.7
+SA,Persons,19+,Monounsaturated fat,g,27.4
+SA,Persons,All ages,Monounsaturated fat,g,26.8
+SA,Persons,2-18,Polyunsaturated fat,g,9.7
+SA,Persons,19+,Polyunsaturated fat,g,10.9
+SA,Persons,All ages,Polyunsaturated fat,g,10.7
+SA,Persons,2-18,Linoleic acid,g,8.2
+SA,Persons,19+,Linoleic acid,g,9.1
+SA,Persons,All ages,Linoleic acid,g,8.9
+SA,Persons,2-18,Alpha-Linolenic acid,g,1.2
+SA,Persons,19+,Alpha-Linolenic acid,g,1.3
+SA,Persons,All ages,Alpha-Linolenic acid,g,1.3
+SA,Persons,2-18,Total long chain omega 3 fatty acids,mg,115.6
+SA,Persons,19+,Total long chain omega 3 fatty acids,mg,251.0
+SA,Persons,All ages,Total long chain omega 3 fatty acids,mg,222.4
+SA,Persons,2-18,Trans fatty acids,mg,1330.0
+SA,Persons,19+,Trans fatty acids,mg,1348.0
+SA,Persons,All ages,Trans fatty acids,mg,1344.2
+SA,Persons,2-18,Carbohydrate,g,229.1
+SA,Persons,19+,Carbohydrate,g,217.4
+SA,Persons,All ages,Carbohydrate,g,219.8
+SA,Persons,2-18,Total sugars,g,109.2
+SA,Persons,19+,Total sugars,g,102.3
+SA,Persons,All ages,Total sugars,g,103.8
+SA,Persons,2-18,Starch,g,117.9
+SA,Persons,19+,Starch,g,110.3
+SA,Persons,All ages,Starch,g,111.9
+SA,Persons,2-18,Dietary Fibre,g,18.8
+SA,Persons,19+,Dietary Fibre,g,21.8
+SA,Persons,All ages,Dietary Fibre,g,21.1
+SA,Persons,19+,Alcohol,g,15.7
+SA,Persons,All ages,Alcohol,g,12.5
+SA,Persons,2-18,Preformed Vitamin A,µg,291.8
+SA,Persons,19+,Preformed Vitamin A,µg,279.2
+SA,Persons,All ages,Preformed Vitamin A,µg,281.9
+SA,Persons,2-18,Pro Vitamin A,µg,2014.5
+SA,Persons,19+,Pro Vitamin A,µg,2939.3
+SA,Persons,All ages,Pro Vitamin A,µg,2743.9
+SA,Persons,2-18,Vitamin A retinol equivalent,µg,626.0
+SA,Persons,19+,Vitamin A retinol equivalent,µg,768.2
+SA,Persons,All ages,Vitamin A retinol equivalent,µg,738.1
+SA,Persons,2-18,Thiamin (B1),mg,1.7
+SA,Persons,19+,Thiamin (B1),mg,1.6
+SA,Persons,All ages,Thiamin (B1),mg,1.6
+SA,Persons,2-18,Riboflavin (B2),mg,1.9
+SA,Persons,19+,Riboflavin (B2),mg,1.9
+SA,Persons,All ages,Riboflavin (B2),mg,1.9
+SA,Persons,2-18,Niacin (B3),mg,19.4
+SA,Persons,19+,Niacin (B3),mg,24.4
+SA,Persons,All ages,Niacin (B3),mg,23.3
+SA,Persons,2-18,Niacin equivalent,mg,34.1
+SA,Persons,19+,Niacin equivalent,mg,41.5
+SA,Persons,All ages,Niacin equivalent,mg,39.9
+SA,Persons,2-18,"Folate, natural",µg,237.1
+SA,Persons,19+,"Folate, natural",µg,272.8
+SA,Persons,All ages,"Folate, natural",µg,265.2
+SA,Persons,2-18,Folic acid,µg,260.7
+SA,Persons,19+,Folic acid,µg,201.9
+SA,Persons,All ages,Folic acid,µg,214.3
+SA,Persons,2-18,Total Folates,µg,498.4
+SA,Persons,19+,Total Folates,µg,475.1
+SA,Persons,All ages,Total Folates,µg,480.0
+SA,Persons,2-18,Folate equivalent,µg,673.0
+SA,Persons,19+,Folate equivalent,µg,610.3
+SA,Persons,All ages,Folate equivalent,µg,623.6
+SA,Persons,2-18,Vitamin B6,mg,1.1
+SA,Persons,19+,Vitamin B6,mg,1.4
+SA,Persons,All ages,Vitamin B6,mg,1.4
+SA,Persons,2-18,Vitamin B12,µg,3.9
+SA,Persons,19+,Vitamin B12,µg,4.3
+SA,Persons,All ages,Vitamin B12,µg,4.2
+SA,Persons,2-18,Vitamin C,mg,88.3
+SA,Persons,19+,Vitamin C,mg,98.6
+SA,Persons,All ages,Vitamin C,mg,96.5
+SA,Persons,2-18,Vitamin E,mg,8.7
+SA,Persons,19+,Vitamin E,mg,10.2
+SA,Persons,All ages,Vitamin E,mg,9.9
+SA,Persons,2-18,Calcium,mg,855.9
+SA,Persons,19+,Calcium,mg,795.1
+SA,Persons,All ages,Calcium,mg,808.0
+SA,Persons,2-18,Iodine,µg,174.9
+SA,Persons,19+,Iodine,µg,168.7
+SA,Persons,All ages,Iodine,µg,170.0
+SA,Persons,2-18,Iron,mg,10.1
+SA,Persons,19+,Iron,mg,10.8
+SA,Persons,All ages,Iron,mg,10.7
+SA,Persons,2-18,Magnesium,mg,254.4
+SA,Persons,19+,Magnesium,mg,327.6
+SA,Persons,All ages,Magnesium,mg,312.2
+SA,Persons,2-18,Phosphorus,mg,1276.5
+SA,Persons,19+,Phosphorus,mg,1441.0
+SA,Persons,All ages,Phosphorus,mg,1406.2
+SA,Persons,2-18,Potassium,mg,2371.8
+SA,Persons,19+,Potassium,mg,2847.6
+SA,Persons,All ages,Potassium,mg,2747.1
+SA,Persons,2-18,Selenium,µg,67.5
+SA,Persons,19+,Selenium,µg,91.0
+SA,Persons,All ages,Selenium,µg,86.0
+SA,Persons,2-18,Sodium,mg,2336.3
+SA,Persons,19+,Sodium,mg,2396.7
+SA,Persons,All ages,Sodium,mg,2384.0
+SA,Persons,2-18,Zinc,mg,9.1
+SA,Persons,19+,Zinc,mg,10.6
+SA,Persons,All ages,Zinc,mg,10.3
+SA,Persons,2-18,Caffeine,mg,22.8
+SA,Persons,19+,Caffeine,mg,177.4
+SA,Persons,All ages,Caffeine,mg,144.8
+SA,Persons,2-18,Cholesterol,mg,223.9
+SA,Persons,19+,Cholesterol,mg,303.9
+SA,Persons,All ages,Cholesterol,mg,287.0
+TAS,Males,2-18,Energy,kJ,9364.9
+TAS,Males,19+,Energy,kJ,10143.3
+TAS,Males,All ages,Energy,kJ,9947.5
+TAS,Males,2-18,Moisture,g,2147.3
+TAS,Males,19+,Moisture,g,2850.0
+TAS,Males,All ages,Moisture,g,2673.2
+TAS,Males,2-18,Protein,g,86.3
+TAS,Males,19+,Protein,g,102.5
+TAS,Males,All ages,Protein,g,98.4
+TAS,Males,2-18,Total Fat,g,78.0
+TAS,Males,19+,Total Fat,g,86.6
+TAS,Males,All ages,Total Fat,g,84.5
+TAS,Males,2-18,Saturated fat,g,33.3
+TAS,Males,19+,Saturated fat,g,34.4
+TAS,Males,All ages,Saturated fat,g,34.1
+TAS,Males,2-18,Monounsaturated fat,g,28.1
+TAS,Males,19+,Monounsaturated fat,g,32.4
+TAS,Males,All ages,Monounsaturated fat,g,31.3
+TAS,Males,2-18,Polyunsaturated fat,g,10.3
+TAS,Males,19+,Polyunsaturated fat,g,12.4
+TAS,Males,All ages,Polyunsaturated fat,g,11.9
+TAS,Males,2-18,Linoleic acid,g,8.7
+TAS,Males,19+,Linoleic acid,g,10.3
+TAS,Males,All ages,Linoleic acid,g,9.9
+TAS,Males,2-18,Alpha-Linolenic acid,g,1.3
+TAS,Males,19+,Alpha-Linolenic acid,g,1.5
+TAS,Males,All ages,Alpha-Linolenic acid,g,1.5
+TAS,Males,2-18,Total long chain omega 3 fatty acids,mg,156.8
+TAS,Males,19+,Total long chain omega 3 fatty acids,mg,221.9
+TAS,Males,All ages,Total long chain omega 3 fatty acids,mg,205.5
+TAS,Males,2-18,Trans fatty acids,mg,1558.8
+TAS,Males,19+,Trans fatty acids,mg,1865.6
+TAS,Males,All ages,Trans fatty acids,mg,1788.4
+TAS,Males,2-18,Carbohydrate,g,287.4
+TAS,Males,19+,Carbohydrate,g,264.3
+TAS,Males,All ages,Carbohydrate,g,270.1
+TAS,Males,2-18,Total sugars,g,136.5
+TAS,Males,19+,Total sugars,g,125.9
+TAS,Males,All ages,Total sugars,g,128.5
+TAS,Males,2-18,Starch,g,148.4
+TAS,Males,19+,Starch,g,131.1
+TAS,Males,All ages,Starch,g,135.4
+TAS,Males,2-18,Dietary Fibre,g,24.3
+TAS,Males,19+,Dietary Fibre,g,24.9
+TAS,Males,All ages,Dietary Fibre,g,24.7
+TAS,Males,19+,Alcohol,g,19.6
+TAS,Males,All ages,Alcohol,g,14.8
+TAS,Males,2-18,Preformed Vitamin A,µg,371.6
+TAS,Males,19+,Preformed Vitamin A,µg,390.0
+TAS,Males,All ages,Preformed Vitamin A,µg,385.4
+TAS,Males,2-18,Pro Vitamin A,µg,2368.8
+TAS,Males,19+,Pro Vitamin A,µg,3384.6
+TAS,Males,All ages,Pro Vitamin A,µg,3129.1
+TAS,Males,2-18,Vitamin A retinol equivalent,µg,764.2
+TAS,Males,19+,Vitamin A retinol equivalent,µg,952.8
+TAS,Males,All ages,Vitamin A retinol equivalent,µg,905.4
+TAS,Males,2-18,Thiamin (B1),mg,2.3
+TAS,Males,19+,Thiamin (B1),mg,1.9
+TAS,Males,All ages,Thiamin (B1),mg,2.0
+TAS,Males,2-18,Riboflavin (B2),mg,2.5
+TAS,Males,19+,Riboflavin (B2),mg,2.4
+TAS,Males,All ages,Riboflavin (B2),mg,2.4
+TAS,Males,2-18,Niacin (B3),mg,23.4
+TAS,Males,19+,Niacin (B3),mg,29.7
+TAS,Males,All ages,Niacin (B3),mg,28.1
+TAS,Males,2-18,Niacin equivalent,mg,40.2
+TAS,Males,19+,Niacin equivalent,mg,49.1
+TAS,Males,All ages,Niacin equivalent,mg,46.9
+TAS,Males,2-18,"Folate, natural",µg,290.1
+TAS,Males,19+,"Folate, natural",µg,327.3
+TAS,Males,All ages,"Folate, natural",µg,317.9
+TAS,Males,2-18,Folic acid,µg,306.1
+TAS,Males,19+,Folic acid,µg,241.8
+TAS,Males,All ages,Folic acid,µg,258.0
+TAS,Males,2-18,Total Folates,µg,596.5
+TAS,Males,19+,Total Folates,µg,569.7
+TAS,Males,All ages,Total Folates,µg,576.5
+TAS,Males,2-18,Folate equivalent,µg,801.6
+TAS,Males,19+,Folate equivalent,µg,731.6
+TAS,Males,All ages,Folate equivalent,µg,749.2
+TAS,Males,2-18,Vitamin B6,mg,1.2
+TAS,Males,19+,Vitamin B6,mg,1.9
+TAS,Males,All ages,Vitamin B6,mg,1.7
+TAS,Males,2-18,Vitamin B12,µg,4.6
+TAS,Males,19+,Vitamin B12,µg,5.6
+TAS,Males,All ages,Vitamin B12,µg,5.4
+TAS,Males,2-18,Vitamin C,mg,105.9
+TAS,Males,19+,Vitamin C,mg,111.3
+TAS,Males,All ages,Vitamin C,mg,110.0
+TAS,Males,2-18,Vitamin E,mg,9.2
+TAS,Males,19+,Vitamin E,mg,11.0
+TAS,Males,All ages,Vitamin E,mg,10.6
+TAS,Males,2-18,Calcium,mg,976.6
+TAS,Males,19+,Calcium,mg,928.1
+TAS,Males,All ages,Calcium,mg,940.3
+TAS,Males,2-18,Iodine,µg,199.2
+TAS,Males,19+,Iodine,µg,200.6
+TAS,Males,All ages,Iodine,µg,200.2
+TAS,Males,2-18,Iron,mg,12.2
+TAS,Males,19+,Iron,mg,12.8
+TAS,Males,All ages,Iron,mg,12.7
+TAS,Males,2-18,Magnesium,mg,315.8
+TAS,Males,19+,Magnesium,mg,368.9
+TAS,Males,All ages,Magnesium,mg,355.5
+TAS,Males,2-18,Phosphorus,mg,1572.4
+TAS,Males,19+,Phosphorus,mg,1683.9
+TAS,Males,All ages,Phosphorus,mg,1655.9
+TAS,Males,2-18,Potassium,mg,2883.6
+TAS,Males,19+,Potassium,mg,3425.3
+TAS,Males,All ages,Potassium,mg,3289.0
+TAS,Males,2-18,Selenium,µg,78.4
+TAS,Males,19+,Selenium,µg,94.8
+TAS,Males,All ages,Selenium,µg,90.7
+TAS,Males,2-18,Sodium,mg,2792.3
+TAS,Males,19+,Sodium,mg,2843.3
+TAS,Males,All ages,Sodium,mg,2830.5
+TAS,Males,2-18,Zinc,mg,10.5
+TAS,Males,19+,Zinc,mg,12.9
+TAS,Males,All ages,Zinc,mg,12.3
+TAS,Males,2-18,Caffeine,mg,19.0
+TAS,Males,19+,Caffeine,mg,204.8
+TAS,Males,All ages,Caffeine,mg,158.0
+TAS,Males,2-18,Cholesterol,mg,234.3
+TAS,Males,19+,Cholesterol,mg,351.8
+TAS,Males,All ages,Cholesterol,mg,322.3
+TAS,Females,2-18,Energy,kJ,7302.7
+TAS,Females,19+,Energy,kJ,7769.3
+TAS,Females,All ages,Energy,kJ,7666.4
+TAS,Females,2-18,Moisture,g,1761.2
+TAS,Females,19+,Moisture,g,2640.3
+TAS,Females,All ages,Moisture,g,2446.5
+TAS,Females,2-18,Protein,g,66.1
+TAS,Females,19+,Protein,g,77.7
+TAS,Females,All ages,Protein,g,75.1
+TAS,Females,2-18,Total Fat,g,61.2
+TAS,Females,19+,Total Fat,g,66.2
+TAS,Females,All ages,Total Fat,g,65.1
+TAS,Females,2-18,Saturated fat,g,26.1
+TAS,Females,19+,Saturated fat,g,26.6
+TAS,Females,All ages,Saturated fat,g,26.5
+TAS,Females,2-18,Monounsaturated fat,g,21.9
+TAS,Females,19+,Monounsaturated fat,g,24.1
+TAS,Females,All ages,Monounsaturated fat,g,23.6
+TAS,Females,2-18,Polyunsaturated fat,g,8.3
+TAS,Females,19+,Polyunsaturated fat,g,9.6
+TAS,Females,All ages,Polyunsaturated fat,g,9.3
+TAS,Females,2-18,Linoleic acid,g,6.9
+TAS,Females,19+,Linoleic acid,g,8.0
+TAS,Females,All ages,Linoleic acid,g,7.8
+TAS,Females,2-18,Alpha-Linolenic acid,g,1.1
+TAS,Females,19+,Alpha-Linolenic acid,g,1.2
+TAS,Females,All ages,Alpha-Linolenic acid,g,1.2
+TAS,Females,19+,Total long chain omega 3 fatty acids,mg,186.3
+TAS,Females,All ages,Total long chain omega 3 fatty acids,mg,168.5
+TAS,Females,2-18,Trans fatty acids,mg,1207.9
+TAS,Females,19+,Trans fatty acids,mg,1347.0
+TAS,Females,All ages,Trans fatty acids,mg,1316.3
+TAS,Females,2-18,Carbohydrate,g,225.5
+TAS,Females,19+,Carbohydrate,g,209.7
+TAS,Females,All ages,Carbohydrate,g,213.2
+TAS,Females,2-18,Total sugars,g,112.4
+TAS,Females,19+,Total sugars,g,104.1
+TAS,Females,All ages,Total sugars,g,105.9
+TAS,Females,2-18,Starch,g,112.0
+TAS,Females,19+,Starch,g,102.9
+TAS,Females,All ages,Starch,g,104.9
+TAS,Females,2-18,Dietary Fibre,g,17.7
+TAS,Females,19+,Dietary Fibre,g,21.6
+TAS,Females,All ages,Dietary Fibre,g,20.7
+TAS,Females,19+,Alcohol,g,10.6
+TAS,Females,All ages,Alcohol,g,8.3
+TAS,Females,2-18,Preformed Vitamin A,µg,306.4
+TAS,Females,19+,Preformed Vitamin A,µg,293.2
+TAS,Females,All ages,Preformed Vitamin A,µg,296.1
+TAS,Females,2-18,Pro Vitamin A,µg,2462.8
+TAS,Females,19+,Pro Vitamin A,µg,3413.8
+TAS,Females,All ages,Pro Vitamin A,µg,3204.1
+TAS,Females,2-18,Vitamin A retinol equivalent,µg,715.0
+TAS,Females,19+,Vitamin A retinol equivalent,µg,861.3
+TAS,Females,All ages,Vitamin A retinol equivalent,µg,829.1
+TAS,Females,2-18,Thiamin (B1),mg,1.3
+TAS,Females,19+,Thiamin (B1),mg,1.5
+TAS,Females,All ages,Thiamin (B1),mg,1.4
+TAS,Females,2-18,Riboflavin (B2),mg,1.7
+TAS,Females,19+,Riboflavin (B2),mg,1.9
+TAS,Females,All ages,Riboflavin (B2),mg,1.9
+TAS,Females,2-18,Niacin (B3),mg,16.6
+TAS,Females,19+,Niacin (B3),mg,20.8
+TAS,Females,All ages,Niacin (B3),mg,19.8
+TAS,Females,2-18,Niacin equivalent,mg,29.6
+TAS,Females,19+,Niacin equivalent,mg,35.6
+TAS,Females,All ages,Niacin equivalent,mg,34.3
+TAS,Females,2-18,"Folate, natural",µg,232.2
+TAS,Females,19+,"Folate, natural",µg,291.7
+TAS,Females,All ages,"Folate, natural",µg,278.6
+TAS,Females,2-18,Folic acid,µg,185.5
+TAS,Females,19+,Folic acid,µg,170.8
+TAS,Females,All ages,Folic acid,µg,174.1
+TAS,Females,2-18,Total Folates,µg,418.1
+TAS,Females,19+,Total Folates,µg,463.1
+TAS,Females,All ages,Total Folates,µg,453.2
+TAS,Females,2-18,Folate equivalent,µg,542.3
+TAS,Females,19+,Folate equivalent,µg,577.5
+TAS,Females,All ages,Folate equivalent,µg,569.8
+TAS,Females,2-18,Vitamin B6,mg,1.1
+TAS,Females,19+,Vitamin B6,mg,1.4
+TAS,Females,All ages,Vitamin B6,mg,1.3
+TAS,Females,2-18,Vitamin B12,µg,3.8
+TAS,Females,19+,Vitamin B12,µg,4.3
+TAS,Females,All ages,Vitamin B12,µg,4.2
+TAS,Females,2-18,Vitamin C,mg,85.7
+TAS,Females,19+,Vitamin C,mg,99.3
+TAS,Females,All ages,Vitamin C,mg,96.3
+TAS,Females,2-18,Vitamin E,mg,7.5
+TAS,Females,19+,Vitamin E,mg,9.1
+TAS,Females,All ages,Vitamin E,mg,8.7
+TAS,Females,2-18,Calcium,mg,787.1
+TAS,Females,19+,Calcium,mg,809.8
+TAS,Females,All ages,Calcium,mg,804.8
+TAS,Females,2-18,Iodine,µg,163.1
+TAS,Females,19+,Iodine,µg,162.8
+TAS,Females,All ages,Iodine,µg,162.9
+TAS,Females,2-18,Iron,mg,8.8
+TAS,Females,19+,Iron,mg,9.8
+TAS,Females,All ages,Iron,mg,9.6
+TAS,Females,2-18,Magnesium,mg,226.1
+TAS,Females,19+,Magnesium,mg,297.3
+TAS,Females,All ages,Magnesium,mg,281.6
+TAS,Females,2-18,Phosphorus,mg,1192.5
+TAS,Females,19+,Phosphorus,mg,1352.7
+TAS,Females,All ages,Phosphorus,mg,1317.3
+TAS,Females,2-18,Potassium,mg,2266.1
+TAS,Females,19+,Potassium,mg,2762.4
+TAS,Females,All ages,Potassium,mg,2652.9
+TAS,Females,2-18,Selenium,µg,58.2
+TAS,Females,19+,Selenium,µg,74.8
+TAS,Females,All ages,Selenium,µg,71.1
+TAS,Females,2-18,Sodium,mg,2073.5
+TAS,Females,19+,Sodium,mg,2155.7
+TAS,Females,All ages,Sodium,mg,2137.6
+TAS,Females,2-18,Zinc,mg,8.1
+TAS,Females,19+,Zinc,mg,9.6
+TAS,Females,All ages,Zinc,mg,9.3
+TAS,Females,2-18,Caffeine,mg,17.3
+TAS,Females,19+,Caffeine,mg,183.0
+TAS,Females,All ages,Caffeine,mg,146.5
+TAS,Females,2-18,Cholesterol,mg,233.9
+TAS,Females,19+,Cholesterol,mg,268.4
+TAS,Females,All ages,Cholesterol,mg,260.8
+TAS,Persons,2-18,Energy,kJ,8388.9
+TAS,Persons,19+,Energy,kJ,8917.3
+TAS,Persons,All ages,Energy,kJ,8792.7
+TAS,Persons,2-18,Moisture,g,1964.5
+TAS,Persons,19+,Moisture,g,2741.7
+TAS,Persons,All ages,Moisture,g,2558.4
+TAS,Persons,2-18,Protein,g,76.7
+TAS,Persons,19+,Protein,g,89.6
+TAS,Persons,All ages,Protein,g,86.6
+TAS,Persons,2-18,Total Fat,g,70.1
+TAS,Persons,19+,Total Fat,g,76.1
+TAS,Persons,All ages,Total Fat,g,74.7
+TAS,Persons,2-18,Saturated fat,g,29.8
+TAS,Persons,19+,Saturated fat,g,30.3
+TAS,Persons,All ages,Saturated fat,g,30.2
+TAS,Persons,2-18,Monounsaturated fat,g,25.2
+TAS,Persons,19+,Monounsaturated fat,g,28.1
+TAS,Persons,All ages,Monounsaturated fat,g,27.4
+TAS,Persons,2-18,Polyunsaturated fat,g,9.3
+TAS,Persons,19+,Polyunsaturated fat,g,10.9
+TAS,Persons,All ages,Polyunsaturated fat,g,10.6
+TAS,Persons,2-18,Linoleic acid,g,7.8
+TAS,Persons,19+,Linoleic acid,g,9.1
+TAS,Persons,All ages,Linoleic acid,g,8.8
+TAS,Persons,2-18,Alpha-Linolenic acid,g,1.2
+TAS,Persons,19+,Alpha-Linolenic acid,g,1.4
+TAS,Persons,All ages,Alpha-Linolenic acid,g,1.3
+TAS,Persons,2-18,Total long chain omega 3 fatty acids,mg,132.6
+TAS,Persons,19+,Total long chain omega 3 fatty acids,mg,203.5
+TAS,Persons,All ages,Total long chain omega 3 fatty acids,mg,186.8
+TAS,Persons,2-18,Trans fatty acids,mg,1392.7
+TAS,Persons,19+,Trans fatty acids,mg,1597.8
+TAS,Persons,All ages,Trans fatty acids,mg,1549.4
+TAS,Persons,2-18,Carbohydrate,g,258.1
+TAS,Persons,19+,Carbohydrate,g,236.1
+TAS,Persons,All ages,Carbohydrate,g,241.3
+TAS,Persons,2-18,Total sugars,g,125.0
+TAS,Persons,19+,Total sugars,g,114.6
+TAS,Persons,All ages,Total sugars,g,117.1
+TAS,Persons,2-18,Starch,g,131.2
+TAS,Persons,19+,Starch,g,116.5
+TAS,Persons,All ages,Starch,g,120.0
+TAS,Persons,2-18,Dietary Fibre,g,21.2
+TAS,Persons,19+,Dietary Fibre,g,23.2
+TAS,Persons,All ages,Dietary Fibre,g,22.7
+TAS,Persons,19+,Alcohol,g,15.0
+TAS,Persons,All ages,Alcohol,g,11.5
+TAS,Persons,2-18,Preformed Vitamin A,µg,340.8
+TAS,Persons,19+,Preformed Vitamin A,µg,340.0
+TAS,Persons,All ages,Preformed Vitamin A,µg,340.2
+TAS,Persons,2-18,Pro Vitamin A,µg,2413.3
+TAS,Persons,19+,Pro Vitamin A,µg,3399.7
+TAS,Persons,All ages,Pro Vitamin A,µg,3167.0
+TAS,Persons,2-18,Vitamin A retinol equivalent,µg,740.9
+TAS,Persons,19+,Vitamin A retinol equivalent,µg,905.6
+TAS,Persons,All ages,Vitamin A retinol equivalent,µg,866.7
+TAS,Persons,2-18,Thiamin (B1),mg,1.8
+TAS,Persons,19+,Thiamin (B1),mg,1.7
+TAS,Persons,All ages,Thiamin (B1),mg,1.7
+TAS,Persons,2-18,Riboflavin (B2),mg,2.1
+TAS,Persons,19+,Riboflavin (B2),mg,2.1
+TAS,Persons,All ages,Riboflavin (B2),mg,2.1
+TAS,Persons,2-18,Niacin (B3),mg,20.2
+TAS,Persons,19+,Niacin (B3),mg,25.1
+TAS,Persons,All ages,Niacin (B3),mg,23.9
+TAS,Persons,2-18,Niacin equivalent,mg,35.2
+TAS,Persons,19+,Niacin equivalent,mg,42.2
+TAS,Persons,All ages,Niacin equivalent,mg,40.5
+TAS,Persons,2-18,"Folate, natural",µg,262.7
+TAS,Persons,19+,"Folate, natural",µg,308.9
+TAS,Persons,All ages,"Folate, natural",µg,298.0
+TAS,Persons,2-18,Folic acid,µg,249.0
+TAS,Persons,19+,Folic acid,µg,205.1
+TAS,Persons,All ages,Folic acid,µg,215.5
+TAS,Persons,2-18,Total Folates,µg,512.1
+TAS,Persons,19+,Total Folates,µg,514.7
+TAS,Persons,All ages,Total Folates,µg,514.1
+TAS,Persons,2-18,Folate equivalent,µg,678.9
+TAS,Persons,19+,Folate equivalent,µg,652.0
+TAS,Persons,All ages,Folate equivalent,µg,658.4
+TAS,Persons,2-18,Vitamin B6,mg,1.2
+TAS,Persons,19+,Vitamin B6,mg,1.6
+TAS,Persons,All ages,Vitamin B6,mg,1.5
+TAS,Persons,2-18,Vitamin B12,µg,4.2
+TAS,Persons,19+,Vitamin B12,µg,4.9
+TAS,Persons,All ages,Vitamin B12,µg,4.8
+TAS,Persons,2-18,Vitamin C,mg,96.3
+TAS,Persons,19+,Vitamin C,mg,105.1
+TAS,Persons,All ages,Vitamin C,mg,103.0
+TAS,Persons,2-18,Vitamin E,mg,8.4
+TAS,Persons,19+,Vitamin E,mg,10.0
+TAS,Persons,All ages,Vitamin E,mg,9.7
+TAS,Persons,2-18,Calcium,mg,886.9
+TAS,Persons,19+,Calcium,mg,867.0
+TAS,Persons,All ages,Calcium,mg,871.7
+TAS,Persons,2-18,Iodine,µg,182.1
+TAS,Persons,19+,Iodine,µg,181.1
+TAS,Persons,All ages,Iodine,µg,181.3
+TAS,Persons,2-18,Iron,mg,10.6
+TAS,Persons,19+,Iron,mg,11.3
+TAS,Persons,All ages,Iron,mg,11.1
+TAS,Persons,2-18,Magnesium,mg,273.3
+TAS,Persons,19+,Magnesium,mg,331.9
+TAS,Persons,All ages,Magnesium,mg,318.1
+TAS,Persons,2-18,Phosphorus,mg,1392.6
+TAS,Persons,19+,Phosphorus,mg,1512.9
+TAS,Persons,All ages,Phosphorus,mg,1484.5
+TAS,Persons,2-18,Potassium,mg,2591.4
+TAS,Persons,19+,Potassium,mg,3083.0
+TAS,Persons,All ages,Potassium,mg,2967.0
+TAS,Persons,2-18,Selenium,µg,68.8
+TAS,Persons,19+,Selenium,µg,84.4
+TAS,Persons,All ages,Selenium,µg,80.8
+TAS,Persons,2-18,Sodium,mg,2452.1
+TAS,Persons,19+,Sodium,mg,2488.2
+TAS,Persons,All ages,Sodium,mg,2479.7
+TAS,Persons,2-18,Zinc,mg,9.4
+TAS,Persons,19+,Zinc,mg,11.2
+TAS,Persons,All ages,Zinc,mg,10.7
+TAS,Persons,2-18,Caffeine,mg,18.2
+TAS,Persons,19+,Caffeine,mg,193.5
+TAS,Persons,All ages,Caffeine,mg,152.2
+TAS,Persons,2-18,Cholesterol,mg,234.1
+TAS,Persons,19+,Cholesterol,mg,308.7
+TAS,Persons,All ages,Cholesterol,mg,291.1
+VIC,Males,2-18,Energy,kJ,8894.7
+VIC,Males,19+,Energy,kJ,10070.1
+VIC,Males,All ages,Energy,kJ,9808.3
+VIC,Males,2-18,Moisture,g,1974.9
+VIC,Males,19+,Moisture,g,2810.2
+VIC,Males,All ages,Moisture,g,2624.2
+VIC,Males,2-18,Protein,g,81.3
+VIC,Males,19+,Protein,g,104.2
+VIC,Males,All ages,Protein,g,99.1
+VIC,Males,2-18,Total Fat,g,75.6
+VIC,Males,19+,Total Fat,g,85.6
+VIC,Males,All ages,Total Fat,g,83.4
+VIC,Males,2-18,Saturated fat,g,32.5
+VIC,Males,19+,Saturated fat,g,32.3
+VIC,Males,All ages,Saturated fat,g,32.4
+VIC,Males,2-18,Monounsaturated fat,g,27.0
+VIC,Males,19+,Monounsaturated fat,g,33.3
+VIC,Males,All ages,Monounsaturated fat,g,31.9
+VIC,Males,2-18,Polyunsaturated fat,g,9.9
+VIC,Males,19+,Polyunsaturated fat,g,12.8
+VIC,Males,All ages,Polyunsaturated fat,g,12.1
+VIC,Males,2-18,Linoleic acid,g,8.3
+VIC,Males,19+,Linoleic acid,g,10.7
+VIC,Males,All ages,Linoleic acid,g,10.1
+VIC,Males,2-18,Alpha-Linolenic acid,g,1.2
+VIC,Males,19+,Alpha-Linolenic acid,g,1.6
+VIC,Males,All ages,Alpha-Linolenic acid,g,1.5
+VIC,Males,2-18,Total long chain omega 3 fatty acids,mg,118.9
+VIC,Males,19+,Total long chain omega 3 fatty acids,mg,272.2
+VIC,Males,All ages,Total long chain omega 3 fatty acids,mg,238.1
+VIC,Males,2-18,Trans fatty acids,mg,1570.5
+VIC,Males,19+,Trans fatty acids,mg,1644.8
+VIC,Males,All ages,Trans fatty acids,mg,1628.3
+VIC,Males,2-18,Carbohydrate,g,269.7
+VIC,Males,19+,Carbohydrate,g,265.9
+VIC,Males,All ages,Carbohydrate,g,266.7
+VIC,Males,2-18,Total sugars,g,121.7
+VIC,Males,19+,Total sugars,g,110.7
+VIC,Males,All ages,Total sugars,g,113.1
+VIC,Males,2-18,Starch,g,145.5
+VIC,Males,19+,Starch,g,149.1
+VIC,Males,All ages,Starch,g,148.3
+VIC,Males,2-18,Dietary Fibre,g,22.0
+VIC,Males,19+,Dietary Fibre,g,25.4
+VIC,Males,All ages,Dietary Fibre,g,24.6
+VIC,Males,19+,Alcohol,g,16.0
+VIC,Males,All ages,Alcohol,g,12.6
+VIC,Males,2-18,Preformed Vitamin A,µg,328.0
+VIC,Males,19+,Preformed Vitamin A,µg,312.2
+VIC,Males,All ages,Preformed Vitamin A,µg,315.7
+VIC,Males,2-18,Pro Vitamin A,µg,2152.5
+VIC,Males,19+,Pro Vitamin A,µg,2967.6
+VIC,Males,All ages,Pro Vitamin A,µg,2786.1
+VIC,Males,2-18,Vitamin A retinol equivalent,µg,684.9
+VIC,Males,19+,Vitamin A retinol equivalent,µg,805.8
+VIC,Males,All ages,Vitamin A retinol equivalent,µg,778.9
+VIC,Males,2-18,Thiamin (B1),mg,1.8
+VIC,Males,19+,Thiamin (B1),mg,1.8
+VIC,Males,All ages,Thiamin (B1),mg,1.8
+VIC,Males,2-18,Riboflavin (B2),mg,2.0
+VIC,Males,19+,Riboflavin (B2),mg,2.1
+VIC,Males,All ages,Riboflavin (B2),mg,2.1
+VIC,Males,2-18,Niacin (B3),mg,19.9
+VIC,Males,19+,Niacin (B3),mg,27.7
+VIC,Males,All ages,Niacin (B3),mg,26.0
+VIC,Males,2-18,Niacin equivalent,mg,35.6
+VIC,Males,19+,Niacin equivalent,mg,47.6
+VIC,Males,All ages,Niacin equivalent,mg,44.9
+VIC,Males,2-18,"Folate, natural",µg,269.8
+VIC,Males,19+,"Folate, natural",µg,307.6
+VIC,Males,All ages,"Folate, natural",µg,299.2
+VIC,Males,2-18,Folic acid,µg,242.1
+VIC,Males,19+,Folic acid,µg,249.3
+VIC,Males,All ages,Folic acid,µg,247.7
+VIC,Males,2-18,Total Folates,µg,512.4
+VIC,Males,19+,Total Folates,µg,557.4
+VIC,Males,All ages,Total Folates,µg,547.4
+VIC,Males,2-18,Folate equivalent,µg,674.5
+VIC,Males,19+,Folate equivalent,µg,724.4
+VIC,Males,All ages,Folate equivalent,µg,713.3
+VIC,Males,2-18,Vitamin B6,mg,1.1
+VIC,Males,19+,Vitamin B6,mg,1.7
+VIC,Males,All ages,Vitamin B6,mg,1.6
+VIC,Males,2-18,Vitamin B12,µg,4.1
+VIC,Males,19+,Vitamin B12,µg,5.0
+VIC,Males,All ages,Vitamin B12,µg,4.8
+VIC,Males,2-18,Vitamin C,mg,103.3
+VIC,Males,19+,Vitamin C,mg,110.6
+VIC,Males,All ages,Vitamin C,mg,109.0
+VIC,Males,2-18,Vitamin E,mg,8.9
+VIC,Males,19+,Vitamin E,mg,11.3
+VIC,Males,All ages,Vitamin E,mg,10.8
+VIC,Males,2-18,Calcium,mg,862.5
+VIC,Males,19+,Calcium,mg,895.7
+VIC,Males,All ages,Calcium,mg,888.3
+VIC,Males,2-18,Iodine,µg,182.0
+VIC,Males,19+,Iodine,µg,193.3
+VIC,Males,All ages,Iodine,µg,190.8
+VIC,Males,2-18,Iron,mg,10.7
+VIC,Males,19+,Iron,mg,12.7
+VIC,Males,All ages,Iron,mg,12.3
+VIC,Males,2-18,Magnesium,mg,276.8
+VIC,Males,19+,Magnesium,mg,371.8
+VIC,Males,All ages,Magnesium,mg,350.7
+VIC,Males,2-18,Phosphorus,mg,1358.0
+VIC,Males,19+,Phosphorus,mg,1648.3
+VIC,Males,All ages,Phosphorus,mg,1583.6
+VIC,Males,2-18,Potassium,mg,2510.5
+VIC,Males,19+,Potassium,mg,3138.0
+VIC,Males,All ages,Potassium,mg,2998.3
+VIC,Males,2-18,Selenium,µg,72.7
+VIC,Males,19+,Selenium,µg,103.3
+VIC,Males,All ages,Selenium,µg,96.5
+VIC,Males,2-18,Sodium,mg,2716.8
+VIC,Males,19+,Sodium,mg,2935.6
+VIC,Males,All ages,Sodium,mg,2886.9
+VIC,Males,2-18,Zinc,mg,10.0
+VIC,Males,19+,Zinc,mg,12.4
+VIC,Males,All ages,Zinc,mg,11.9
+VIC,Males,2-18,Caffeine,mg,25.5
+VIC,Males,19+,Caffeine,mg,155.2
+VIC,Males,All ages,Caffeine,mg,126.3
+VIC,Males,2-18,Cholesterol,mg,252.1
+VIC,Males,19+,Cholesterol,mg,334.3
+VIC,Males,All ages,Cholesterol,mg,316.0
+VIC,Females,2-18,Energy,kJ,7191.0
+VIC,Females,19+,Energy,kJ,7334.0
+VIC,Females,All ages,Energy,kJ,7303.8
+VIC,Females,2-18,Moisture,g,1877.2
+VIC,Females,19+,Moisture,g,2601.7
+VIC,Females,All ages,Moisture,g,2448.7
+VIC,Females,2-18,Protein,g,66.3
+VIC,Females,19+,Protein,g,76.2
+VIC,Females,All ages,Protein,g,74.1
+VIC,Females,2-18,Total Fat,g,62.7
+VIC,Females,19+,Total Fat,g,63.2
+VIC,Females,All ages,Total Fat,g,63.1
+VIC,Females,2-18,Saturated fat,g,25.5
+VIC,Females,19+,Saturated fat,g,23.1
+VIC,Females,All ages,Saturated fat,g,23.6
+VIC,Females,2-18,Monounsaturated fat,g,23.0
+VIC,Females,19+,Monounsaturated fat,g,24.3
+VIC,Females,All ages,Monounsaturated fat,g,24.0
+VIC,Females,2-18,Polyunsaturated fat,g,9.2
+VIC,Females,19+,Polyunsaturated fat,g,10.2
+VIC,Females,All ages,Polyunsaturated fat,g,10.0
+VIC,Females,2-18,Linoleic acid,g,7.8
+VIC,Females,19+,Linoleic acid,g,8.5
+VIC,Females,All ages,Linoleic acid,g,8.4
+VIC,Females,2-18,Alpha-Linolenic acid,g,1.1
+VIC,Females,19+,Alpha-Linolenic acid,g,1.2
+VIC,Females,All ages,Alpha-Linolenic acid,g,1.2
+VIC,Females,2-18,Total long chain omega 3 fatty acids,mg,143.1
+VIC,Females,19+,Total long chain omega 3 fatty acids,mg,227.8
+VIC,Females,All ages,Total long chain omega 3 fatty acids,mg,209.9
+VIC,Females,2-18,Trans fatty acids,mg,1155.8
+VIC,Females,19+,Trans fatty acids,mg,1162.6
+VIC,Females,All ages,Trans fatty acids,mg,1161.2
+VIC,Females,2-18,Carbohydrate,g,214.4
+VIC,Females,19+,Carbohydrate,g,194.1
+VIC,Females,All ages,Carbohydrate,g,198.4
+VIC,Females,2-18,Total sugars,g,99.4
+VIC,Females,19+,Total sugars,g,88.6
+VIC,Females,All ages,Total sugars,g,90.9
+VIC,Females,2-18,Starch,g,113.1
+VIC,Females,19+,Starch,g,103.0
+VIC,Females,All ages,Starch,g,105.1
+VIC,Females,2-18,Dietary Fibre,g,18.3
+VIC,Females,19+,Dietary Fibre,g,21.6
+VIC,Females,All ages,Dietary Fibre,g,20.9
+VIC,Females,19+,Alcohol,g,9.1
+VIC,Females,All ages,Alcohol,g,7.2
+VIC,Females,2-18,Preformed Vitamin A,µg,263.7
+VIC,Females,19+,Preformed Vitamin A,µg,232.9
+VIC,Females,All ages,Preformed Vitamin A,µg,239.4
+VIC,Females,2-18,Pro Vitamin A,µg,2341.6
+VIC,Females,19+,Pro Vitamin A,µg,3198.3
+VIC,Females,All ages,Pro Vitamin A,µg,3017.5
+VIC,Females,2-18,Vitamin A retinol equivalent,µg,652.9
+VIC,Females,19+,Vitamin A retinol equivalent,µg,765.3
+VIC,Females,All ages,Vitamin A retinol equivalent,µg,741.6
+VIC,Females,2-18,Thiamin (B1),mg,1.5
+VIC,Females,19+,Thiamin (B1),mg,1.4
+VIC,Females,All ages,Thiamin (B1),mg,1.4
+VIC,Females,2-18,Riboflavin (B2),mg,1.6
+VIC,Females,19+,Riboflavin (B2),mg,1.6
+VIC,Females,All ages,Riboflavin (B2),mg,1.6
+VIC,Females,2-18,Niacin (B3),mg,17.2
+VIC,Females,19+,Niacin (B3),mg,19.8
+VIC,Females,All ages,Niacin (B3),mg,19.2
+VIC,Females,2-18,Niacin equivalent,mg,30.3
+VIC,Females,19+,Niacin equivalent,mg,34.4
+VIC,Females,All ages,Niacin equivalent,mg,33.5
+VIC,Females,2-18,"Folate, natural",µg,218.8
+VIC,Females,19+,"Folate, natural",µg,267.7
+VIC,Females,All ages,"Folate, natural",µg,257.3
+VIC,Females,2-18,Folic acid,µg,210.7
+VIC,Females,19+,Folic acid,µg,167.4
+VIC,Females,All ages,Folic acid,µg,176.6
+VIC,Females,2-18,Total Folates,µg,430.0
+VIC,Females,19+,Total Folates,µg,435.6
+VIC,Females,All ages,Total Folates,µg,434.4
+VIC,Females,2-18,Folate equivalent,µg,571.2
+VIC,Females,19+,Folate equivalent,µg,547.8
+VIC,Females,All ages,Folate equivalent,µg,552.7
+VIC,Females,2-18,Vitamin B6,mg,1.0
+VIC,Females,19+,Vitamin B6,mg,1.2
+VIC,Females,All ages,Vitamin B6,mg,1.2
+VIC,Females,2-18,Vitamin B12,µg,3.4
+VIC,Females,19+,Vitamin B12,µg,3.5
+VIC,Females,All ages,Vitamin B12,µg,3.5
+VIC,Females,2-18,Vitamin C,mg,84.4
+VIC,Females,19+,Vitamin C,mg,95.6
+VIC,Females,All ages,Vitamin C,mg,93.3
+VIC,Females,2-18,Vitamin E,mg,8.0
+VIC,Females,19+,Vitamin E,mg,9.8
+VIC,Females,All ages,Vitamin E,mg,9.4
+VIC,Females,2-18,Calcium,mg,712.9
+VIC,Females,19+,Calcium,mg,736.2
+VIC,Females,All ages,Calcium,mg,731.3
+VIC,Females,2-18,Iodine,µg,157.9
+VIC,Females,19+,Iodine,µg,145.9
+VIC,Females,All ages,Iodine,µg,148.5
+VIC,Females,2-18,Iron,mg,8.3
+VIC,Females,19+,Iron,mg,9.7
+VIC,Females,All ages,Iron,mg,9.4
+VIC,Females,2-18,Magnesium,mg,227.9
+VIC,Females,19+,Magnesium,mg,297.8
+VIC,Females,All ages,Magnesium,mg,283.1
+VIC,Females,2-18,Phosphorus,mg,1142.0
+VIC,Females,19+,Phosphorus,mg,1252.2
+VIC,Females,All ages,Phosphorus,mg,1228.9
+VIC,Females,2-18,Potassium,mg,2174.0
+VIC,Females,19+,Potassium,mg,2614.3
+VIC,Females,All ages,Potassium,mg,2521.4
+VIC,Females,2-18,Selenium,µg,62.9
+VIC,Females,19+,Selenium,µg,74.6
+VIC,Females,All ages,Selenium,µg,72.1
+VIC,Females,2-18,Sodium,mg,2172.5
+VIC,Females,19+,Sodium,mg,2070.2
+VIC,Females,All ages,Sodium,mg,2091.8
+VIC,Females,2-18,Zinc,mg,7.6
+VIC,Females,19+,Zinc,mg,9.0
+VIC,Females,All ages,Zinc,mg,8.7
+VIC,Females,2-18,Caffeine,mg,18.8
+VIC,Females,19+,Caffeine,mg,153.1
+VIC,Females,All ages,Caffeine,mg,124.7
+VIC,Females,2-18,Cholesterol,mg,213.0
+VIC,Females,19+,Cholesterol,mg,235.6
+VIC,Females,All ages,Cholesterol,mg,230.8
+VIC,Persons,2-18,Energy,kJ,8058.9
+VIC,Persons,19+,Energy,kJ,8681.2
+VIC,Persons,All ages,Energy,kJ,8546.2
+VIC,Persons,2-18,Moisture,g,1927.0
+VIC,Persons,19+,Moisture,g,2704.4
+VIC,Persons,All ages,Moisture,g,2535.8
+VIC,Persons,2-18,Protein,g,73.9
+VIC,Persons,19+,Protein,g,90.0
+VIC,Persons,All ages,Protein,g,86.5
+VIC,Persons,2-18,Total Fat,g,69.3
+VIC,Persons,19+,Total Fat,g,74.2
+VIC,Persons,All ages,Total Fat,g,73.1
+VIC,Persons,2-18,Saturated fat,g,29.1
+VIC,Persons,19+,Saturated fat,g,27.7
+VIC,Persons,All ages,Saturated fat,g,28.0
+VIC,Persons,2-18,Monounsaturated fat,g,25.0
+VIC,Persons,19+,Monounsaturated fat,g,28.7
+VIC,Persons,All ages,Monounsaturated fat,g,27.9
+VIC,Persons,2-18,Polyunsaturated fat,g,9.5
+VIC,Persons,19+,Polyunsaturated fat,g,11.5
+VIC,Persons,All ages,Polyunsaturated fat,g,11.0
+VIC,Persons,2-18,Linoleic acid,g,8.1
+VIC,Persons,19+,Linoleic acid,g,9.6
+VIC,Persons,All ages,Linoleic acid,g,9.2
+VIC,Persons,2-18,Alpha-Linolenic acid,g,1.2
+VIC,Persons,19+,Alpha-Linolenic acid,g,1.4
+VIC,Persons,All ages,Alpha-Linolenic acid,g,1.3
+VIC,Persons,2-18,Total long chain omega 3 fatty acids,mg,130.8
+VIC,Persons,19+,Total long chain omega 3 fatty acids,mg,249.7
+VIC,Persons,All ages,Total long chain omega 3 fatty acids,mg,223.9
+VIC,Persons,2-18,Trans fatty acids,mg,1367.0
+VIC,Persons,19+,Trans fatty acids,mg,1400.0
+VIC,Persons,All ages,Trans fatty acids,mg,1392.9
+VIC,Persons,2-18,Carbohydrate,g,242.6
+VIC,Persons,19+,Carbohydrate,g,229.4
+VIC,Persons,All ages,Carbohydrate,g,232.3
+VIC,Persons,2-18,Total sugars,g,110.8
+VIC,Persons,19+,Total sugars,g,99.5
+VIC,Persons,All ages,Total sugars,g,101.9
+VIC,Persons,2-18,Starch,g,129.6
+VIC,Persons,19+,Starch,g,125.7
+VIC,Persons,All ages,Starch,g,126.5
+VIC,Persons,2-18,Dietary Fibre,g,20.2
+VIC,Persons,19+,Dietary Fibre,g,23.4
+VIC,Persons,All ages,Dietary Fibre,g,22.7
+VIC,Persons,19+,Alcohol,g,12.5
+VIC,Persons,All ages,Alcohol,g,9.9
+VIC,Persons,2-18,Preformed Vitamin A,µg,296.4
+VIC,Persons,19+,Preformed Vitamin A,µg,271.9
+VIC,Persons,All ages,Preformed Vitamin A,µg,277.3
+VIC,Persons,2-18,Pro Vitamin A,µg,2245.3
+VIC,Persons,19+,Pro Vitamin A,µg,3084.7
+VIC,Persons,All ages,Pro Vitamin A,µg,2902.7
+VIC,Persons,2-18,Vitamin A retinol equivalent,µg,669.2
+VIC,Persons,19+,Vitamin A retinol equivalent,µg,785.3
+VIC,Persons,All ages,Vitamin A retinol equivalent,µg,760.1
+VIC,Persons,2-18,Thiamin (B1),mg,1.6
+VIC,Persons,19+,Thiamin (B1),mg,1.6
+VIC,Persons,All ages,Thiamin (B1),mg,1.6
+VIC,Persons,2-18,Riboflavin (B2),mg,1.8
+VIC,Persons,19+,Riboflavin (B2),mg,1.9
+VIC,Persons,All ages,Riboflavin (B2),mg,1.9
+VIC,Persons,2-18,Niacin (B3),mg,18.6
+VIC,Persons,19+,Niacin (B3),mg,23.7
+VIC,Persons,All ages,Niacin (B3),mg,22.6
+VIC,Persons,2-18,Niacin equivalent,mg,33.0
+VIC,Persons,19+,Niacin equivalent,mg,40.9
+VIC,Persons,All ages,Niacin equivalent,mg,39.2
+VIC,Persons,2-18,"Folate, natural",µg,244.8
+VIC,Persons,19+,"Folate, natural",µg,287.3
+VIC,Persons,All ages,"Folate, natural",µg,278.1
+VIC,Persons,2-18,Folic acid,µg,226.7
+VIC,Persons,19+,Folic acid,µg,207.8
+VIC,Persons,All ages,Folic acid,µg,211.9
+VIC,Persons,2-18,Total Folates,µg,472.0
+VIC,Persons,19+,Total Folates,µg,495.6
+VIC,Persons,All ages,Total Folates,µg,490.4
+VIC,Persons,2-18,Folate equivalent,µg,623.8
+VIC,Persons,19+,Folate equivalent,µg,634.8
+VIC,Persons,All ages,Folate equivalent,µg,632.4
+VIC,Persons,2-18,Vitamin B6,mg,1.1
+VIC,Persons,19+,Vitamin B6,mg,1.5
+VIC,Persons,All ages,Vitamin B6,mg,1.4
+VIC,Persons,2-18,Vitamin B12,µg,3.7
+VIC,Persons,19+,Vitamin B12,µg,4.2
+VIC,Persons,All ages,Vitamin B12,µg,4.1
+VIC,Persons,2-18,Vitamin C,mg,94.0
+VIC,Persons,19+,Vitamin C,mg,103.0
+VIC,Persons,All ages,Vitamin C,mg,101.0
+VIC,Persons,2-18,Vitamin E,mg,8.5
+VIC,Persons,19+,Vitamin E,mg,10.6
+VIC,Persons,All ages,Vitamin E,mg,10.1
+VIC,Persons,2-18,Calcium,mg,789.1
+VIC,Persons,19+,Calcium,mg,814.8
+VIC,Persons,All ages,Calcium,mg,809.2
+VIC,Persons,2-18,Iodine,µg,170.1
+VIC,Persons,19+,Iodine,µg,169.3
+VIC,Persons,All ages,Iodine,µg,169.5
+VIC,Persons,2-18,Iron,mg,9.5
+VIC,Persons,19+,Iron,mg,11.2
+VIC,Persons,All ages,Iron,mg,10.8
+VIC,Persons,2-18,Magnesium,mg,252.8
+VIC,Persons,19+,Magnesium,mg,334.3
+VIC,Persons,All ages,Magnesium,mg,316.6
+VIC,Persons,2-18,Phosphorus,mg,1252.0
+VIC,Persons,19+,Phosphorus,mg,1447.2
+VIC,Persons,All ages,Phosphorus,mg,1404.9
+VIC,Persons,2-18,Potassium,mg,2345.4
+VIC,Persons,19+,Potassium,mg,2872.2
+VIC,Persons,All ages,Potassium,mg,2757.9
+VIC,Persons,2-18,Selenium,µg,67.9
+VIC,Persons,19+,Selenium,µg,88.7
+VIC,Persons,All ages,Selenium,µg,84.2
+VIC,Persons,2-18,Sodium,mg,2449.8
+VIC,Persons,19+,Sodium,mg,2496.3
+VIC,Persons,All ages,Sodium,mg,2486.2
+VIC,Persons,2-18,Zinc,mg,8.8
+VIC,Persons,19+,Zinc,mg,10.7
+VIC,Persons,All ages,Zinc,mg,10.3
+VIC,Persons,2-18,Caffeine,mg,22.2
+VIC,Persons,19+,Caffeine,mg,154.1
+VIC,Persons,All ages,Caffeine,mg,125.5
+VIC,Persons,2-18,Cholesterol,mg,232.9
+VIC,Persons,19+,Cholesterol,mg,284.2
+VIC,Persons,All ages,Cholesterol,mg,273.1
+WA,Males,2-18,Energy,kJ,9117.7
+WA,Males,19+,Energy,kJ,9818.3
+WA,Males,All ages,Energy,kJ,9653.4
+WA,Males,2-18,Moisture,g,2318.9
+WA,Males,19+,Moisture,g,3393.4
+WA,Males,All ages,Moisture,g,3140.5
+WA,Males,2-18,Protein,g,91.4
+WA,Males,19+,Protein,g,103.3
+WA,Males,All ages,Protein,g,100.5
+WA,Males,2-18,Total Fat,g,79.5
+WA,Males,19+,Total Fat,g,80.9
+WA,Males,All ages,Total Fat,g,80.5
+WA,Males,2-18,Saturated fat,g,32.5
+WA,Males,19+,Saturated fat,g,30.3
+WA,Males,All ages,Saturated fat,g,30.9
+WA,Males,2-18,Monounsaturated fat,g,29.4
+WA,Males,19+,Monounsaturated fat,g,31.3
+WA,Males,All ages,Monounsaturated fat,g,30.9
+WA,Males,2-18,Polyunsaturated fat,g,10.8
+WA,Males,19+,Polyunsaturated fat,g,12.3
+WA,Males,All ages,Polyunsaturated fat,g,11.9
+WA,Males,2-18,Linoleic acid,g,9.1
+WA,Males,19+,Linoleic acid,g,10.2
+WA,Males,All ages,Linoleic acid,g,10.0
+WA,Males,2-18,Alpha-Linolenic acid,g,1.2
+WA,Males,19+,Alpha-Linolenic acid,g,1.5
+WA,Males,All ages,Alpha-Linolenic acid,g,1.4
+WA,Males,2-18,Total long chain omega 3 fatty acids,mg,196.7
+WA,Males,19+,Total long chain omega 3 fatty acids,mg,278.0
+WA,Males,All ages,Total long chain omega 3 fatty acids,mg,258.9
+WA,Males,2-18,Trans fatty acids,mg,1731.4
+WA,Males,19+,Trans fatty acids,mg,1566.0
+WA,Males,All ages,Trans fatty acids,mg,1604.9
+WA,Males,2-18,Carbohydrate,g,262.5
+WA,Males,19+,Carbohydrate,g,249.0
+WA,Males,All ages,Carbohydrate,g,252.1
+WA,Males,2-18,Total sugars,g,120.6
+WA,Males,19+,Total sugars,g,111.8
+WA,Males,All ages,Total sugars,g,113.8
+WA,Males,2-18,Starch,g,139.1
+WA,Males,19+,Starch,g,127.3
+WA,Males,All ages,Starch,g,130.1
+WA,Males,2-18,Dietary Fibre,g,23.8
+WA,Males,19+,Dietary Fibre,g,23.7
+WA,Males,All ages,Dietary Fibre,g,23.7
+WA,Males,19+,Alcohol,g,24.3
+WA,Males,2-18,Preformed Vitamin A,µg,307.8
+WA,Males,19+,Preformed Vitamin A,µg,402.2
+WA,Males,All ages,Preformed Vitamin A,µg,380.0
+WA,Males,2-18,Pro Vitamin A,µg,2794.5
+WA,Males,19+,Pro Vitamin A,µg,3186.2
+WA,Males,All ages,Pro Vitamin A,µg,3094.0
+WA,Males,2-18,Vitamin A retinol equivalent,µg,772.2
+WA,Males,19+,Vitamin A retinol equivalent,µg,932.5
+WA,Males,All ages,Vitamin A retinol equivalent,µg,894.8
+WA,Males,2-18,Thiamin (B1),mg,1.9
+WA,Males,19+,Thiamin (B1),mg,1.7
+WA,Males,All ages,Thiamin (B1),mg,1.7
+WA,Males,2-18,Riboflavin (B2),mg,2.2
+WA,Males,19+,Riboflavin (B2),mg,2.1
+WA,Males,All ages,Riboflavin (B2),mg,2.1
+WA,Males,2-18,Niacin (B3),mg,22.7
+WA,Males,19+,Niacin (B3),mg,28.7
+WA,Males,All ages,Niacin (B3),mg,27.3
+WA,Males,2-18,Niacin equivalent,mg,40.2
+WA,Males,19+,Niacin equivalent,mg,48.4
+WA,Males,All ages,Niacin equivalent,mg,46.5
+WA,Males,2-18,"Folate, natural",µg,280.4
+WA,Males,19+,"Folate, natural",µg,293.7
+WA,Males,All ages,"Folate, natural",µg,290.6
+WA,Males,2-18,Folic acid,µg,269.5
+WA,Males,19+,Folic acid,µg,219.7
+WA,Males,All ages,Folic acid,µg,231.4
+WA,Males,2-18,Total Folates,µg,550.4
+WA,Males,19+,Total Folates,µg,513.9
+WA,Males,All ages,Total Folates,µg,522.5
+WA,Males,2-18,Folate equivalent,µg,730.9
+WA,Males,19+,Folate equivalent,µg,661.0
+WA,Males,All ages,Folate equivalent,µg,677.5
+WA,Males,2-18,Vitamin B6,mg,1.4
+WA,Males,19+,Vitamin B6,mg,1.8
+WA,Males,All ages,Vitamin B6,mg,1.7
+WA,Males,2-18,Vitamin B12,µg,5.0
+WA,Males,19+,Vitamin B12,µg,5.5
+WA,Males,All ages,Vitamin B12,µg,5.4
+WA,Males,2-18,Vitamin C,mg,107.0
+WA,Males,19+,Vitamin C,mg,107.2
+WA,Males,All ages,Vitamin C,mg,107.2
+WA,Males,2-18,Vitamin E,mg,10.0
+WA,Males,19+,Vitamin E,mg,11.0
+WA,Males,All ages,Vitamin E,mg,10.8
+WA,Males,2-18,Calcium,mg,961.4
+WA,Males,19+,Calcium,mg,850.3
+WA,Males,All ages,Calcium,mg,876.4
+WA,Males,2-18,Iodine,µg,191.6
+WA,Males,19+,Iodine,µg,192.9
+WA,Males,All ages,Iodine,µg,192.6
+WA,Males,2-18,Iron,mg,12.2
+WA,Males,19+,Iron,mg,12.3
+WA,Males,All ages,Iron,mg,12.3
+WA,Males,2-18,Magnesium,mg,307.3
+WA,Males,19+,Magnesium,mg,387.7
+WA,Males,All ages,Magnesium,mg,368.8
+WA,Males,2-18,Phosphorus,mg,1513.6
+WA,Males,19+,Phosphorus,mg,1632.1
+WA,Males,All ages,Phosphorus,mg,1604.2
+WA,Males,2-18,Potassium,mg,2874.3
+WA,Males,19+,Potassium,mg,3203.6
+WA,Males,All ages,Potassium,mg,3126.1
+WA,Males,2-18,Selenium,µg,81.2
+WA,Males,19+,Selenium,µg,104.8
+WA,Males,All ages,Selenium,µg,99.3
+WA,Males,2-18,Sodium,mg,2732.1
+WA,Males,19+,Sodium,mg,2713.4
+WA,Males,All ages,Sodium,mg,2717.8
+WA,Males,2-18,Zinc,mg,11.4
+WA,Males,19+,Zinc,mg,12.5
+WA,Males,All ages,Zinc,mg,12.2
+WA,Males,2-18,Caffeine,mg,26.6
+WA,Males,19+,Caffeine,mg,179.1
+WA,Males,All ages,Caffeine,mg,143.2
+WA,Males,2-18,Cholesterol,mg,289.2
+WA,Males,19+,Cholesterol,mg,337.0
+WA,Males,All ages,Cholesterol,mg,325.8
+WA,Females,2-18,Energy,kJ,7327.6
+WA,Females,19+,Energy,kJ,7524.6
+WA,Females,All ages,Energy,kJ,7480.7
+WA,Females,2-18,Moisture,g,1879.9
+WA,Females,19+,Moisture,g,2791.1
+WA,Females,All ages,Moisture,g,2588.1
+WA,Females,2-18,Protein,g,67.5
+WA,Females,19+,Protein,g,78.7
+WA,Females,All ages,Protein,g,76.2
+WA,Females,2-18,Total Fat,g,62.1
+WA,Females,19+,Total Fat,g,64.0
+WA,Females,All ages,Total Fat,g,63.6
+WA,Females,2-18,Saturated fat,g,26.1
+WA,Females,19+,Saturated fat,g,24.2
+WA,Females,All ages,Saturated fat,g,24.6
+WA,Females,2-18,Monounsaturated fat,g,23.0
+WA,Females,19+,Monounsaturated fat,g,24.2
+WA,Females,All ages,Monounsaturated fat,g,23.9
+WA,Females,2-18,Polyunsaturated fat,g,7.9
+WA,Females,19+,Polyunsaturated fat,g,9.8
+WA,Females,All ages,Polyunsaturated fat,g,9.4
+WA,Females,2-18,Linoleic acid,g,6.6
+WA,Females,19+,Linoleic acid,g,8.2
+WA,Females,All ages,Linoleic acid,g,7.8
+WA,Females,2-18,Alpha-Linolenic acid,g,1.0
+WA,Females,19+,Alpha-Linolenic acid,g,1.2
+WA,Females,All ages,Alpha-Linolenic acid,g,1.1
+WA,Females,2-18,Total long chain omega 3 fatty acids,mg,124.3
+WA,Females,19+,Total long chain omega 3 fatty acids,mg,228.7
+WA,Females,All ages,Total long chain omega 3 fatty acids,mg,205.4
+WA,Females,2-18,Trans fatty acids,mg,1232.9
+WA,Females,19+,Trans fatty acids,mg,1202.1
+WA,Females,All ages,Trans fatty acids,mg,1209.0
+WA,Females,2-18,Carbohydrate,g,222.3
+WA,Females,19+,Carbohydrate,g,193.0
+WA,Females,All ages,Carbohydrate,g,199.5
+WA,Females,2-18,Total sugars,g,105.2
+WA,Females,19+,Total sugars,g,90.9
+WA,Females,All ages,Total sugars,g,94.1
+WA,Females,2-18,Starch,g,115.6
+WA,Females,19+,Starch,g,99.7
+WA,Females,All ages,Starch,g,103.2
+WA,Females,2-18,Dietary Fibre,g,18.6
+WA,Females,19+,Dietary Fibre,g,21.0
+WA,Females,All ages,Dietary Fibre,g,20.4
+WA,Females,19+,Alcohol,g,14.1
+WA,Females,All ages,Alcohol,g,11.1
+WA,Females,2-18,Preformed Vitamin A,µg,249.4
+WA,Females,19+,Preformed Vitamin A,µg,253.6
+WA,Females,All ages,Preformed Vitamin A,µg,252.6
+WA,Females,2-18,Pro Vitamin A,µg,1950.8
+WA,Females,19+,Pro Vitamin A,µg,3084.9
+WA,Females,All ages,Pro Vitamin A,µg,2832.3
+WA,Females,2-18,Vitamin A retinol equivalent,µg,573.6
+WA,Females,19+,Vitamin A retinol equivalent,µg,767.3
+WA,Females,All ages,Vitamin A retinol equivalent,µg,724.2
+WA,Females,2-18,Thiamin (B1),mg,1.3
+WA,Females,19+,Thiamin (B1),mg,1.3
+WA,Females,All ages,Thiamin (B1),mg,1.3
+WA,Females,2-18,Riboflavin (B2),mg,1.5
+WA,Females,19+,Riboflavin (B2),mg,1.7
+WA,Females,All ages,Riboflavin (B2),mg,1.7
+WA,Females,2-18,Niacin (B3),mg,16.0
+WA,Females,19+,Niacin (B3),mg,19.7
+WA,Females,All ages,Niacin (B3),mg,18.9
+WA,Females,2-18,Niacin equivalent,mg,29.1
+WA,Females,19+,Niacin equivalent,mg,34.7
+WA,Females,All ages,Niacin equivalent,mg,33.5
+WA,Females,2-18,"Folate, natural",µg,220.6
+WA,Females,19+,"Folate, natural",µg,272.5
+WA,Females,All ages,"Folate, natural",µg,261.0
+WA,Females,2-18,Folic acid,µg,179.4
+WA,Females,19+,Folic acid,µg,160.1
+WA,Females,All ages,Folic acid,µg,164.4
+WA,Females,2-18,Total Folates,µg,400.2
+WA,Females,19+,Total Folates,µg,432.9
+WA,Females,All ages,Total Folates,µg,425.6
+WA,Females,2-18,Folate equivalent,µg,520.4
+WA,Females,19+,Folate equivalent,µg,540.1
+WA,Females,All ages,Folate equivalent,µg,535.7
+WA,Females,2-18,Vitamin B6,mg,0.9
+WA,Females,19+,Vitamin B6,mg,1.4
+WA,Females,All ages,Vitamin B6,mg,1.3
+WA,Females,2-18,Vitamin B12,µg,3.2
+WA,Females,19+,Vitamin B12,µg,3.9
+WA,Females,All ages,Vitamin B12,µg,3.7
+WA,Females,2-18,Vitamin C,mg,84.1
+WA,Females,19+,Vitamin C,mg,100.7
+WA,Females,All ages,Vitamin C,mg,97.0
+WA,Females,2-18,Vitamin E,mg,7.7
+WA,Females,19+,Vitamin E,mg,9.7
+WA,Females,All ages,Vitamin E,mg,9.2
+WA,Females,2-18,Calcium,mg,701.0
+WA,Females,19+,Calcium,mg,764.7
+WA,Females,All ages,Calcium,mg,750.5
+WA,Females,2-18,Iodine,µg,146.3
+WA,Females,19+,Iodine,µg,154.3
+WA,Females,All ages,Iodine,µg,152.5
+WA,Females,2-18,Iron,mg,8.9
+WA,Females,19+,Iron,mg,9.9
+WA,Females,All ages,Iron,mg,9.7
+WA,Females,2-18,Magnesium,mg,245.2
+WA,Females,19+,Magnesium,mg,307.8
+WA,Females,All ages,Magnesium,mg,293.9
+WA,Females,2-18,Phosphorus,mg,1134.8
+WA,Females,19+,Phosphorus,mg,1278.4
+WA,Females,All ages,Phosphorus,mg,1246.4
+WA,Females,2-18,Potassium,mg,2227.2
+WA,Females,19+,Potassium,mg,2615.3
+WA,Females,All ages,Potassium,mg,2528.9
+WA,Females,2-18,Selenium,µg,60.7
+WA,Females,19+,Selenium,µg,84.2
+WA,Females,All ages,Selenium,µg,78.9
+WA,Females,2-18,Sodium,mg,2042.6
+WA,Females,19+,Sodium,mg,2112.7
+WA,Females,All ages,Sodium,mg,2097.1
+WA,Females,2-18,Zinc,mg,8.3
+WA,Females,19+,Zinc,mg,9.6
+WA,Females,All ages,Zinc,mg,9.3
+WA,Females,2-18,Caffeine,mg,23.6
+WA,Females,19+,Caffeine,mg,150.5
+WA,Females,All ages,Caffeine,mg,122.3
+WA,Females,2-18,Cholesterol,mg,211.7
+WA,Females,19+,Cholesterol,mg,280.5
+WA,Females,All ages,Cholesterol,mg,265.2
+WA,Persons,2-18,Energy,kJ,8257.8
+WA,Persons,19+,Energy,kJ,8675.6
+WA,Persons,All ages,Energy,kJ,8579.9
+WA,Persons,2-18,Moisture,g,2108.0
+WA,Persons,19+,Moisture,g,3093.3
+WA,Persons,All ages,Moisture,g,2867.6
+WA,Persons,2-18,Protein,g,79.9
+WA,Persons,19+,Protein,g,91.0
+WA,Persons,All ages,Protein,g,88.5
+WA,Persons,2-18,Total Fat,g,71.1
+WA,Persons,19+,Total Fat,g,72.5
+WA,Persons,All ages,Total Fat,g,72.1
+WA,Persons,2-18,Saturated fat,g,29.5
+WA,Persons,19+,Saturated fat,g,27.3
+WA,Persons,All ages,Saturated fat,g,27.8
+WA,Persons,2-18,Monounsaturated fat,g,26.3
+WA,Persons,19+,Monounsaturated fat,g,27.8
+WA,Persons,All ages,Monounsaturated fat,g,27.4
+WA,Persons,2-18,Polyunsaturated fat,g,9.4
+WA,Persons,19+,Polyunsaturated fat,g,11.1
+WA,Persons,All ages,Polyunsaturated fat,g,10.7
+WA,Persons,2-18,Linoleic acid,g,7.9
+WA,Persons,19+,Linoleic acid,g,9.2
+WA,Persons,All ages,Linoleic acid,g,8.9
+WA,Persons,2-18,Alpha-Linolenic acid,g,1.1
+WA,Persons,19+,Alpha-Linolenic acid,g,1.3
+WA,Persons,All ages,Alpha-Linolenic acid,g,1.3
+WA,Persons,2-18,Total long chain omega 3 fatty acids,mg,161.9
+WA,Persons,19+,Total long chain omega 3 fatty acids,mg,253.4
+WA,Persons,All ages,Total long chain omega 3 fatty acids,mg,232.5
+WA,Persons,2-18,Trans fatty acids,mg,1491.9
+WA,Persons,19+,Trans fatty acids,mg,1384.7
+WA,Persons,All ages,Trans fatty acids,mg,1409.3
+WA,Persons,2-18,Carbohydrate,g,243.2
+WA,Persons,19+,Carbohydrate,g,221.1
+WA,Persons,All ages,Carbohydrate,g,226.1
+WA,Persons,2-18,Total sugars,g,113.2
+WA,Persons,19+,Total sugars,g,101.4
+WA,Persons,All ages,Total sugars,g,104.1
+WA,Persons,2-18,Starch,g,127.8
+WA,Persons,19+,Starch,g,113.6
+WA,Persons,All ages,Starch,g,116.8
+WA,Persons,2-18,Dietary Fibre,g,21.3
+WA,Persons,19+,Dietary Fibre,g,22.3
+WA,Persons,All ages,Dietary Fibre,g,22.1
+WA,Persons,19+,Alcohol,g,19.2
+WA,Persons,All ages,Alcohol,g,15.0
+WA,Persons,2-18,Preformed Vitamin A,µg,279.7
+WA,Persons,19+,Preformed Vitamin A,µg,328.1
+WA,Persons,All ages,Preformed Vitamin A,µg,317.1
+WA,Persons,2-18,Pro Vitamin A,µg,2389.3
+WA,Persons,19+,Pro Vitamin A,µg,3135.7
+WA,Persons,All ages,Pro Vitamin A,µg,2964.7
+WA,Persons,2-18,Vitamin A retinol equivalent,µg,676.8
+WA,Persons,19+,Vitamin A retinol equivalent,µg,850.2
+WA,Persons,All ages,Vitamin A retinol equivalent,µg,810.5
+WA,Persons,2-18,Thiamin (B1),mg,1.6
+WA,Persons,19+,Thiamin (B1),mg,1.5
+WA,Persons,All ages,Thiamin (B1),mg,1.5
+WA,Persons,2-18,Riboflavin (B2),mg,1.9
+WA,Persons,19+,Riboflavin (B2),mg,1.9
+WA,Persons,All ages,Riboflavin (B2),mg,1.9
+WA,Persons,2-18,Niacin (B3),mg,19.5
+WA,Persons,19+,Niacin (B3),mg,24.2
+WA,Persons,All ages,Niacin (B3),mg,23.1
+WA,Persons,2-18,Niacin equivalent,mg,34.8
+WA,Persons,19+,Niacin equivalent,mg,41.6
+WA,Persons,All ages,Niacin equivalent,mg,40.0
+WA,Persons,2-18,"Folate, natural",µg,251.7
+WA,Persons,19+,"Folate, natural",µg,283.2
+WA,Persons,All ages,"Folate, natural",µg,276.0
+WA,Persons,2-18,Folic acid,µg,226.2
+WA,Persons,19+,Folic acid,µg,190.0
+WA,Persons,All ages,Folic acid,µg,198.3
+WA,Persons,2-18,Total Folates,µg,478.3
+WA,Persons,19+,Total Folates,µg,473.5
+WA,Persons,All ages,Total Folates,µg,474.6
+WA,Persons,2-18,Folate equivalent,µg,629.8
+WA,Persons,19+,Folate equivalent,µg,600.8
+WA,Persons,All ages,Folate equivalent,µg,607.4
+WA,Persons,2-18,Vitamin B6,mg,1.2
+WA,Persons,19+,Vitamin B6,mg,1.6
+WA,Persons,All ages,Vitamin B6,mg,1.5
+WA,Persons,2-18,Vitamin B12,µg,4.2
+WA,Persons,19+,Vitamin B12,µg,4.7
+WA,Persons,All ages,Vitamin B12,µg,4.6
+WA,Persons,2-18,Vitamin C,mg,96.0
+WA,Persons,19+,Vitamin C,mg,104.0
+WA,Persons,All ages,Vitamin C,mg,102.2
+WA,Persons,2-18,Vitamin E,mg,8.9
+WA,Persons,19+,Vitamin E,mg,10.3
+WA,Persons,All ages,Vitamin E,mg,10.0
+WA,Persons,2-18,Calcium,mg,836.4
+WA,Persons,19+,Calcium,mg,807.6
+WA,Persons,All ages,Calcium,mg,814.2
+WA,Persons,2-18,Iodine,µg,169.9
+WA,Persons,19+,Iodine,µg,173.7
+WA,Persons,All ages,Iodine,µg,172.8
+WA,Persons,2-18,Iron,mg,10.6
+WA,Persons,19+,Iron,mg,11.1
+WA,Persons,All ages,Iron,mg,11.0
+WA,Persons,2-18,Magnesium,mg,277.4
+WA,Persons,19+,Magnesium,mg,347.9
+WA,Persons,All ages,Magnesium,mg,331.8
+WA,Persons,2-18,Phosphorus,mg,1331.6
+WA,Persons,19+,Phosphorus,mg,1455.9
+WA,Persons,All ages,Phosphorus,mg,1427.4
+WA,Persons,2-18,Potassium,mg,2563.5
+WA,Persons,19+,Potassium,mg,2910.5
+WA,Persons,All ages,Potassium,mg,2831.0
+WA,Persons,2-18,Selenium,µg,71.4
+WA,Persons,19+,Selenium,µg,94.5
+WA,Persons,All ages,Selenium,µg,89.2
+WA,Persons,2-18,Sodium,mg,2400.9
+WA,Persons,19+,Sodium,mg,2414.1
+WA,Persons,All ages,Sodium,mg,2411.1
+WA,Persons,2-18,Zinc,mg,9.9
+WA,Persons,19+,Zinc,mg,11.0
+WA,Persons,All ages,Zinc,mg,10.8
+WA,Persons,2-18,Caffeine,mg,25.2
+WA,Persons,19+,Caffeine,mg,164.9
+WA,Persons,All ages,Caffeine,mg,132.9
+WA,Persons,2-18,Cholesterol,mg,252.0
+WA,Persons,19+,Cholesterol,mg,308.9
+WA,Persons,All ages,Cholesterol,mg,295.8

@@ -1,0 +1,125 @@
+const chart9 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+
+  width: 950,
+  height: 255,
+
+  title: {
+    text: "How Food Consumption Changes With Age",
+    subtitle: "Mean daily intake of four major food groups, Australia, 2023",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "start",
+    color: "#9B783B",
+    subtitleColor: "#8C806D"
+  },
+
+  data: {
+    url: "Datasets V2/abs_2023_food_groups_by_age.csv"
+  },
+
+  mark: {
+    type: "bar",
+    cornerRadiusEnd: 2
+  },
+
+  encoding: {
+    x: {
+      field: "Age_Group",
+      type: "ordinal",
+      sort: [
+        "2–4", "5–11", "12–17", "18–29",
+        "30–49", "50–64", "65–74", "75+"
+      ],
+      axis: {
+        title: "Age group (years)",
+        labelAngle: 0,
+        labelFontSize: 11,
+        titleFontSize: 11
+      }
+    },
+
+    y: {
+      field: "Mean_Grams_Per_Day",
+      type: "quantitative",
+      aggregate: "sum",
+      stack: "zero",
+      axis: {
+        title: "Combined mean intake (g/day)",
+        titleFontSize: 11,
+        labelFontSize: 10,
+        grid: true,
+        tickCount: 6
+      }
+    },
+
+    color: {
+      field: "Food_Group",
+      type: "nominal",
+      scale: {
+        domain: [
+          "Meat",
+          "Vegetables",
+          "Dairy",
+          "Fruit"
+        ],
+        range: [
+          "#B97860",
+          "#83A18A",
+          "#C79A47",
+          "#9485AD"
+        ]
+      },
+      legend: {
+        title: "Food group",
+        orient: "bottom",
+        direction: "horizontal",
+        titleFontSize: 11,
+        labelFontSize: 11
+      }
+    },
+
+    order: {
+      field: "Food_Group",
+      sort: "ascending"
+    },
+
+    tooltip: [
+      {
+        field: "Age_Group",
+        title: "Age group"
+      },
+      {
+        field: "Food_Group",
+        title: "Food group"
+      },
+      {
+        field: "Mean_Grams_Per_Day",
+        title: "Mean intake (g/day)",
+        format: ".1f"
+      }
+    ]
+  },
+
+  config: {
+    font: "Arial",
+    view: {
+      stroke: null
+    },
+    axis: {
+      gridColor: "#E8E1D5",
+      labelColor: "#4F554D",
+      titleColor: "#6B5B44"
+    },
+    legend: {
+      labelColor: "#4F554D",
+      titleColor: "#6B5B44"
+    }
+  }
+};
+
+vegaEmbed("#chart9", chart9, {
+  actions: false
+}).catch(console.error);

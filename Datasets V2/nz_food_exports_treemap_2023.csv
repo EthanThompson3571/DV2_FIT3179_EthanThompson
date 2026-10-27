@@ -1,0 +1,17 @@
+hs_code,food_category,description,label,export_usd,export_usd_million,share_percent,x0,x1,y0,y1,xmid,ymid
+04,Dairy,"Dairy products, eggs and honey",Dairy & eggs,674617525,674.618,29.71,0,47.61273,0,37.43974,23.80636,18.71987
+22,Beverages,"Beverages, spirits and vinegar",Beverages,406507787,406.508,17.9,0,47.61273,37.43974,60.0,23.80636,48.71987
+21,Other food preparations,Miscellaneous edible preparations,Other foods,299572619,299.573,13.19,47.61273,71.38018,0,33.30563,59.49646,16.65282
+19,Cereal preparations,"Preparations of cereals, flour and milk",Cereal foods,225417036,225.417,9.93,71.38018,100.0,0,20.81221,85.69009,10.4061
+03,Fish & seafood,"Fish, crustaceans, molluscs and aquatic invertebrates",Fish & seafood,135316303,135.316,5.96,71.38018,100.0,20.81221,33.30563,85.69009,27.05892
+20,Fruit & vegetable preparations,"Preparations of vegetables, fruit and nuts",Fruit & veg preparations,113163865,113.164,4.98,47.61273,77.87646,33.30563,43.18624,62.74459,38.24594
+18,Chocolate & cocoa,Cocoa and cocoa preparations,Chocolate & cocoa,97429848,97.43,4.29,47.61273,62.9245,43.18624,60.0,55.26861,51.59312
+16,Prepared meat & seafood,"Preparations of meat, fish and seafood",Meat & fish preparations,95140360,95.14,4.19,62.9245,77.87646,43.18624,60.0,70.40048,51.59312
+08,Fruit & nuts,Edible fruit and nuts,Fruit & nuts,83178097,83.178,3.66,77.87646,91.74856,33.30563,49.14965,84.81251,41.22764
+07,Vegetables,Edible vegetables and certain roots and tubers,Vegetables,49476259,49.476,2.18,91.74856,100.0,33.30563,49.14965,95.87428,41.22764
+17,Sugar & confectionery,Sugars and sugar confectionery,Sugar products,46226157,46.226,2.04,77.87646,89.13397,49.14965,60.0,83.50521,54.57482
+12,Oil seeds & grains,"Oil seeds, miscellaneous grains, seeds and fruit",Oil seeds,19556825,19.557,0.86,89.13397,100.0,49.14965,53.90547,94.56698,51.52756
+02,Meat,Meat and edible meat offal,Meat,15228686,15.229,0.67,89.13397,95.73665,53.90547,60.0,92.43531,56.95273
+11,Milling products,"Milling industry products, malt and starches",Milling products,5407475,5.407,0.24,95.73665,100.0,53.90547,57.25699,97.86833,55.58123
+09,"Coffee, tea & spices","Coffee, tea, mate and spices",Coffee & tea,3150006,3.15,0.14,95.73665,98.77112,57.25699,60.0,97.25388,58.62849
+10,Cereals,Cereals,Cereals,1275675,1.276,0.06,98.77112,100.0,57.25699,60.0,99.38556,58.62849

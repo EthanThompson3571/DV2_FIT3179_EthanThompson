@@ -1,0 +1,150 @@
+Category,Food_Name,Energy_kJ_per_100g,Total_Fat_g,Total_Sugars_g,Protein_g
+Cheese,"Cheese, blended, regular fat",1337.0,24.7,0,23.6
+Cheese,"Cheese, blue vein",1552.0,32.9,0.3,19.1
+Cheese,"Cheese, cheddar, natural, plain",1686.0,33.4,0.3,24.6
+Cheese,"Cheese, cheddar, natural, flavoured",1653.0,32.3,0.8,24
+Cheese,"Cheese, colby style",1629.0,32.3,0.1,24
+Cheese,"Cheese, edam",1500.0,27.2,0,27.4
+Cheese,"Cheese, fetta (feta)",1073.0,20.6,0.4,16.6
+Cheese,"Cheese, fetta (feta), lactose free",1091.0,21,0.2,17
+Cheese,"Cheese, fetta (feta), marinated",1206.0,24.3,0.5,15.6
+Cheese,"Cheese, goat, soft",1194.0,21.7,0.9,21.2
+Cheese,"Cheese, gouda",1607.0,30.6,0,26.4
+Cheese,"Cheese, haloumi (halloumi)",1277.0,24.6,1,20.5
+Cheese,"Cheese, haloumi (halloumi), reduced salt",1281.0,25.3,1.1,19
+Cheese,"Cheese, havarti",1714.0,36.7,0.1,19.4
+Cheese,"Cheese, hard, lactose free",1685.0,33.3,0.3,24.9
+Cheese,"Cheese, hard, flavoured, lactose free",1594.0,29.6,3.4,22.5
+Cheese,"Cheese, mozzarella",1212.0,22.1,0,22.2
+Cheese,"Cheese, mozzarella, buffalo",1299.0,27.8,0,14.8
+Cheese,"Cheese, mozzarella, coated, fried",1379.0,18.4,2.9,19.9
+Cheese,"Cheese, parmesan, dried, finely grated",1949.0,33.3,0,40.6
+Cheese,"Cheese, parmesan, fresh",1565.0,27,0,32
+Cheese,"Cheese, provolone style",1549.0,28.4,0.1,27.8
+Cheese,"Cheese, smoked, regular fat",1644.0,31.6,0.3,26.2
+Cheese,"Cheese, sheep",1228.0,24.5,1,17
+Cheese,"Cheese, swiss or jarlsberg",1615.0,30,0.1,28.2
+Nuts,"Chestnut puree, added sugar",1137.0,0.4,43.9,1
+Nuts,"Nut, almond, raw/natural, unsalted",2386.0,50.5,5.2,19.7
+Nuts,"Nut, almond meal",2386.0,50.5,5.2,19.7
+Nuts,"Nut, almond, roasted, unsalted",2462.0,52.5,5.2,19.7
+Nuts,"Nut, almond, roasted, salted",2456.0,52.6,5.1,19.3
+Nuts,"Nut, brazil, raw/natural, unsalted",2886.0,68.5,2.1,14.4
+Nuts,"Nut, cashew, raw/natural, unsalted",2540.0,49.2,5.5,17
+Nuts,"Nut, cashew, roasted, unsalted",2530.0,47.7,6.5,17
+Nuts,"Nut, cashew, roasted, salted",2554.0,48.5,6.4,17
+Nuts,"Nut, cashew, roasted, coated in honey",2252.0,33.9,33.1,12
+Nuts,"Nut, cashew, roasted, savoury flavoured",2239.0,34.7,28.9,12.6
+Nuts,"Nut, chestnut, raw/natural, unsalted",727.0,0.2,3.3,3.4
+Nuts,"Nut, chestnut, roasted, unsalted",765.0,1.2,7.4,3.4
+Nuts,"Nut, hazelnut, raw/natural, unsalted",2689.0,61.4,4.4,14.8
+Nuts,"Nut, macadamia, raw/natural, unsalted",3086.0,76.7,4.6,6.5
+Nuts,"Nut, macadamia, roasted, salted",3098.0,77.2,4.5,6.4
+Nuts,"Nut, macadamia, roasted, coated in honey",2706.0,57.5,27.9,4.9
+Nuts,"Nut, pecan, raw/natural, unsalted",2973.0,71.9,4.3,9.8
+Nuts,"Nut, pine, raw/natural, unsalted",2925.0,70,3.4,13
+Nuts,"Nut, pistachio, raw/natural, unsalted",2283.0,48.6,7.1,17
+Nuts,"Nut, pistachio, roasted, salted",2302.0,49,7.2,17.2
+Nuts,"Nut, walnut, raw/natural, unsalted",2904.0,69.2,2.7,14.4
+Nuts,Pandanus kernel,2452.0,46.8,3.1,25.9
+Nuts,"Almond spread, no added sugar or salt",2462.0,52.5,5.2,19.7
+Nuts,"Almond spread, added sugar & salt",2443.0,42.8,21.4,8.2
+Chocolate,"Chickpea, dried, chocolate coated",1842.0,19.7,31.3,11.7
+Chocolate,"Bar, chocolate nougat centre, milk chocolate-coated",1757.0,14.8,57.8,2.8
+Chocolate,"Bar, honeycomb centre, milk chocolate-coated",1772.0,16.2,64.2,2.6
+Chocolate,"Bar, nougat & caramel centre, milk chocolate-coated",1770.0,15.9,58.8,3.4
+Chocolate,"Bar, turkish delight centre, milk chocolate-coated",1493.0,8.3,53.3,2.1
+Chocolate,"Bar, wafer & cream layers, chocolate-coated",2090.0,27.2,51.6,6.2
+Chocolate,"Bar, wafer or biscuit & caramel, milk chocolate-coated",1996.0,24,52.2,5.4
+Chocolate,"Chocolate, chocolate cream centre",2561.0,47.9,41.8,4.4
+Chocolate,"Chocolate, dark, fondant filled",1741.0,15.9,67,2.6
+Chocolate,"Chocolate, dark, with dried fruit",2004.0,23.8,56.2,3.5
+Chocolate,"Chocolate, dark, with additions (lollies/biscuits/nuts)",2151.0,28.6,52,3.8
+Chocolate,"Chocolate, liqueur-filled",2131.0,28.6,49,3.6
+Chocolate,"Chocolate, milk, caramel or fondant filled",2002.0,24.7,53.6,6
+Chocolate,"Chocolate, milk, with additions (lollies/biscuits/nuts)",2167.0,30.6,52.7,7.4
+Chocolate,"Chocolate, white, with additions (lollies/biscuits/nuts)",2241.0,33.2,52.5,7
+Chocolate,"Chocolates, assorted",2014.0,25.9,51.3,5.9
+Chocolate,"Confectionery, berry, chocolate-coated",1914.0,23,50.2,4
+Chocolate,"Confectionery, chocolate centre, sugar-coated",2032.0,18.8,64.9,4.8
+Chocolate,"Confectionery, coffee bean, chocolate-coated",1886.0,24.3,42.3,6.7
+Chocolate,"Confectionery, ginger, chocolate-coated",1684.0,13.4,65.9,1.9
+Chocolate,"Confectionery, licorice, chocolate-coated",1552.0,9.7,44.8,6.3
+Chocolate,"Confectionery, malt centre, chocolate coated",2044.0,22.9,55.4,6.3
+Chocolate,"Confectionery, marshmallow, chocolate & coconut-coated (snowball)",1702.0,13.9,60.7,4.6
+Chocolate,"Confectionery, sultana, chocolate-coated",1918.0,21.5,60.4,6.1
+Cakes,"Cake or bread, banana, commercial",1228.0,11.1,25.1,5.7
+Cakes,"Cake or bread, banana, homemade, uniced",1361.0,11.7,27.3,5.3
+Cakes,"Cake or bread, banana, homemade, iced",1377.0,11.4,35.2,4.3
+Cakes,"Cake, carrot, commercial, uniced",1348.0,13.7,31.9,4.2
+Cakes,"Cake, carrot, commercial, iced",1620.0,20.4,30.5,4.4
+Cakes,"Cake, carrot, homemade, uniced",1397.0,15.1,31.3,4.8
+Cakes,"Cake, carrot, homemade, iced",1456.0,16,36.4,4.4
+Cakes,"Cake, citrus, commercial, uniced",1492.0,15.2,29,6.2
+Cakes,"Cake, citrus, homemade",1492.0,15.2,29,6.2
+Cakes,"Cake, coffee",1453.0,15,36.6,4
+Cakes,"Cake, custard filled",1370.0,12.6,25.7,5.8
+Cakes,"Cake, date",1438.0,13.3,32.7,5
+Cakes,"Cake, ginger",1493.0,17.6,22.5,5.9
+Cakes,"Cake, gluten free",1502.0,14.3,31.1,4
+Cakes,"Cake, friand, commercial",1587.0,17.7,45.6,5.8
+Cakes,"Cake, friand, homemade",1735.0,27.8,28.7,7.2
+Cakes,"Cake, fruit, commercial, uniced",1453.0,8.6,40.5,4.4
+Cakes,"Cake, fruit, homemade, uniced",1424.0,9.7,49,3.9
+Cakes,"Cake, fruit, homemade, iced",1458.0,10.2,53.4,3.5
+Cakes,"Cake, lamington, unfilled",1233.0,9.4,31.5,4.7
+Cakes,"Cake, lamington, filled with jam &/or cream",1255.0,12.5,31.2,3.8
+Cakes,"Cake, non-chocolate flavour, cream filling",1484.0,18.4,22.4,7.3
+Cakes,"Cake, nuts or nut meal",1664.0,23.2,31.2,6.7
+Cakes,"Cake, orange, flourless",1218.0,10.9,41.4,6.8
+Cakes,"Cake, plain butter cake, commercial, uniced",1486.0,15.2,25.3,8.2
+Fruit,"Banana, cavendish, peeled, raw",399.0,0.2,13.4,1.4
+Fruit,"Banana, lady finger or sugar, peeled, raw",489.0,0,16.9,1
+Fruit,"Banana, cooked",532.0,3.4,14,1.4
+Fruit,"Banana, frozen",410.0,0.2,13.7,1.4
+Fruit,"Custard apple, peeled, raw",335.0,0.5,13.1,1.4
+Fruit,"Dragon fruit, peeled, raw",230.0,0.8,8.6,1.3
+Fruit,"Dragon fruit, peeled, frozen",236.0,0.9,8.9,1.3
+Fruit,"Durian, peeled, raw",601.0,5.3,14.1,2.1
+Fruit,"Feijoa, raw",176.0,0.4,7.7,0.6
+Fruit,"Guava, hawaiian, raw",144.0,0.5,3.4,0.7
+Fruit,"Jackfruit, peeled, raw",347.0,0.3,16.3,2.2
+Fruit,"Lychee, peeled, raw",298.0,0,16.8,0.8
+Fruit,"Lychee, peeled, frozen",307.0,0,17.3,0.9
+Fruit,"Mango, peeled, raw",224.0,0,12.1,0.4
+Fruit,"Mango, peeled, frozen",231.0,0,12.4,0.4
+Fruit,"Mangosteen, peeled, raw",316.0,0.6,16.8,0.6
+Fruit,"Passionfruit, raw",331.0,1.4,6.9,2.8
+Fruit,"Passionfruit, pulp, frozen",340.0,1.5,7.1,2.9
+Fruit,"Pawpaw (papaya), peeled, raw",167.0,0,8.4,0.4
+Fruit,"Pineapple, peeled, raw",165.0,0,8.6,0.5
+Fruit,"Pineapple, peeled, stewed, sugar sweetened, no added fat",208.0,0,11.3,0.5
+Fruit,"Pineapple, peeled, frozen",169.0,0,8.8,0.5
+Fruit,"Plantain, peeled, raw",577.0,0.2,9.9,1.3
+Fruit,"Plantain, peeled, cooked",621.0,0.2,10.6,1.4
+Fruit,"Pomegranate, peeled, raw",329.0,0.2,13.5,1.9
+Vegetables,"Beetroot, purple, peeled, raw",232.0,0.6,9.3,2
+Vegetables,"Beetroot, purple, peeled, baked, roasted, fried, stir-fried, grilled or BBQ'd, added fat",494.0,6.7,10.8,2.3
+Vegetables,"Beetroot, purple, peeled, boiled, microwaved or steamed, drained",250.0,0.6,10,2.1
+Vegetables,"Beetroot, purple, cooked, pre-packaged",250.0,0.6,10,2.1
+Vegetables,"Beetroot, canned, drained",184.0,0,8.7,1.2
+Vegetables,"Cassava, white flesh, peeled, raw",644.0,0.3,1.2,0.6
+Vegetables,"Cassava, yellow flesh, peeled, raw",531.0,0.2,1.2,1.6
+Vegetables,"Cassava, peeled, raw",587.0,0.2,1.2,1.1
+Vegetables,"Cassava, peeled, cooked",632.0,0.3,1.3,1.2
+Vegetables,"Celeriac, peeled, raw",162.0,0.2,2.8,1.6
+Vegetables,"Celeriac, peeled, cooked",174.0,0.2,3,1.7
+Vegetables,"Chicory, raw",67.0,0.2,0.7,1.8
+Vegetables,"Chicory, cooked",78.0,0.2,0.8,2.1
+Vegetables,"Ginger, peeled, raw",132.0,0.4,1.7,0.8
+Vegetables,"Ginger, peeled, cooked",160.0,0.5,2.1,1
+Vegetables,"Parsnip, peeled, raw",246.0,0.4,5.6,1.6
+Vegetables,"Parsnip, peeled, baked, roasted, fried, stir-fried, grilled or BBQ'd, no added fat",300.0,0.5,6.8,2
+Vegetables,"Parsnip, peeled, baked, roasted, fried, stir-fried, grilled or BBQ'd, added fat",509.0,6.5,6.4,1.9
+Vegetables,"Parsnip, peeled, boiled, microwaved or steamed, drained",264.0,0.4,6,1.8
+Vegetables,"Radish, raw",62.0,0.2,1.9,0.8
+Vegetables,"Swede, peeled, raw",93.0,0,3.4,0.9
+Vegetables,"Swede, peeled, cooked",100.0,0,3.6,1
+Vegetables,"Sweet potato, orange flesh, peeled, raw",273.0,0.2,5.8,1.4
+Vegetables,"Sweet potato, orange flesh, peeled, baked, roasted, fried, stir-fried, grilled or BBQ'd, no added fat",333.0,0.2,7.1,1.8
+Vegetables,"Sweet potato, orange flesh, peeled, baked, roasted, fried, stir-fried, grilled or BBQ'd, added fat",541.0,6.3,6.7,1.7

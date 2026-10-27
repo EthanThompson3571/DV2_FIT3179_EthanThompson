@@ -1,0 +1,222 @@
+const chart7 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+  width: 470,
+  height: 340,
+
+  title: {
+    text: "New Zealand's Food Exports to Australia",
+    subtitle: "Export value by food category, 2023 (US$)",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "middle",
+    color: "#365C78",
+    subtitleColor: "#71899B"
+  },
+
+  data: {
+    url: "Datasets V2/nz_food_exports_treemap_2023.csv",
+    format: {
+      type: "csv",
+      parse: {
+        export_usd: "number",
+        export_usd_million: "number",
+        share_percent: "number",
+        x0: "number",
+        x1: "number",
+        y0: "number",
+        y1: "number",
+        xmid: "number",
+        ymid: "number"
+      }
+    }
+  },
+
+  transform: [
+    {
+      calculate: "format(datum.export_usd_million, '.1f') + 'M USD'",
+      as: "ValueLabel"
+    },
+    {
+      calculate: "(datum.x1 - datum.x0) * (datum.y1 - datum.y0)",
+      as: "TileArea"
+    }
+  ],
+
+  layer: [
+    // Treemap rectangles
+    {
+      mark: {
+        type: "rect",
+        stroke: "#F4F7F8",
+        strokeWidth: 3,
+        cornerRadius: 3
+      },
+
+      encoding: {
+        x: {
+          field: "x0",
+          type: "quantitative",
+          scale: { domain: [0, 100] },
+          axis: null
+        },
+
+        x2: {
+          field: "x1"
+        },
+
+        y: {
+          field: "y0",
+          type: "quantitative",
+          scale: { domain: [0, 60] },
+          axis: null
+        },
+
+        y2: {
+          field: "y1"
+        },
+
+        color: {
+          field: "export_usd_million",
+          type: "quantitative",
+          scale: {
+            range: [
+              "#C9DCE8",
+              "#A4C5D9",
+              "#7FAAC6",
+              "#5688AB",
+              "#356D94",
+              "#1F4E70"
+            ]
+          },
+          legend: {
+            title: "Export value (US$ m)",
+            orient: "bottom",
+            direction: "horizontal",
+            gradientLength: 170,
+            gradientThickness: 10,
+            titleFontSize: 11,
+            labelFontSize: 10
+          }
+        },
+
+        tooltip: [
+          {
+            field: "food_category",
+            title: "Food category"
+          },
+          {
+            field: "hs_code",
+            title: "HS chapter"
+          },
+          {
+            field: "description",
+            title: "Product description"
+          },
+          {
+            field: "export_usd_million",
+            title: "Export value (US$ m)",
+            format: ",.2f"
+          },
+          {
+            field: "share_percent",
+            title: "Share (%)",
+            format: ".1f"
+          }
+        ]
+      }
+    },
+
+    // Food category labels
+    {
+      transform: [
+        {
+          filter: "datum.TileArea >= 350"
+        }
+      ],
+
+      mark: {
+        type: "text",
+        fontSize: 10,
+        fontWeight: "bold",
+        color: "#FFFFFF",
+        baseline: "bottom",
+        dy: -3,
+        limit: 110
+      },
+
+      encoding: {
+        x: {
+          field: "xmid",
+          type: "quantitative",
+          scale: { domain: [0, 100] },
+          axis: null
+        },
+
+        y: {
+          field: "ymid",
+          type: "quantitative",
+          scale: { domain: [0, 60] },
+          axis: null
+        },
+
+        text: {
+          field: "label"
+        }
+      }
+    },
+
+    // Export value labels
+    {
+      transform: [
+        {
+          filter: "datum.TileArea >= 350"
+        }
+      ],
+
+      mark: {
+        type: "text",
+        fontSize: 10,
+        color: "#FFFFFF",
+        baseline: "top",
+        dy: 4
+      },
+
+      encoding: {
+        x: {
+          field: "xmid",
+          type: "quantitative",
+          scale: { domain: [0, 100] },
+          axis: null
+        },
+
+        y: {
+          field: "ymid",
+          type: "quantitative",
+          scale: { domain: [0, 60] },
+          axis: null
+        },
+
+        text: {
+          field: "ValueLabel"
+        }
+      }
+    }
+  ],
+
+  config: {
+    font: "Arial",
+    view: {
+      stroke: null
+    },
+    legend: {
+      labelColor: "#526D80",
+      titleColor: "#365C78"
+    }
+  }
+};
+
+vegaEmbed("#chart7", chart7, {
+  actions: false
+}).catch(console.error);

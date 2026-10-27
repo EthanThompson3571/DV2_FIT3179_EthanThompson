@@ -1,0 +1,219 @@
+const chart10 = {
+  $schema: "https://vega.github.io/schema/vega-lite/v6.json",
+
+  background: "transparent",
+
+  width: 430,
+  height: 290,
+
+  title: {
+    text: "Comparing Nutritional Profiles of Foods",
+    subtitle: "Nutrients per 100 g of food — AUSNUT 2023",
+    fontSize: 16,
+    subtitleFontSize: 11,
+    anchor: "start",
+    color: "#775B89",
+    subtitleColor: "#817587"
+  },
+
+  data: {
+    url: "Datasets V2/ausnut_2023_nutrient_comparison.csv"
+  },
+
+  params: [
+    {
+      name: "foodCategory",
+      value: "Beef and veal",
+      bind: {
+        input: "select",
+        name: "Food category: ",
+        options: [
+          "Beef and veal",
+          "Chicken",
+          "Other root vegetables",
+          "Cheese, hard cheese ripened styles",
+          "Tropical and subtropical fruit, inedible peel"
+        ],
+        labels: [
+          "Beef and veal",
+          "Chicken",
+          "Root vegetables",
+          "Hard cheeses",
+          "Tropical fruit"
+        ]
+      }
+    }
+  ],
+
+  transform: [
+    {
+      filter: "datum.Food_Subcategory === foodCategory"
+    },
+    {
+      window: [
+        {
+          op: "row_number",
+          as: "FoodRank"
+        }
+      ],
+      sort: [
+        {
+          field: "Food_Name",
+          order: "ascending"
+        }
+      ]
+    },
+    {
+      filter: "datum.FoodRank <= 12"
+    },
+    {
+      fold: [
+        "Protein_g",
+        "Total_Fat_g",
+        "Carbohydrates_g",
+        "Total_Sugars_g",
+        "Dietary_Fibre_g"
+      ],
+      as: ["Nutrient", "Amount"]
+    },
+    {
+      calculate: "toNumber(datum.Amount)",
+      as: "Grams"
+    },
+    {
+      joinaggregate: [
+        {
+          op: "max",
+          field: "Grams",
+          as: "NutrientMax"
+        }
+      ],
+      groupby: ["Nutrient"]
+    },
+    {
+      calculate: "datum.NutrientMax > 0 ? datum.Grams / datum.NutrientMax : 0",
+      as: "Normalised"
+    }
+  ],
+
+  encoding: {
+    x: {
+      field: "Nutrient",
+      type: "nominal",
+      sort: [
+        "Protein_g",
+        "Total_Fat_g",
+        "Carbohydrates_g",
+        "Total_Sugars_g",
+        "Dietary_Fibre_g"
+      ],
+      axis: {
+        title: null,
+        labelAngle: 0,
+        labelFontSize: 11,
+        labelExpr: "replace(replace(replace(datum.label, '_g', ''), 'Total_', ''), 'Dietary_', '')"
+      }
+    },
+
+    y: {
+      field: "Normalised",
+      type: "quantitative",
+      scale: {
+        domain: [0, 1]
+      },
+      axis: {
+        title: "Relative nutrient level (0–1)",
+        titleFontSize: 11,
+        labelFontSize: 10,
+        grid: true
+      }
+    },
+
+    color: {
+      field: "Food_Name",
+      type: "nominal",
+      legend: {
+        title: "Individual foods",
+        orient: "bottom",
+        direction: "horizontal",
+        columns: 2,
+        columnPadding: 70,
+        labelFontSize: 10,
+        titleFontSize: 11,
+        labelLimit: 220,
+        symbolSize: 80,
+        padding: 12
+        },
+      scale: {
+        range: [
+          "#D3A54F",
+          "#8A80B8",
+          "#B86C5D",
+          "#D38B78",
+          "#E2A44F",
+          "#6A9D70",
+          "#377CA3",
+          "#7966B2",
+          "#C35D78",
+          "#849447",
+          "#8B5146",
+          "#568E95"
+        ]
+      }
+    },
+
+    detail: {
+      field: "Food_Key"
+    },
+
+    tooltip: [
+      {
+        field: "Food_Name",
+        title: "Food"
+      },
+      {
+        field: "Nutrient",
+        title: "Nutrient"
+      },
+      {
+        field: "Grams",
+        title: "Grams per 100 g",
+        format: ".1f"
+      }
+    ]
+  },
+
+  layer: [
+    {
+      mark: {
+        type: "line",
+        strokeWidth: 2,
+        opacity: 0.7
+      }
+    },
+    {
+      mark: {
+        type: "point",
+        filled: true,
+        size: 55,
+        opacity: 0.9
+      }
+    }
+  ],
+
+  config: {
+    font: "Arial",
+    view: {
+      stroke: null
+    },
+    axis: {
+      gridColor: "#E8E0ED",
+      labelColor: "#514957",
+      titleColor: "#6E5688"
+    }
+  }
+};
+
+vegaEmbed("#chart10", chart10, {
+  actions: false
+}).catch(console.error);
